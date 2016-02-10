@@ -1,0 +1,7 @@
+<EntityDescription>
+  <Variable>a</Variable>
+  <Restrictions></Restrictions>
+  <Paths>
+    <Path>?a/user/id</Path>
+  </Paths>
+</EntityDescription>

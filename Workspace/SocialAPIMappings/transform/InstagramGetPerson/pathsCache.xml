@@ -1,0 +1,15 @@
+<EntityDescription>
+  <Variable>a</Variable>
+  <Restrictions></Restrictions>
+  <Paths>
+    <Path>?a/full_name</Path>
+    <Path>?a/username</Path>
+    <Path>?a/profile_picture</Path>
+    <Path>?a/bio</Path>
+    <Path>?a/website</Path>
+    <Path>?a/id</Path>
+    <Path>?a/counts/media</Path>
+    <Path>?a/counts/follows</Path>
+    <Path>?a/counts/followed_by</Path>
+  </Paths>
+</EntityDescription>

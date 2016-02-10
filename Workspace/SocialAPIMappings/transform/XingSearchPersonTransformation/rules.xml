@@ -1,0 +1,13 @@
+<TransformSpec>
+  <TransformRule name="type1" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+    <TransformInput id="unnamed_1162" function="constant">
+      <Param name="value" value="foaf:Person"/>
+    </TransformInput>
+  </TransformRule>
+  <TransformRule name="id" targetProperty="http://fuhsen/id">
+    <Input id="unnamed_1164" path="?a/user/id"/>
+  </TransformRule>
+  <Outputs>
+    <Output id="CMEM"></Output>
+  </Outputs>
+</TransformSpec>

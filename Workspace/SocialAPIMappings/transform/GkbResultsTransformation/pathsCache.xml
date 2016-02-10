@@ -1,0 +1,19 @@
+<EntityDescription>
+  <Variable>a</Variable>
+  <Restrictions></Restrictions>
+  <Paths>
+    <Path>?a/@type</Path>
+    <Path>?a/result/detailedDescription/articleBody</Path>
+    <Path>?a/result/detailedDescription/url</Path>
+    <Path>?a/result/detailedDescription/license</Path>
+    <Path>?a/result/name</Path>
+    <Path>?a/result/url</Path>
+    <Path>?a/result/image/contentUrl</Path>
+    <Path>?a/result/image/url</Path>
+    <Path>?a/result/image/license</Path>
+    <Path>?a/result/description</Path>
+    <Path>?a/result/@type</Path>
+    <Path>?a/result/@id</Path>
+    <Path>?a/resultScore</Path>
+  </Paths>
+</EntityDescription>

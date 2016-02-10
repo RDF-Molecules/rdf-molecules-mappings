@@ -1,0 +1,22 @@
+<Pair>
+  <Source>
+    <EntityDescription>
+      <Variable>a</Variable>
+      <Restrictions>{ ?a a &lt;http://xmlns.com/foaf/0.1/Person&gt; } .</Restrictions>
+      <Paths>
+        <Path>?a/&lt;http://xmlns.com/foaf/0.1/name&gt;</Path>
+        <Path>?a/&lt;http://xmlns.com/foaf/0.1/birthday&gt;</Path>
+      </Paths>
+    </EntityDescription>
+  </Source>
+  <Target>
+    <EntityDescription>
+      <Variable>b</Variable>
+      <Restrictions>{ ?b a &lt;http://xmlns.com/foaf/0.1/Person&gt; } .</Restrictions>
+      <Paths>
+        <Path>?b/&lt;http://xmlns.com/foaf/0.1/name&gt;</Path>
+        <Path>?b/&lt;http://xmlns.com/foaf/0.1/birthday&gt;</Path>
+      </Paths>
+    </EntityDescription>
+  </Target>
+</Pair>

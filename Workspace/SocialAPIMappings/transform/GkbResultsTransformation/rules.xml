@@ -1,0 +1,22 @@
+<TransformSpec>
+        <TransformRule name="person" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+        <TransformInput id="unnamed_361" function="constant">
+            
+            <Param name="value" value="foaf:Person"/>
+          </TransformInput>
+      </TransformRule><TransformRule name="searchableEntity" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+        <TransformInput id="unnamed_363" function="constant">
+            
+            <Param name="value" value="fs:SearchableEntity"/>
+          </TransformInput>
+      </TransformRule><TransformRule name="id" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#id">
+        <Input id="unnamed_371" path="/result/@id"/>
+      </TransformRule><TransformRule name="name" targetProperty="http://xmlns.com/foaf/0.1/name">
+        <Input id="unnamed_367" path="/result/name"/>
+      </TransformRule><TransformRule name="img" targetProperty="http://xmlns.com/foaf/0.1/img">
+        <Input id="unnamed_369" path="/result/image/contentUrl"/>
+      </TransformRule>
+        <Outputs>
+          <Output id="CMEM"></Output>
+        </Outputs>
+      </TransformSpec>

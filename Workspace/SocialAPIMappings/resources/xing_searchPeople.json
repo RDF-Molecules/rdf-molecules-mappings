@@ -1,0 +1,17 @@
+{
+  "users": {
+    "items": [
+      {
+        "user": {
+          "id": "2_abcdef"
+        }
+      },
+      {
+        "user": {
+          "id": "3_ad7e12"
+        }
+      }
+    ],
+    "total": 2
+  }
+}

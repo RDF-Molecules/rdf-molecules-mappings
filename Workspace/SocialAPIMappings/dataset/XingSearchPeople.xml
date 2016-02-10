@@ -1,0 +1,6 @@
+<Dataset id="XingSearchPeople" type="json">
+  <Param name="file" value="xing_searchPeople.json"/>
+  <Param name="basePath" value="users/items"/>
+  <Param name="uriPattern" value="https://www.fuhsen.net/resource/xing/person/{user/id}"/>
+  <Param name="charset" value="UTF8"/>
+</Dataset>

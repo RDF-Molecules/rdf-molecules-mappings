@@ -1,0 +1,25 @@
+<Interlink id="linkPerson">
+        <SourceDataset dataSource="CMEM" var="a">
+        <RestrictTo>
+          { ?a a &lt;http://xmlns.com/foaf/0.1/Person&gt; } .
+        </RestrictTo>
+      </SourceDataset>
+        <TargetDataset dataSource="CMEM" var="b">
+        <RestrictTo>
+          { ?b a &lt;http://xmlns.com/foaf/0.1/Person&gt; } .
+        </RestrictTo>
+      </TargetDataset>
+        <LinkageRule linkType="&lt;http://www.w3.org/2002/07/owl#sameAs&gt;">
+        <Aggregate id="unnamed_7" required="true" weight="1" type="average">
+            <Compare id="unnamed_3" required="true" weight="1" metric="substring" threshold="0.5" indexing="true">
+            <Input id="unnamed_1" path="?a/&lt;http://xmlns.com/foaf/0.1/name&gt;"/><Input id="unnamed_2" path="?b/&lt;http://xmlns.com/foaf/0.1/name&gt;"/><Param name="granularity" value="3"/>
+          </Compare><Compare id="unnamed_6" required="true" weight="1" metric="equality" threshold="0.0" indexing="true">
+            <Input id="unnamed_4" path="?a/&lt;http://xmlns.com/foaf/0.1/birthday&gt;"/><Input id="unnamed_5" path="?b/&lt;http://xmlns.com/foaf/0.1/birthday&gt;"/>
+          </Compare>
+          </Aggregate>
+        <Filter/>
+      </LinkageRule>
+        <Outputs>
+          <Output id="CMEM"></Output>
+        </Outputs>
+      </Interlink>

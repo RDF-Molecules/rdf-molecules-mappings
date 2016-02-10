@@ -1,0 +1,3 @@
+<SourceDataset dataSource="XingGetPerson" var="a">
+  <RestrictTo> </RestrictTo>
+</SourceDataset>

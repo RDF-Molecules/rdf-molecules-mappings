@@ -1,0 +1,13 @@
+<EntityDescription>
+  <Variable>a</Variable>
+  <Restrictions></Restrictions>
+  <Paths>
+    <Path>?a/id</Path>
+    <Path>?a/displayName</Path>
+    <Path>?a/image/url</Path>
+    <Path>?a/etag</Path>
+    <Path>?a/url</Path>
+    <Path>?a/objectType</Path>
+    <Path>?a/kind</Path>
+  </Paths>
+</EntityDescription>

@@ -1,0 +1,33 @@
+<TransformSpec>
+        <TransformRule name="Person" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+        <TransformInput id="unnamed_219" function="constant">
+            
+            <Param name="value" value="foaf:Person"/>
+          </TransformInput>
+      </TransformRule><TransformRule name="name" targetProperty="http://www.w3.org/2000/01/rdf-schema#label">
+        <Input id="unnamed_221" path="/full_name"/>
+      </TransformRule><TransformRule name="userName" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#userName">
+        <Input id="unnamed_223" path="/username"/>
+      </TransformRule><TransformRule name="image" targetProperty="http://xmlns.com/foaf/0.1/img">
+        <Input id="unnamed_225" path="/profile_picture"/>
+      </TransformRule><TransformRule name="biography" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#bio">
+        <Input id="unnamed_227" path="/bio"/>
+      </TransformRule><TransformRule name="website" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#website">
+        <Input id="unnamed_229" path="/website"/>
+      </TransformRule><TransformRule name="foafName" targetProperty="http://xmlns.com/foaf/0.1/name">
+        <Input id="unnamed_231" path="/full_name"/>
+      </TransformRule><TransformRule name="uri1" targetProperty="">
+        <TransformInput id="unnamed_238" function="concat">
+            <TransformInput id="unnamed_236" function="constant">
+            
+            <Param name="value" value="https://www.fuhsen.net/resource/instagram/people/"/>
+          </TransformInput><Input id="unnamed_237" path="/id"/>
+            <Param name="glue" value=""/>
+          </TransformInput>
+      </TransformRule><TransformRule name="id" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#id">
+        <Input id="unnamed_240" path="/id"/>
+      </TransformRule>
+        <Outputs>
+          <Output id="CMEM"></Output>
+        </Outputs>
+      </TransformSpec>

@@ -1,0 +1,11 @@
+<EntityDescription>
+  <Variable>a</Variable>
+  <Restrictions></Restrictions>
+  <Paths>
+    <Path>?a/id</Path>
+    <Path>?a/username</Path>
+    <Path>?a/first_name</Path>
+    <Path>?a/last_name</Path>
+    <Path>?a/profile_picture</Path>
+  </Paths>
+</EntityDescription>
