@@ -1,27 +1,27 @@
 <TransformSpec>
         <TransformRule name="person" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_246" function="constant">
+        <TransformInput id="unnamed_365" function="constant">
             
             <Param name="value" value="foaf:Person"/>
           </TransformInput>
       </TransformRule><TransformRule name="searchableEntity" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_248" function="constant">
+        <TransformInput id="unnamed_367" function="constant">
             
             <Param name="value" value="fs:SearchableEntity"/>
           </TransformInput>
       </TransformRule><TransformRule name="id" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#id">
-        <Input id="unnamed_250" path="/id"/>
+        <Input id="unnamed_369" path="/id"/>
       </TransformRule><TransformRule name="gender" targetProperty="http://xmlns.com/foaf/0.1/gender">
-        <Input id="unnamed_252" path="/gender"/>
+        <Input id="unnamed_371" path="/gender"/>
       </TransformRule><TransformRule name="name" targetProperty="http://xmlns.com/foaf/0.1/name">
-        <Input id="unnamed_254" path="/displayName"/>
+        <Input id="unnamed_373" path="/displayName"/>
       </TransformRule><TransformRule name="familyName" targetProperty="http://xmlns.com/foaf/0.1/family_name">
-        <Input id="unnamed_256" path="/name/familyName"/>
+        <Input id="unnamed_375" path="/name/familyName"/>
       </TransformRule><TransformRule name="giveName" targetProperty="http://xmlns.com/foaf/0.1/givenname">
-        <Input id="unnamed_258" path="/name/givenName"/>
+        <Input id="unnamed_377" path="/name/givenName"/>
       </TransformRule><TransformRule name="image" targetProperty="http://xmlns.com/foaf/0.1/img">
-        <Input id="unnamed_260" path="/image/url"/>
-      </TransformRule><TransformRule name="personToOrg" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#toOrg">
+        <Input id="unnamed_379" path="/image/url"/>
+      </TransformRule><TransformRule name="personToOrg" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#workedAt">
         <TransformInput id="unnamed_267" function="concat">
             <TransformInput id="unnamed_265" function="constant">
             
@@ -31,7 +31,7 @@
             <Param name="value" value="/"/>
           </TransformInput><TransformInput id="urlEncode1" function="urlEncode">
             <TransformInput id="regexReplace1" function="regexReplace">
-            <Input id="sourcePath1" path="/organizations/name"/>
+            <Input id="sourcePath1" path="/organizations[type = &quot;work&quot;]/name"/>
             <Param name="regex" value="\W+"/><Param name="replace" value="-"/>
           </TransformInput>
             <Param name="encoding" value="UTF-8"/>
