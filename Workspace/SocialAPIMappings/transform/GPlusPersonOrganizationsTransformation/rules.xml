@@ -1,6 +1,6 @@
 <TransformSpec>
         <TransformRule name="Organization" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_284" function="constant">
+        <TransformInput id="unnamed_83" function="constant">
             
             <Param name="value" value="foaf:Organization"/>
           </TransformInput>
@@ -21,6 +21,8 @@
           </TransformInput>
             <Param name="glue" value=""/>
           </TransformInput>
+      </TransformRule><TransformRule name="name" targetProperty="http://xmlns.com/foaf/0.1/name">
+        <Input id="unnamed_85" path="/name"/>
       </TransformRule>
         <Outputs>
           <Output id="CMEM"></Output>

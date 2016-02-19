@@ -1,20 +1,22 @@
 <TransformSpec>
         <TransformRule name="product" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_193" function="constant">
+        <TransformInput id="unnamed_317" function="constant">
             
             <Param name="value" value="gr:ProductOrService"/>
           </TransformInput>
       </TransformRule><TransformRule name="searchableEntity" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_195" function="constant">
+        <TransformInput id="unnamed_319" function="constant">
             
             <Param name="value" value="fs:SearchableEntity"/>
           </TransformInput>
       </TransformRule><TransformRule name="id" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#id">
-        <Input id="unnamed_197" path="/itemId"/>
+        <Input id="unnamed_321" path="/itemId"/>
       </TransformRule><TransformRule name="name" targetProperty="http://purl.org/goodrelations/v1#description">
-        <Input id="unnamed_199" path="/title"/>
+        <Input id="unnamed_323" path="/title"/>
       </TransformRule><TransformRule name="image" targetProperty="http://xmlns.com/foaf/0.1/img">
-        <Input id="unnamed_201" path="/galleryURL"/>
+        <Input id="unnamed_325" path="/galleryURL"/>
+      </TransformRule><TransformRule name="url" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#url">
+        <Input id="unnamed_327" path="/viewItemURL"/>
       </TransformRule>
         <Outputs>
           <Output id="CMEM"></Output>
