@@ -1,20 +1,20 @@
 <TransformSpec>
         <TransformRule name="person" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_364" function="constant">
+        <TransformInput id="unnamed_261" function="constant">
             
-            <Param name="value" value="foaf:Person"/>
+            <Param name="value" value="http://xmlns.com/foaf/0.1/Person"/>
           </TransformInput>
       </TransformRule><TransformRule name="searchableEntity" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_366" function="constant">
+        <TransformInput id="unnamed_263" function="constant">
             
-            <Param name="value" value="fs:SearchableEntity"/>
+            <Param name="value" value="http://vocab.cs.uni-bonn.de/fuhsen#SearchableEntity"/>
           </TransformInput>
       </TransformRule><TransformRule name="id" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#id">
-        <Input id="unnamed_368" path="/id"/>
+        <Input id="unnamed_265" path="/id"/>
       </TransformRule><TransformRule name="name" targetProperty="http://xmlns.com/foaf/0.1/name">
-        <Input id="unnamed_370" path="/displayName"/>
+        <Input id="unnamed_267" path="/displayName"/>
       </TransformRule><TransformRule name="img" targetProperty="http://xmlns.com/foaf/0.1/img">
-        <Input id="unnamed_372" path="/image/url"/>
+        <Input id="unnamed_269" path="/image/url"/>
       </TransformRule>
         <Outputs>
           <Output id="CMEM"></Output>

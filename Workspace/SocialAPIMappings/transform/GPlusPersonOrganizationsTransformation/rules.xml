@@ -1,8 +1,8 @@
 <TransformSpec>
         <TransformRule name="Organization" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_284" function="constant">
+        <TransformInput id="unnamed_243" function="constant">
             
-            <Param name="value" value="foaf:Organization"/>
+            <Param name="value" value="http://xmlns.com/foaf/0.1/Organization"/>
           </TransformInput>
       </TransformRule><TransformRule name="uri1" targetProperty="">
         <TransformInput id="unnamed_117" function="concat">
