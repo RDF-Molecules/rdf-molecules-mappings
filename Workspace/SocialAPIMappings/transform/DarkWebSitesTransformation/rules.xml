@@ -1,0 +1,24 @@
+<TransformSpec>
+        <TransformRule name="website" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+        <TransformInput id="unnamed_226" function="constant">
+            
+            <Param name="value" value="foaf:Document"/>
+          </TransformInput>
+      </TransformRule><TransformRule name="searchableEntity" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+        <TransformInput id="unnamed_228" function="constant">
+            
+            <Param name="value" value="fs:SearchableEntity"/>
+          </TransformInput>
+      </TransformRule><TransformRule name="id" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#id">
+        <Input id="unnamed_230" path="/@attributes/docId"/>
+      </TransformRule><TransformRule name="label" targetProperty="http://www.w3.org/2000/01/rdf-schema#label">
+        <Input id="unnamed_232" path="/field"/>
+      </TransformRule><TransformRule name="url" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#url">
+        <Input id="unnamed_234" path="/field"/>
+      </TransformRule><TransformRule name="comment" targetProperty="http://www.w3.org/2000/01/rdf-schema#comment">
+        <Input id="unnamed_236" path="/snippet"/>
+      </TransformRule>
+        <Outputs>
+          <Output id="CMEM"></Output>
+        </Outputs>
+      </TransformSpec>

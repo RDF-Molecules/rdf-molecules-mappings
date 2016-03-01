@@ -1,0 +1,12 @@
+<EntityDescription>
+  <Type></Type>
+  <Restriction></Restriction>
+  <Paths>
+    <Path>\organizations/id</Path>
+    <Path>/name</Path>
+    <Path>/title</Path>
+    <Path>/type</Path>
+    <Path>/startDate</Path>
+    <Path>/primary</Path>
+  </Paths>
+</EntityDescription>
