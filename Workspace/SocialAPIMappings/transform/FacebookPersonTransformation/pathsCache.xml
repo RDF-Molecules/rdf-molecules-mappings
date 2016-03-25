@@ -1,0 +1,14 @@
+<EntityDescription>
+  <Type></Type>
+  <Restriction></Restriction>
+  <Paths>
+    <Path>/first_name</Path>
+    <Path>/name</Path>
+    <Path>/id</Path>
+    <Path>/last_name</Path>
+    <Path>/link</Path>
+    <Path>/picture/data/is_silhouette</Path>
+    <Path>/picture/data/url</Path>
+    <Path>/updated_time</Path>
+  </Paths>
+</EntityDescription>

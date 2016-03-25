@@ -1,22 +1,26 @@
 <TransformSpec>
         <TransformRule name="person" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_201" function="constant">
+        <TransformInput id="unnamed_205" function="constantUri">
             
             <Param name="value" value="http://xmlns.com/foaf/0.1/Person"/>
           </TransformInput>
       </TransformRule><TransformRule name="searchableEntity" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_203" function="constant">
+        <TransformInput id="unnamed_207" function="constantUri">
             
             <Param name="value" value="http://vocab.cs.uni-bonn.de/fuhsen#SearchableEntity"/>
           </TransformInput>
       </TransformRule><TransformRule name="id" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#id">
-        <Input id="unnamed_205" path="/result/@id"/>
+        <Input id="unnamed_209" path="/result/@id"/>
       </TransformRule><TransformRule name="name" targetProperty="http://xmlns.com/foaf/0.1/name">
-        <Input id="unnamed_207" path="/result/name"/>
+        <Input id="unnamed_211" path="/result/name"/>
       </TransformRule><TransformRule name="img" targetProperty="http://xmlns.com/foaf/0.1/img">
-        <Input id="unnamed_209" path="/result/image/contentUrl"/>
+        <Input id="unnamed_213" path="/result/image/contentUrl"/>
       </TransformRule><TransformRule name="url" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#url">
-        <Input id="unnamed_211" path="/result/url"/>
+        <Input id="unnamed_215" path="/result/detailedDescription/url"/>
+      </TransformRule><TransformRule name="label" targetProperty="http://www.w3.org/2000/01/rdf-schema#label">
+        <Input id="unnamed_217" path="/result/description"/>
+      </TransformRule><TransformRule name="description" targetProperty="http://www.w3.org/2000/01/rdf-schema#comment">
+        <Input id="unnamed_219" path="/result/detailedDescription/articleBody"/>
       </TransformRule>
         <Outputs>
           <Output id="CMEM"></Output>

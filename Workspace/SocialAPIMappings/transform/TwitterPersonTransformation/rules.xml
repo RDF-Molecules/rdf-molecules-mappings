@@ -1,22 +1,28 @@
 <TransformSpec>
         <TransformRule name="person" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_273" function="constant">
+        <TransformInput id="unnamed_330" function="constantUri">
             
             <Param name="value" value="http://xmlns.com/foaf/0.1/Person"/>
           </TransformInput>
       </TransformRule><TransformRule name="searchableEntity" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_275" function="constant">
+        <TransformInput id="unnamed_332" function="constantUri">
             
             <Param name="value" value="http://vocab.cs.uni-bonn.de/fuhsen#SearchableEntity"/>
           </TransformInput>
       </TransformRule><TransformRule name="id" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#id">
-        <Input id="unnamed_277" path="/id"/>
+        <Input id="unnamed_334" path="/id"/>
       </TransformRule><TransformRule name="name" targetProperty="http://xmlns.com/foaf/0.1/name">
-        <Input id="unnamed_279" path="/name"/>
+        <Input id="unnamed_336" path="/name"/>
       </TransformRule><TransformRule name="img" targetProperty="http://xmlns.com/foaf/0.1/img">
-        <Input id="unnamed_281" path="/profile_image_url"/>
+        <Input id="unnamed_338" path="/profile_image_url"/>
       </TransformRule><TransformRule name="url" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#url">
-        <Input id="unnamed_283" path="/url"/>
+        <Input id="unnamed_340" path="/url"/>
+      </TransformRule><TransformRule name="location" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#location">
+        <Input id="unnamed_342" path="/location"/>
+      </TransformRule><TransformRule name="alias" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#alias">
+        <Input id="unnamed_344" path="/screen_name"/>
+      </TransformRule><TransformRule name="language" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#lang">
+        <Input id="unnamed_346" path="/lang"/>
       </TransformRule>
         <Outputs>
           <Output id="CMEM"></Output>

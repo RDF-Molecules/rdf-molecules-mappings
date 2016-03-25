@@ -1,31 +1,31 @@
 <TransformSpec>
         <TransformRule name="searchableEntity" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_147" function="constant">
+        <TransformInput id="unnamed_148" function="constantUri">
             
             <Param name="value" value="http://vocab.cs.uni-bonn.de/fuhsen#SearchableEntity"/>
           </TransformInput>
       </TransformRule><TransformRule name="agent" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_149" function="constant">
+        <TransformInput id="unnamed_150" function="constantUri">
             
             <Param name="value" value="http://xmlns.com/foaf/0.1/Agent"/>
           </TransformInput>
       </TransformRule><TransformRule name="person" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_151" function="constant">
+        <TransformInput id="unnamed_152" function="constantUri">
             
             <Param name="value" value="http://xmlns.com/foaf/0.1/Person"/>
           </TransformInput>
       </TransformRule><TransformRule name="id" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#id">
-        <Input id="unnamed_153" path="/id"/>
+        <Input id="unnamed_154" path="/id"/>
       </TransformRule><TransformRule name="gender" targetProperty="http://xmlns.com/foaf/0.1/gender">
-        <Input id="unnamed_155" path="/gender"/>
+        <Input id="unnamed_156" path="/gender"/>
       </TransformRule><TransformRule name="name" targetProperty="http://xmlns.com/foaf/0.1/name">
-        <Input id="unnamed_157" path="/displayName"/>
+        <Input id="unnamed_158" path="/displayName"/>
       </TransformRule><TransformRule name="familyName" targetProperty="http://xmlns.com/foaf/0.1/family_name">
-        <Input id="unnamed_159" path="/name/familyName"/>
+        <Input id="unnamed_160" path="/name/familyName"/>
       </TransformRule><TransformRule name="giveName" targetProperty="http://xmlns.com/foaf/0.1/givenname">
-        <Input id="unnamed_161" path="/name/givenName"/>
+        <Input id="unnamed_162" path="/name/givenName"/>
       </TransformRule><TransformRule name="image" targetProperty="http://xmlns.com/foaf/0.1/img">
-        <Input id="unnamed_163" path="/image/url"/>
+        <Input id="unnamed_164" path="/image/url"/>
       </TransformRule><TransformRule name="personToOrg" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#workedAt">
         <TransformInput id="unnamed_267" function="concat">
             <TransformInput id="unnamed_265" function="constant">
@@ -44,9 +44,9 @@
             <Param name="glue" value=""/>
           </TransformInput>
       </TransformRule><TransformRule name="occupation" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#ocupation">
-        <Input id="unnamed_165" path="/occupation"/>
+        <Input id="unnamed_166" path="/occupation"/>
       </TransformRule><TransformRule name="url" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#url">
-        <Input id="unnamed_167" path="/url"/>
+        <Input id="unnamed_168" path="/url"/>
       </TransformRule>
         <Outputs>
           <Output id="CMEM"></Output>
