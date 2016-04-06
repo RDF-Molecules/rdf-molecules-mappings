@@ -1,0 +1,18 @@
+<Workflow id="Workflow">
+  <Operator posX="345" posY="17" task="GPlusPersonTransformation" inputs="personGPlus" outputs="CMEM" id="GPlusPersonTransformation"/>
+  <Operator posX="302" posY="83" task="GPlusPersonOrganizationsTransformation" inputs="personGPlusOrganizations" outputs="CMEM" id="GPlusPersonOrganizationsTransformation"/>
+  <Operator posX="245" posY="386" task="TwitterPersonTransformation" inputs="personTwitter" outputs="CMEM" id="TwitterPersonTransformation"/>
+  <Operator posX="256" posY="519" task="TwitterPersonTransformation" inputs="organizationTwitter" outputs="CMEM" id="operator_TwitterPersonTransformation"/>
+  <Operator posX="218" posY="292" task="GkbResultsTransformation" inputs="personGkb" outputs="CMEM" id="operator_GkbResultsTransformation2"/>
+  <Operator posX="246" posY="146" task="GPlusPersonTransformation" inputs="organizationGPlus" outputs="CMEM" id="operator_GPlusPersonTransformation"/>
+  <Operator posX="233" posY="207" task="GPlusPersonOrganizationsTransformation" inputs="organizationGPlusOrganizations" outputs="CMEM" id="operator_GPlusPersonOrganizationsTransformation2"/>
+  <Operator posX="1288" posY="335" task="linkPerson" inputs="CMEM" outputs="" id="operator_linkPerson"/>
+  <Dataset posX="52" posY="36" task="personGPlus" inputs="" outputs=""/>
+  <Dataset posX="36" posY="447" task="personGkb" inputs="" outputs=""/>
+  <Dataset posX="41" posY="532" task="personTwitter" inputs="" outputs=""/>
+  <Dataset posX="44" posY="640" task="organizationTwitter" inputs="" outputs=""/>
+  <Dataset posX="816" posY="272" task="CMEM" inputs="" outputs=""/>
+  <Dataset posX="47" posY="150" task="personGPlusOrganizations" inputs="" outputs=""/>
+  <Dataset posX="36" posY="238" task="organizationGPlus" inputs="" outputs=""/>
+  <Dataset posX="28" posY="337" task="organizationGPlusOrganizations" inputs="" outputs=""/>
+</Workflow>
