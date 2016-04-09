@@ -1,29 +1,31 @@
 <TransformSpec>
         <TransformRule name="searchableEntity" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_367" function="constantUri">
+        <TransformInput id="unnamed_166" function="constantUri">
             
             <Param name="value" value="http://vocab.cs.uni-bonn.de/fuhsen#SearchableEntity"/>
           </TransformInput>
       </TransformRule><TransformRule name="agent" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_369" function="constantUri">
+        <TransformInput id="unnamed_168" function="constantUri">
             
             <Param name="value" value="http://xmlns.com/foaf/0.1/Agent"/>
           </TransformInput>
       </TransformRule><TransformRule name="person" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_371" function="constantUri">
+        <TransformInput id="unnamed_170" function="constantUri">
             
             <Param name="value" value="http://xmlns.com/foaf/0.1/Person"/>
           </TransformInput>
       </TransformRule><TransformRule name="id" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#id">
-        <Input id="unnamed_373" path="/id"/>
+        <Input id="unnamed_172" path="/id"/>
       </TransformRule><TransformRule name="name" targetProperty="http://xmlns.com/foaf/0.1/name">
-        <Input id="unnamed_375" path="/name"/>
+        <Input id="unnamed_174" path="/name"/>
       </TransformRule><TransformRule name="familyName" targetProperty="http://xmlns.com/foaf/0.1/family_name">
-        <Input id="unnamed_377" path="/last_name"/>
+        <Input id="unnamed_176" path="/last_name"/>
       </TransformRule><TransformRule name="givenName" targetProperty="http://xmlns.com/foaf/0.1/givenname">
-        <Input id="unnamed_379" path="/first_name"/>
+        <Input id="unnamed_178" path="/first_name"/>
       </TransformRule><TransformRule name="image" targetProperty="http://xmlns.com/foaf/0.1/img">
-        <Input id="unnamed_381" path="/picture/data/url"/>
+        <Input id="unnamed_180" path="/picture/data/url"/>
+      </TransformRule><TransformRule name="url" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#url">
+        <Input id="unnamed_182" path="/link"/>
       </TransformRule>
         <Outputs>
           <Output id="CMEM"></Output>
