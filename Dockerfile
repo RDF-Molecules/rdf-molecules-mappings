@@ -27,9 +27,6 @@ RUN wget https://github.com/silk-framework/silk/releases/download/release-2.7.1/
     tar xvf silk-workbench-2.7.1.tgz 
 	
 # Install the mapping file for Silk
-#WORKDIR /home/lidakra
-#RUN wget https://github.com/LiDaKrA/data-integration-workspace/releases/download/0.9.1/social_api_mappings.tar.gz && \
-#    tar xvf social_api_mappings.tar.gz
 COPY Workspace/SocialAPIMappings mapping/ 
 
 
