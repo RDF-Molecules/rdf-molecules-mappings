@@ -2,7 +2,7 @@
 # 1) Build an image using this docker file. Run the following docker command
 # docker build -t lidakra/silk:latest .
 # 2) Run a container with Silk and the configuration files for Fuhsen. Run the following docker command
-# docker run -d -p 9005:9005 -t lidakra/silk:latest
+# docker run -d -p 9005:9005 lidakra/silk:latest
 
 # Pull base image
 FROM ubuntu:15.04
