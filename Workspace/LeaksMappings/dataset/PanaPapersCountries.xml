@@ -1,0 +1,12 @@
+<Dataset id="PanaPapersCountries" type="csv">
+  <Param name="arraySeparator" value=""/>
+  <Param name="separator" value=";"/>
+  <Param name="prefix" value=""/>
+  <Param name="uri" value="http://vocab.cs.uni-bonn.de/panapapers/country/{country_id}"/>
+  <Param name="quote" value=""/>
+  <Param name="properties" value=""/>
+  <Param name="regexFilter" value=""/>
+  <Param name="charset" value="UTF-8"/>
+  <Param name="file" value="countriesNW.csv"/>
+  <Param name="linesToSkip" value="0"/>
+</Dataset>

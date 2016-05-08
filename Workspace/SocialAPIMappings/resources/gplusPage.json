@@ -1,0 +1,62 @@
+{
+ "kind": "plus#person",
+ "etag": "\"4OZ_Kt6ujOh1jaML_U6RM6APqoE/_7umHyyzOVNiQ1jvz09BVK1OO-A\"",
+ "urls": [
+  {
+   "value": "http://www.easports.com/fifa",
+   "type": "website",
+   "label": "www.easports.com/fifa"
+  },
+  {
+   "value": "http://www.easports.com/fifa/buy/US",
+   "type": "other",
+   "label": "Buy FIFA 14"
+  },
+  {
+   "value": "http://www.youtube.com/easportsfootball",
+   "type": "other",
+   "label": "YouTube"
+  },
+  {
+   "value": "http://instagram.com/easportsfifa",
+   "type": "other",
+   "label": "Instagram"
+  },
+  {
+   "value": "http://www.twitter.com/easportsfifa",
+   "type": "other",
+   "label": "Twitter"
+  },
+  {
+   "value": "http://www.facebook.com/easportsfifa",
+   "type": "other",
+   "label": "Join us on Facebook"
+  }
+ ],
+ "objectType": "page",
+ "id": "105470686157680772024",
+ "displayName": "EA SPORTS FIFA",
+ "tagline": "Official Google+ page for EA SPORTS FIFA videogame franchise.",
+ "aboutMe": "FIFA is the most popular football (or soccer!) videogame in the world. \u003cdiv\u003e\u003cbr /\u003e\u003c/div\u003e\u003cdiv\u003eFIFA 16 is out now: \u003ca href=\"http://bit.ly/183yW9M\" rel=\"nofollow\" target=\"_blank\"\u003ehttp://bit.ly/183yW9M\u003c/a\u003e \u003c/div\u003e",
+ "url": "https://plus.google.com/+easportsfifa",
+ "image": {
+  "url": "https://lh5.googleusercontent.com/-pqya_ClYHDY/AAAAAAAAAAI/AAAAAAAAQso/DWeDvcyY-TU/photo.jpg?sz=50",
+  "isDefault": false
+ },
+ "isPlusUser": true,
+ "plusOneCount": 4561941,
+ "circledByCount": 4278385,
+ "verified": true,
+ "cover": {
+  "layout": "banner",
+  "coverPhoto": {
+   "url": "https://lh3.googleusercontent.com/r8MtLSRQcvOOKqJ_byf5i6j-QS-TfRE3JMJlqwV--sqqcmQHaflv86M0dbaeLzK1owmghA=s630-fcrop64=1,07c50000ffffffff",
+   "height": 514,
+   "width": 940
+  },
+  "coverInfo": {
+   "topImageOffset": -39,
+   "leftImageOffset": 0
+  }
+ }
+}

@@ -1,0 +1,17 @@
+<TransformSpec>
+        <TransformRule name="county" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+        <TransformInput id="unnamed_176" function="constantUri">
+            
+            <Param name="value" value="http://vocab.cs.uni-bonn.de/fuhsen#Country"/>
+          </TransformInput>
+      </TransformRule><TransformRule name="id" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#id">
+        <Input id="unnamed_178" path="/country_id"/>
+      </TransformRule><TransformRule name="code" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#code">
+        <Input id="unnamed_180" path="/country_code"/>
+      </TransformRule><TransformRule name="name" targetProperty="http://www.w3.org/2000/01/rdf-schema#label">
+        <Input id="unnamed_182" path="/country_name"/>
+      </TransformRule>
+        <Outputs>
+          <Output id="PanaPapersCountriesOutput"></Output>
+        </Outputs>
+      </TransformSpec>
