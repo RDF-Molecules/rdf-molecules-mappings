@@ -1,0 +1,6 @@
+<Dataset id="personGkb" type="json">
+  <Param name="file" value="twitter_user2.json"/>
+  <Param name="basePath" value="itemListElement"/>
+  <Param name="uriPattern" value="http://vocab.cs.uni-bonn.de/fuhsen/search/entity/gbk/{result/@id}"/>
+  <Param name="charset" value="UTF8"/>
+</Dataset>

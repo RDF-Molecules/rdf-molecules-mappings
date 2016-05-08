@@ -1,12 +1,12 @@
 <Workflow id="Workflow">
-  <Operator posX="345" posY="17" task="GPlusPersonTransformation" inputs="personGPlus" outputs="CMEM" id="GPlusPersonTransformation"/>
-  <Operator posX="302" posY="83" task="GPlusPersonOrganizationsTransformation" inputs="personGPlusOrganizations" outputs="CMEM" id="GPlusPersonOrganizationsTransformation"/>
-  <Operator posX="245" posY="386" task="TwitterPersonTransformation" inputs="personTwitter" outputs="CMEM" id="TwitterPersonTransformation"/>
-  <Operator posX="256" posY="519" task="TwitterPersonTransformation" inputs="organizationTwitter" outputs="CMEM" id="operator_TwitterPersonTransformation"/>
-  <Operator posX="218" posY="292" task="GkbResultsTransformation" inputs="personGkb" outputs="CMEM" id="operator_GkbResultsTransformation2"/>
-  <Operator posX="246" posY="146" task="GPlusPersonTransformation" inputs="organizationGPlus" outputs="CMEM" id="operator_GPlusPersonTransformation"/>
-  <Operator posX="233" posY="207" task="GPlusPersonOrganizationsTransformation" inputs="organizationGPlusOrganizations" outputs="CMEM" id="operator_GPlusPersonOrganizationsTransformation2"/>
-  <Operator posX="1288" posY="335" task="linkPerson" inputs="CMEM" outputs="" id="operator_linkPerson"/>
+  <Operator posX="287" posY="71" task="GPlusPersonOrganizationsTransformation" inputs="personGPlusOrganizations" outputs="CMEM" id="GPlusPersonOrganizationsTransformation"/>
+  <Operator posX="288" posY="322" task="GkbResultsTransformation" inputs="personGkb" outputs="CMEM" id="GkbResultsTransformation2"/>
+  <Operator posX="300" posY="191" task="GPlusPersonOrganizationsTransformation" inputs="organizationGPlusOrganizations" outputs="CMEM" id="GPlusPersonOrganizationsTransformation2"/>
+  <Operator posX="1288" posY="335" task="linkPerson" inputs="CMEM" outputs="" id="linkPerson"/>
+  <Operator posX="277" posY="429" task="TwitterPersonTransformation" inputs="personTwitter" outputs="CMEM" id="operator_TwitterPersonTransformation"/>
+  <Operator posX="273" posY="574" task="TwitterPersonTransformation" inputs="organizationTwitter" outputs="CMEM" id="operator_TwitterPersonTransformation3"/>
+  <Operator posX="287" posY="10" task="GPlusPersonTransformation" inputs="personGPlus" outputs="CMEM" id="operator_GPlusPersonTransformation4"/>
+  <Operator posX="298" posY="137" task="GPlusPersonTransformation" inputs="organizationGPlus" outputs="CMEM" id="operator_GPlusPersonTransformation5"/>
   <Dataset posX="52" posY="36" task="personGPlus" inputs="" outputs=""/>
   <Dataset posX="36" posY="447" task="personGkb" inputs="" outputs=""/>
   <Dataset posX="41" posY="532" task="personTwitter" inputs="" outputs=""/>
