@@ -21,16 +21,17 @@ RUN apt-get update && \
 # Define JAVA_HOME environment variable
 ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
 
-# Install Silk Framework rel.2.7.1
-WORKDIR /home/
-RUN wget https://github.com/silk-framework/silk/releases/download/release-2.7.1/silk-workbench-2.7.1.tgz && \
-    tar xvf silk-workbench-2.7.1.tgz 
-	
-# Install the mapping file for Silk
-COPY Workspace/SocialAPIMappings mapping/ 
+# Install unzip
+RUN apt-get install unzip
 
+# Install Silk Master
+WORKDIR /home/lidakra/
+RUN wget https://github.com/silk-framework/silk/archive/master.zip && \
+    unzip master.zip
+
+# Install the mapping file for Silk
+COPY Workspace/ mapping/Workspace/ 
 
 # Run Silk with the configuration files for Fuhsen
-WORKDIR /home/silk-workbench-2.7.1
-CMD ./bin/silk-workbench -Dhttp.port=9005 -Dworkspace.provider.file.dir=/home/lidakra/mapping/SocialAPIMappings
-
+WORKDIR /home/lidakra/silk-master
+CMD ./sbt -Dworkspace.provider.file.dir=/home/lidakra/mapping/Workspace -Dhttp.port=9005 "project workbench" run
