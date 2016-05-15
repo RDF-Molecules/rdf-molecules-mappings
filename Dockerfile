@@ -21,6 +21,34 @@ RUN apt-get update && \
 # Define JAVA_HOME environment variable
 ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
 
+# Install curl
+RUN apt-get -qq -y install curl
+
+ENV SCALA_VERSION 2.11.7 
+ENV SBT_VERSION 0.13.11 
+
+# Install Scala 
+## Piping curl directly in tar 
+RUN \
+  curl -fsL http://downloads.typesafe.com/scala/$SCALA_VERSION/scala-$SCALA_VERSION.tgz | tar xfz - -C /root/ && \
+  echo >> /root/.bashrc && \
+  echo 'export PATH=~/scala-$SCALA_VERSION/bin:$PATH' >> /root/.bashrc
+
+# Install sbt 
+RUN \
+  curl -L -o sbt-$SBT_VERSION.deb http://dl.bintray.com/sbt/debian/sbt-$SBT_VERSION.deb && \
+  dpkg -i sbt-$SBT_VERSION.deb && \
+  rm sbt-$SBT_VERSION.deb && \
+  apt-get update && \
+  apt-get install sbt
+
+RUN sbt info
+
+# Install Sbt
+WORKDIR /usr/local/
+RUN wget https://dl.bintray.com/sbt/native-packages/sbt/0.13.11/sbt-0.13.11.tgz && \
+    tar xvf sbt-0.13.11.tgz
+
 # Install unzip
 RUN apt-get install unzip
 
@@ -33,5 +61,8 @@ RUN wget https://github.com/silk-framework/silk/archive/master.zip && \
 COPY Workspace/ mapping/Workspace/ 
 
 # Run Silk with the configuration files for Fuhsen
-WORKDIR /home/lidakra/silk-master
-CMD ./sbt -Dworkspace.provider.file.dir=/home/lidakra/mapping/Workspace -Dhttp.port=9005 "project workbench" run
+COPY start_workbench.sh /home/lidakra/silk-master/
+WORKDIR /home/lidakra/silk-master/
+RUN ["chmod", "u+x", "start_workbench.sh"]
+#CMD ./sbt -Dworkspace.provider.file.dir=/home/lidakra/mapping/Workspace -Dhttp.port=9005 "project workbench" run
+#CMD ["sh","start_workbench.sh"]
