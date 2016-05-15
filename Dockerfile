@@ -1,8 +1,11 @@
 # Dockerfile for data-integration-workspace
 # 1) Build an image using this docker file. Run the following docker command
-# docker build -t lidakra/silk:latest .
+# $ docker build -t lidakra/silk:latest .
 # 2) Run a container with Silk and the configuration files for Fuhsen. Run the following docker command
-# docker run -d -p 9005:9005 lidakra/silk:latest
+# $ docker run -d -p 9005:9005 lidakra/silk:latest
+# 3) Start the Silk Workbench in the container
+# $ docker exec -d <container> ./start_workbench.sh
+# where <container> is a place holder for the container name or id.
 
 # Pull base image
 FROM ubuntu:15.04
@@ -20,6 +23,10 @@ RUN apt-get update && \
 
 # Define JAVA_HOME environment variable
 ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
+
+# Install jai_core.jar
+WORKDIR /home/lidakra/
+COPY lib/jai_core-1.1.3.jar $JAVA_HOME/jre/lib/ext/ 
 
 # Install curl
 RUN apt-get -qq -y install curl
@@ -42,12 +49,8 @@ RUN \
   apt-get update && \
   apt-get install sbt
 
+# Download Sbt dependencies
 RUN sbt info
-
-# Install Sbt
-WORKDIR /usr/local/
-RUN wget https://dl.bintray.com/sbt/native-packages/sbt/0.13.11/sbt-0.13.11.tgz && \
-    tar xvf sbt-0.13.11.tgz
 
 # Install unzip
 RUN apt-get install unzip
@@ -57,12 +60,19 @@ WORKDIR /home/lidakra/
 RUN wget https://github.com/silk-framework/silk/archive/master.zip && \
     unzip master.zip
 
-# Install the mapping file for Silk
+# Install jai_core.jar to compile Silk (not available from repository)
+#COPY lib/jai_core-1.1.3.jar $JAVA_HOME/jre/lib/ext/ 
+
+
+# Copy the mapping file for Fuhsen
 COPY Workspace/ mapping/Workspace/ 
 
-# Run Silk with the configuration files for Fuhsen
+# Install the script to run Silk Workbench with the mapping  files
 COPY start_workbench.sh /home/lidakra/silk-master/
 WORKDIR /home/lidakra/silk-master/
 RUN ["chmod", "u+x", "start_workbench.sh"]
-#CMD ./sbt -Dworkspace.provider.file.dir=/home/lidakra/mapping/Workspace -Dhttp.port=9005 "project workbench" run
-#CMD ["sh","start_workbench.sh"]
+
+# Compile Silk Workbench
+RUN sbt compile
+
+#CMD ./start_workbench
