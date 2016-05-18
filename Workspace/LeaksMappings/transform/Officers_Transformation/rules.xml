@@ -1,0 +1,38 @@
+<TransformSpec>
+        <TransformRule name="officer" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+        <TransformInput id="unnamed_1946" function="constantUri">
+            
+            <Param name="value" value="http://vocab.lidakra.de/fuhsen#Officer"/>
+          </TransformInput>
+      </TransformRule><TransformRule name="agent" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+        <TransformInput id="unnamed_1948" function="constantUri">
+            
+            <Param name="value" value="http://xmlns.com/foaf/0.1/Agent"/>
+          </TransformInput>
+      </TransformRule><TransformRule name="officerUri" targetProperty="">
+        <TransformInput id="unnamed_1955" function="concat">
+            <TransformInput id="unnamed_1953" function="constant">
+            
+            <Param name="value" value="http://vocab.lidakra.de/fuhsen/panama_papers/node#"/>
+          </TransformInput><Input id="unnamed_1954" path="/node_id"/>
+            <Param name="glue" value=""/>
+          </TransformInput>
+      </TransformRule><TransformRule name="name" targetProperty="http://xmlns.com/foaf/0.1/name">
+        <Input id="unnamed_1957" path="/name"/>
+      </TransformRule><TransformRule name="internalId" targetProperty="http://vocab.lidakra.de/fuhsen#internalId">
+        <Input id="unnamed_1959" path="/icij_id"/>
+      </TransformRule><TransformRule name="sourceId" targetProperty="http://vocab.lidakra.de/fuhsen#sourceId">
+        <Input id="unnamed_1961" path="/sourceID"/>
+      </TransformRule><TransformRule name="officerHasCountry" targetProperty="http://vocab.lidakra.de/fuhsen#officerHasCountry">
+        <TransformInput id="unnamed_1968" function="concat">
+            <TransformInput id="unnamed_1966" function="constant">
+            
+            <Param name="value" value="http://vocab.lidakra.de/fuhsen/panama_papers/country#"/>
+          </TransformInput><Input id="unnamed_1967" path="/country_codes"/>
+            <Param name="glue" value=""/>
+          </TransformInput>
+      </TransformRule>
+        <Outputs>
+          <Output id="Output_Officers"></Output>
+        </Outputs>
+      </TransformSpec>

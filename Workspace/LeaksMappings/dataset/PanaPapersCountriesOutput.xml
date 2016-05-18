@@ -1,5 +1,0 @@
-<Dataset id="PanaPapersCountriesOutput" type="file">
-  <Param name="file" value="PanamaPapersCountriesOutPut"/>
-  <Param name="format" value="Turtle"/>
-  <Param name="graph" value=""/>
-</Dataset>

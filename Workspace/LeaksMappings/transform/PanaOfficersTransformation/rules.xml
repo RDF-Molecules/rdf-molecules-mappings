@@ -1,8 +1,0 @@
-<TransformSpec>
-        <TransformRule name="transform1" targetProperty="http://www.w3.org/2000/01/rdf-schema#label">
-        <Input id="unnamed_224" path=""/>
-      </TransformRule>
-        <Outputs>
-          <Output id="PanaOfficersOutPut"></Output>
-        </Outputs>
-      </TransformSpec>

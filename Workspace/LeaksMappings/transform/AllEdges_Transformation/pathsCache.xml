@@ -1,0 +1,9 @@
+<EntityDescription>
+  <Type>CsvTable</Type>
+  <Restriction></Restriction>
+  <Paths>
+    <Path>/node_1</Path>
+    <Path>/rel_type</Path>
+    <Path>/node_2</Path>
+  </Paths>
+</EntityDescription>

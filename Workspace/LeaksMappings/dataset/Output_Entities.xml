@@ -1,0 +1,5 @@
+<Dataset id="Output_Entities" type="file">
+  <Param name="file" value="Output_Entities"/>
+  <Param name="format" value="N-Triples"/>
+  <Param name="graph" value=""/>
+</Dataset>

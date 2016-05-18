@@ -1,0 +1,23 @@
+<TransformSpec>
+        <TransformRule name="country" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+        <TransformInput id="unnamed_2049" function="constantUri">
+            
+            <Param name="value" value="http://vocab.lidakra.de/fuhsen#Country"/>
+          </TransformInput>
+      </TransformRule><TransformRule name="countryUri" targetProperty="">
+        <TransformInput id="unnamed_2056" function="concat">
+            <TransformInput id="unnamed_2054" function="constant">
+            
+            <Param name="value" value="http://vocab.lidakra.de/fuhsen/panama_papers/country#"/>
+          </TransformInput><Input id="unnamed_2055" path="/country_codes"/>
+            <Param name="glue" value=""/>
+          </TransformInput>
+      </TransformRule><TransformRule name="code" targetProperty="http://vocab.lidakra.de/fuhsen#code">
+        <Input id="unnamed_2058" path="/country_codes"/>
+      </TransformRule><TransformRule name="name" targetProperty="http://vocab.lidakra.de/fuhsen#name">
+        <Input id="unnamed_2060" path="/countries"/>
+      </TransformRule>
+        <Outputs>
+          <Output id="Output_CountriesFromEntities"></Output>
+        </Outputs>
+      </TransformSpec>

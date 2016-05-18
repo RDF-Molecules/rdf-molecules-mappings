@@ -1,0 +1,5 @@
+<Dataset id="Output_AllEdges" type="file">
+  <Param name="file" value="Output_AllEdges"/>
+  <Param name="format" value="N-Triples"/>
+  <Param name="graph" value=""/>
+</Dataset>

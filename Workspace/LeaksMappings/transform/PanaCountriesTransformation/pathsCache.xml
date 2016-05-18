@@ -1,9 +1,0 @@
-<EntityDescription>
-  <Type></Type>
-  <Restriction></Restriction>
-  <Paths>
-    <Path>/country_id</Path>
-    <Path>/country_code</Path>
-    <Path>/country_name</Path>
-  </Paths>
-</EntityDescription>

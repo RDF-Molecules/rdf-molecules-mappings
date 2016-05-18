@@ -1,0 +1,27 @@
+<EntityDescription>
+  <Type>CsvTable</Type>
+  <Restriction></Restriction>
+  <Paths>
+    <Path>/name</Path>
+    <Path>/original_name</Path>
+    <Path>/former_name</Path>
+    <Path>/jurisdiction</Path>
+    <Path>/jurisdiction_description</Path>
+    <Path>/company_type</Path>
+    <Path>/address</Path>
+    <Path>/internal_id</Path>
+    <Path>/incorporation_date</Path>
+    <Path>/inactivation_date</Path>
+    <Path>/struck_off_date</Path>
+    <Path>/dorm_date</Path>
+    <Path>/status</Path>
+    <Path>/service_provider</Path>
+    <Path>/ibcRUC</Path>
+    <Path>/country_codes</Path>
+    <Path>/countries</Path>
+    <Path>/note</Path>
+    <Path>/valid_until</Path>
+    <Path>/node_id</Path>
+    <Path>/sourceID</Path>
+  </Paths>
+</EntityDescription>

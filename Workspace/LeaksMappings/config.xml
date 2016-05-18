@@ -3,6 +3,7 @@
     <Prefix id="rdf" namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix id="rdfs" namespace="http://www.w3.org/2000/01/rdf-schema#"/>
     <Prefix id="owl" namespace="http://www.w3.org/2002/07/owl#"/>
-    <Prefix id="fs" namespace="http://vocab.cs.uni-bonn.de/fuhsen#"/>
+    <Prefix id="fs" namespace="http://vocab.lidakra.de/fuhsen#"/>
+    <Prefix id="foaf" namespace="http://xmlns.com/foaf/0.1/"/>
   </Prefixes>
 </ProjectConfig>

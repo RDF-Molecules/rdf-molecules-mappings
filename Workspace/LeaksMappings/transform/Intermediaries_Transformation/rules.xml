@@ -1,0 +1,44 @@
+<TransformSpec>
+        <TransformRule name="intermediary" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+        <TransformInput id="unnamed_942" function="constantUri">
+            
+            <Param name="value" value="http://vocab.lidakra.de/fuhsen#Intermediary"/>
+          </TransformInput>
+      </TransformRule><TransformRule name="agent" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+        <TransformInput id="unnamed_944" function="constantUri">
+            
+            <Param name="value" value="http://xmlns.com/foaf/0.1/Agent"/>
+          </TransformInput>
+      </TransformRule><TransformRule name="intermediaryUri" targetProperty="">
+        <TransformInput id="unnamed_951" function="concat">
+            <TransformInput id="unnamed_949" function="constant">
+            
+            <Param name="value" value="http://vocab.lidakra.de/fuhsen/panama_papers/node#"/>
+          </TransformInput><Input id="unnamed_950" path="/node_id"/>
+            <Param name="glue" value=""/>
+          </TransformInput>
+      </TransformRule><TransformRule name="name" targetProperty="http://xmlns.com/foaf/0.1/name">
+        <Input id="unnamed_953" path="/name"/>
+      </TransformRule><TransformRule name="internalId" targetProperty="http://vocab.lidakra.de/fuhsen#internalId">
+        <Input id="unnamed_955" path="/internal_id"/>
+      </TransformRule><TransformRule name="addressValue" targetProperty="http://vocab.lidakra.de/fuhsen#addressValue">
+        <Input id="unnamed_957" path="/address"/>
+      </TransformRule><TransformRule name="sourceId" targetProperty="http://vocab.lidakra.de/fuhsen#sourceId">
+        <Input id="unnamed_959" path="/sourceID"/>
+      </TransformRule><TransformRule name="intermediaryHasCountry" targetProperty="http://vocab.lidakra.de/fuhsen#intermediaryHasCountry">
+        <TransformInput id="unnamed_966" function="concat">
+            <TransformInput id="unnamed_964" function="constant">
+            
+            <Param name="value" value="http://vocab.lidakra.de/fuhsen/panama_papers/country#"/>
+          </TransformInput><Input id="unnamed_965" path="/country_codes"/>
+            <Param name="glue" value=""/>
+          </TransformInput>
+      </TransformRule><TransformRule name="status" targetProperty="http://vocab.lidakra.de/fuhsen#status">
+        <Input id="unnamed_968" path="/status"/>
+      </TransformRule><TransformRule name="transform1" targetProperty="http://www.w3.org/2000/01/rdf-schema#label">
+        <Input id="unnamed_970" path=""/>
+      </TransformRule>
+        <Outputs>
+          <Output id="Output_Intermediaries"></Output>
+        </Outputs>
+      </TransformSpec>

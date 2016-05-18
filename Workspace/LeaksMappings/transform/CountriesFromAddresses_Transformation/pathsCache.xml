@@ -1,0 +1,13 @@
+<EntityDescription>
+  <Type>CsvTable</Type>
+  <Restriction></Restriction>
+  <Paths>
+    <Path>/country_codes</Path>
+    <Path>/countries</Path>
+    <Path>/address</Path>
+    <Path>/icij_id</Path>
+    <Path>/valid_until</Path>
+    <Path>/node_id</Path>
+    <Path>/sourceID</Path>
+  </Paths>
+</EntityDescription>
