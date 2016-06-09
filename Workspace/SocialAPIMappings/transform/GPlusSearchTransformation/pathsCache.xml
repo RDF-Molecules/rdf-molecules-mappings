@@ -1,13 +1,13 @@
 <EntityDescription>
-  <Variable>a</Variable>
-  <Restrictions></Restrictions>
+  <Type></Type>
+  <Restriction></Restriction>
   <Paths>
-    <Path>?a/id</Path>
-    <Path>?a/displayName</Path>
-    <Path>?a/image/url</Path>
-    <Path>?a/etag</Path>
-    <Path>?a/url</Path>
-    <Path>?a/objectType</Path>
-    <Path>?a/kind</Path>
+    <Path>/id</Path>
+    <Path>/displayName</Path>
+    <Path>/image/url</Path>
+    <Path>/etag</Path>
+    <Path>/url</Path>
+    <Path>/objectType</Path>
+    <Path>/kind</Path>
   </Paths>
 </EntityDescription>

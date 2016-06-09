@@ -8,10 +8,10 @@
           <Path>/&lt;http://xmlns.com/foaf/0.1/name&gt;</Path>
           <Path>/&lt;http://xmlns.com/foaf/0.1/birthday&gt;</Path>
           <Path>/&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;</Path>
-          <Path>/&lt;http://xmlns.com/foaf/0.1/name&gt;</Path>
           <Path>/&lt;http://vocab.cs.uni-bonn.de/fuhsen#id&gt;</Path>
           <Path>/&lt;http://vocab.cs.uni-bonn.de/fuhsen#url&gt;</Path>
           <Path>/&lt;http://xmlns.com/foaf/0.1/img&gt;</Path>
+          <Path>/&lt;http://xmlns.com/foaf/0.1/name&gt;</Path>
           <Path>/&lt;http://xmlns.com/foaf/0.1/family_name&gt;</Path>
           <Path>/&lt;http://xmlns.com/foaf/0.1/gender&gt;</Path>
           <Path>/&lt;http://xmlns.com/foaf/0.1/givenname&gt;</Path>
@@ -31,10 +31,10 @@
           <Path>/&lt;http://xmlns.com/foaf/0.1/name&gt;</Path>
           <Path>/&lt;http://xmlns.com/foaf/0.1/birthday&gt;</Path>
           <Path>/&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;</Path>
-          <Path>/&lt;http://xmlns.com/foaf/0.1/name&gt;</Path>
           <Path>/&lt;http://vocab.cs.uni-bonn.de/fuhsen#id&gt;</Path>
           <Path>/&lt;http://vocab.cs.uni-bonn.de/fuhsen#url&gt;</Path>
           <Path>/&lt;http://xmlns.com/foaf/0.1/img&gt;</Path>
+          <Path>/&lt;http://xmlns.com/foaf/0.1/name&gt;</Path>
           <Path>/&lt;http://xmlns.com/foaf/0.1/family_name&gt;</Path>
           <Path>/&lt;http://xmlns.com/foaf/0.1/gender&gt;</Path>
           <Path>/&lt;http://xmlns.com/foaf/0.1/givenname&gt;</Path>
@@ -48,9 +48,9 @@
     </Target>
   </Pair>
   <SourceEntities>
-    <Entity uri="http://vocab.cs.uni-bonn.de/fuhsen/search/entity/105554117020200313560">
+    <Entity uri="http://vocab.cs.uni-bonn.de/fuhsen/search/entity/107541949019481337310">
       <Val>
-        <e>gareth bale</e>
+        <e>lionel messi</e>
       </Val>
       <Val> </Val>
       <Val>
@@ -59,29 +59,27 @@
         <e>http://xmlns.com/foaf/0.1/Person</e>
       </Val>
       <Val>
-        <e>gareth bale</e>
+        <e>1.0754194901948134E20</e>
       </Val>
       <Val>
-        <e>1.0555411702020032E20</e>
+        <e>https://plus.google.com/107541949019481337310</e>
       </Val>
       <Val>
-        <e>https://plus.google.com/105554117020200313560</e>
+        <e>https://lh6.googleusercontent.com/-WbSBA4PBjxk/AAAAAAAAAAI/AAAAAAAAAKE/919Oc1aY6z4/photo.jpg?sz=50</e>
       </Val>
       <Val>
-        <e>https://lh4.googleusercontent.com/-R8dPJl3x_1Q/AAAAAAAAAAI/AAAAAAAAAC0/jID7Gd57aWM/photo.jpg?sz=50</e>
+        <e>lionel messi</e>
       </Val>
       <Val>
-        <e>bale</e>
+        <e>messi</e>
       </Val>
       <Val>
         <e>male</e>
       </Val>
       <Val>
-        <e>gareth</e>
+        <e>lionel</e>
       </Val>
-      <Val>
-        <e>http://vocab.cs.uni-bonn.de/fuhsen/search/entity/105554117020200313560/Tottenham-Hotspur-Football-Club</e>
-      </Val>
+      <Val> </Val>
       <Val> </Val>
       <Val> </Val>
       <Val> </Val>
@@ -98,9 +96,6 @@
         <e>http://xmlns.com/foaf/0.1/Person</e>
       </Val>
       <Val>
-        <e>lionel messi</e>
-      </Val>
-      <Val>
         <e>1.093134797819296E20</e>
       </Val>
       <Val>
@@ -108,6 +103,9 @@
       </Val>
       <Val>
         <e>https://lh4.googleusercontent.com/-Pngm_n54M3w/AAAAAAAAAAI/AAAAAAAAADg/Ar_dM_5bD3k/photo.jpg?sz=50</e>
+      </Val>
+      <Val>
+        <e>lionel messi</e>
       </Val>
       <Val>
         <e>messi</e>
@@ -126,91 +124,15 @@
       <Val>
         <e>student</e>
       </Val>
-      <Val> </Val>
-      <Val> </Val>
-      <Val> </Val>
-    </Entity>
-    <Entity uri="http://vocab.cs.uni-bonn.de/fuhsen/search/entity/111669105167412619475">
-      <Val>
-        <e>michel platini</e>
-      </Val>
-      <Val> </Val>
-      <Val>
-        <e>http://vocab.cs.uni-bonn.de/fuhsen#SearchableEntity</e>
-        <e>http://xmlns.com/foaf/0.1/Agent</e>
-        <e>http://xmlns.com/foaf/0.1/Person</e>
-      </Val>
-      <Val>
-        <e>michel platini</e>
-      </Val>
-      <Val>
-        <e>1.1166910516741263E20</e>
-      </Val>
-      <Val>
-        <e>https://plus.google.com/111669105167412619475</e>
-      </Val>
-      <Val>
-        <e>https://lh4.googleusercontent.com/-LpIfeXymGvw/AAAAAAAAAAI/AAAAAAAAALQ/Ldhl6CnDB_A/photo.jpg?sz=50</e>
-      </Val>
-      <Val>
-        <e>platini</e>
-      </Val>
-      <Val>
-        <e>male</e>
-      </Val>
-      <Val>
-        <e>michel</e>
-      </Val>
-      <Val> </Val>
-      <Val> </Val>
-      <Val> </Val>
-      <Val> </Val>
-      <Val> </Val>
-    </Entity>
-    <Entity uri="http://vocab.cs.uni-bonn.de/fuhsen/search/entity/110202110078596801881">
-      <Val>
-        <e>Diego Maradona (Ramin)</e>
-      </Val>
-      <Val> </Val>
-      <Val>
-        <e>http://vocab.cs.uni-bonn.de/fuhsen#SearchableEntity</e>
-        <e>http://xmlns.com/foaf/0.1/Agent</e>
-        <e>http://xmlns.com/foaf/0.1/Person</e>
-      </Val>
-      <Val>
-        <e>Diego Maradona (Ramin)</e>
-      </Val>
-      <Val>
-        <e>1.1020211007859681E20</e>
-      </Val>
-      <Val>
-        <e>https://plus.google.com/110202110078596801881</e>
-      </Val>
-      <Val>
-        <e>https://lh4.googleusercontent.com/-Ru7rL8AgNQY/AAAAAAAAAAI/AAAAAAAAA-w/Uz_DTwNnL0w/photo.jpg?sz=50</e>
-      </Val>
-      <Val>
-        <e>Maradona</e>
-      </Val>
-      <Val>
-        <e>male</e>
-      </Val>
-      <Val>
-        <e>Diego</e>
-      </Val>
-      <Val>
-        <e>http://vocab.cs.uni-bonn.de/fuhsen/search/entity/110202110078596801881/Aryasasol-Polymer-Co-ASPC-</e>
-      </Val>
-      <Val> </Val>
       <Val> </Val>
       <Val> </Val>
       <Val> </Val>
     </Entity>
   </SourceEntities>
   <TargetEntities>
-    <Entity uri="http://vocab.cs.uni-bonn.de/fuhsen/search/entity/105554117020200313560">
+    <Entity uri="http://vocab.cs.uni-bonn.de/fuhsen/search/entity/107541949019481337310">
       <Val>
-        <e>gareth bale</e>
+        <e>lionel messi</e>
       </Val>
       <Val> </Val>
       <Val>
@@ -219,29 +141,27 @@
         <e>http://xmlns.com/foaf/0.1/Person</e>
       </Val>
       <Val>
-        <e>gareth bale</e>
+        <e>1.0754194901948134E20</e>
       </Val>
       <Val>
-        <e>1.0555411702020032E20</e>
+        <e>https://plus.google.com/107541949019481337310</e>
       </Val>
       <Val>
-        <e>https://plus.google.com/105554117020200313560</e>
+        <e>https://lh6.googleusercontent.com/-WbSBA4PBjxk/AAAAAAAAAAI/AAAAAAAAAKE/919Oc1aY6z4/photo.jpg?sz=50</e>
       </Val>
       <Val>
-        <e>https://lh4.googleusercontent.com/-R8dPJl3x_1Q/AAAAAAAAAAI/AAAAAAAAAC0/jID7Gd57aWM/photo.jpg?sz=50</e>
+        <e>lionel messi</e>
       </Val>
       <Val>
-        <e>bale</e>
+        <e>messi</e>
       </Val>
       <Val>
         <e>male</e>
       </Val>
       <Val>
-        <e>gareth</e>
+        <e>lionel</e>
       </Val>
-      <Val>
-        <e>http://vocab.cs.uni-bonn.de/fuhsen/search/entity/105554117020200313560/Tottenham-Hotspur-Football-Club</e>
-      </Val>
+      <Val> </Val>
       <Val> </Val>
       <Val> </Val>
       <Val> </Val>
@@ -258,9 +178,6 @@
         <e>http://xmlns.com/foaf/0.1/Person</e>
       </Val>
       <Val>
-        <e>lionel messi</e>
-      </Val>
-      <Val>
         <e>1.093134797819296E20</e>
       </Val>
       <Val>
@@ -268,6 +185,9 @@
       </Val>
       <Val>
         <e>https://lh4.googleusercontent.com/-Pngm_n54M3w/AAAAAAAAAAI/AAAAAAAAADg/Ar_dM_5bD3k/photo.jpg?sz=50</e>
+      </Val>
+      <Val>
+        <e>lionel messi</e>
       </Val>
       <Val>
         <e>messi</e>
@@ -286,80 +206,6 @@
       <Val>
         <e>student</e>
       </Val>
-      <Val> </Val>
-      <Val> </Val>
-      <Val> </Val>
-    </Entity>
-    <Entity uri="http://vocab.cs.uni-bonn.de/fuhsen/search/entity/111669105167412619475">
-      <Val>
-        <e>michel platini</e>
-      </Val>
-      <Val> </Val>
-      <Val>
-        <e>http://vocab.cs.uni-bonn.de/fuhsen#SearchableEntity</e>
-        <e>http://xmlns.com/foaf/0.1/Agent</e>
-        <e>http://xmlns.com/foaf/0.1/Person</e>
-      </Val>
-      <Val>
-        <e>michel platini</e>
-      </Val>
-      <Val>
-        <e>1.1166910516741263E20</e>
-      </Val>
-      <Val>
-        <e>https://plus.google.com/111669105167412619475</e>
-      </Val>
-      <Val>
-        <e>https://lh4.googleusercontent.com/-LpIfeXymGvw/AAAAAAAAAAI/AAAAAAAAALQ/Ldhl6CnDB_A/photo.jpg?sz=50</e>
-      </Val>
-      <Val>
-        <e>platini</e>
-      </Val>
-      <Val>
-        <e>male</e>
-      </Val>
-      <Val>
-        <e>michel</e>
-      </Val>
-      <Val> </Val>
-      <Val> </Val>
-      <Val> </Val>
-      <Val> </Val>
-      <Val> </Val>
-    </Entity>
-    <Entity uri="http://vocab.cs.uni-bonn.de/fuhsen/search/entity/114565257313363675639">
-      <Val>
-        <e>Diego Maradona</e>
-      </Val>
-      <Val> </Val>
-      <Val>
-        <e>http://vocab.cs.uni-bonn.de/fuhsen#SearchableEntity</e>
-        <e>http://xmlns.com/foaf/0.1/Agent</e>
-        <e>http://xmlns.com/foaf/0.1/Person</e>
-      </Val>
-      <Val>
-        <e>Diego Maradona</e>
-      </Val>
-      <Val>
-        <e>1.1456525731336367E20</e>
-      </Val>
-      <Val>
-        <e>https://plus.google.com/114565257313363675639</e>
-      </Val>
-      <Val>
-        <e>https://lh6.googleusercontent.com/-iH3y6Z7AQhI/AAAAAAAAAAI/AAAAAAAAAAA/XwdKBx10sBw/photo.jpg?sz=50</e>
-      </Val>
-      <Val>
-        <e>Maradona</e>
-      </Val>
-      <Val>
-        <e>male</e>
-      </Val>
-      <Val>
-        <e>Diego</e>
-      </Val>
-      <Val> </Val>
-      <Val> </Val>
       <Val> </Val>
       <Val> </Val>
       <Val> </Val>
@@ -367,38 +213,38 @@
   </TargetEntities>
   <PositiveLinks>
     <LinkCandidate>
-      <Source>http://vocab.cs.uni-bonn.de/fuhsen/search/entity/105554117020200313560</Source>
-      <Target>http://vocab.cs.uni-bonn.de/fuhsen/search/entity/105554117020200313560</Target>
+      <Source>http://vocab.cs.uni-bonn.de/fuhsen/search/entity/107541949019481337310</Source>
+      <Target>http://vocab.cs.uni-bonn.de/fuhsen/search/entity/107541949019481337310</Target>
       None
       Some(&lt;Entities&gt;
-            &lt;Source&gt;&lt;Entity uri=&quot;http://vocab.cs.uni-bonn.de/fuhsen/search/entity/105554117020200313560&quot;&gt; &lt;Val&gt; &lt;e&gt;gareth bale&lt;/e&gt;
+            &lt;Source&gt;&lt;Entity uri=&quot;http://vocab.cs.uni-bonn.de/fuhsen/search/entity/107541949019481337310&quot;&gt; &lt;Val&gt; &lt;e&gt;lionel messi&lt;/e&gt;
         &lt;/Val&gt;&lt;Val&gt; 
         &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;http://vocab.cs.uni-bonn.de/fuhsen#SearchableEntity&lt;/e&gt;&lt;e&gt;http://xmlns.com/foaf/0.1/Agent&lt;/e&gt;&lt;e&gt;http://xmlns.com/foaf/0.1/Person&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;gareth bale&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;1.0555411702020032E20&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;https://plus.google.com/105554117020200313560&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;https://lh4.googleusercontent.com/-R8dPJl3x_1Q/AAAAAAAAAAI/AAAAAAAAAC0/jID7Gd57aWM/photo.jpg?sz=50&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;bale&lt;/e&gt;
+        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;1.0754194901948134E20&lt;/e&gt;
+        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;https://plus.google.com/107541949019481337310&lt;/e&gt;
+        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;https://lh6.googleusercontent.com/-WbSBA4PBjxk/AAAAAAAAAAI/AAAAAAAAAKE/919Oc1aY6z4/photo.jpg?sz=50&lt;/e&gt;
+        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;lionel messi&lt;/e&gt;
+        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;messi&lt;/e&gt;
         &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;male&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;gareth&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;http://vocab.cs.uni-bonn.de/fuhsen/search/entity/105554117020200313560/Tottenham-Hotspur-Football-Club&lt;/e&gt;
+        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;lionel&lt;/e&gt;
+        &lt;/Val&gt;&lt;Val&gt; 
         &lt;/Val&gt;&lt;Val&gt; 
         &lt;/Val&gt;&lt;Val&gt; 
         &lt;/Val&gt;&lt;Val&gt; 
         &lt;/Val&gt;&lt;Val&gt; 
         &lt;/Val&gt;
     &lt;/Entity&gt;&lt;/Source&gt;
-            &lt;Target&gt;&lt;Entity uri=&quot;http://vocab.cs.uni-bonn.de/fuhsen/search/entity/105554117020200313560&quot;&gt; &lt;Val&gt; &lt;e&gt;gareth bale&lt;/e&gt;
+            &lt;Target&gt;&lt;Entity uri=&quot;http://vocab.cs.uni-bonn.de/fuhsen/search/entity/107541949019481337310&quot;&gt; &lt;Val&gt; &lt;e&gt;lionel messi&lt;/e&gt;
         &lt;/Val&gt;&lt;Val&gt; 
         &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;http://vocab.cs.uni-bonn.de/fuhsen#SearchableEntity&lt;/e&gt;&lt;e&gt;http://xmlns.com/foaf/0.1/Agent&lt;/e&gt;&lt;e&gt;http://xmlns.com/foaf/0.1/Person&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;gareth bale&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;1.0555411702020032E20&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;https://plus.google.com/105554117020200313560&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;https://lh4.googleusercontent.com/-R8dPJl3x_1Q/AAAAAAAAAAI/AAAAAAAAAC0/jID7Gd57aWM/photo.jpg?sz=50&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;bale&lt;/e&gt;
+        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;1.0754194901948134E20&lt;/e&gt;
+        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;https://plus.google.com/107541949019481337310&lt;/e&gt;
+        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;https://lh6.googleusercontent.com/-WbSBA4PBjxk/AAAAAAAAAAI/AAAAAAAAAKE/919Oc1aY6z4/photo.jpg?sz=50&lt;/e&gt;
+        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;lionel messi&lt;/e&gt;
+        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;messi&lt;/e&gt;
         &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;male&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;gareth&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;http://vocab.cs.uni-bonn.de/fuhsen/search/entity/105554117020200313560/Tottenham-Hotspur-Football-Club&lt;/e&gt;
+        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;lionel&lt;/e&gt;
+        &lt;/Val&gt;&lt;Val&gt; 
         &lt;/Val&gt;&lt;Val&gt; 
         &lt;/Val&gt;&lt;Val&gt; 
         &lt;/Val&gt;&lt;Val&gt; 
@@ -415,10 +261,10 @@
             &lt;Source&gt;&lt;Entity uri=&quot;http://vocab.cs.uni-bonn.de/fuhsen/search/entity/109313479781929601979&quot;&gt; &lt;Val&gt; &lt;e&gt;lionel messi&lt;/e&gt;
         &lt;/Val&gt;&lt;Val&gt; 
         &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;http://vocab.cs.uni-bonn.de/fuhsen#SearchableEntity&lt;/e&gt;&lt;e&gt;http://xmlns.com/foaf/0.1/Agent&lt;/e&gt;&lt;e&gt;http://xmlns.com/foaf/0.1/Person&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;lionel messi&lt;/e&gt;
         &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;1.093134797819296E20&lt;/e&gt;
         &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;https://plus.google.com/109313479781929601979&lt;/e&gt;
         &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;https://lh4.googleusercontent.com/-Pngm_n54M3w/AAAAAAAAAAI/AAAAAAAAADg/Ar_dM_5bD3k/photo.jpg?sz=50&lt;/e&gt;
+        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;lionel messi&lt;/e&gt;
         &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;messi&lt;/e&gt;
         &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;male&lt;/e&gt;
         &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;lionel&lt;/e&gt;
@@ -432,10 +278,10 @@
             &lt;Target&gt;&lt;Entity uri=&quot;http://vocab.cs.uni-bonn.de/fuhsen/search/entity/109313479781929601979&quot;&gt; &lt;Val&gt; &lt;e&gt;lionel messi&lt;/e&gt;
         &lt;/Val&gt;&lt;Val&gt; 
         &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;http://vocab.cs.uni-bonn.de/fuhsen#SearchableEntity&lt;/e&gt;&lt;e&gt;http://xmlns.com/foaf/0.1/Agent&lt;/e&gt;&lt;e&gt;http://xmlns.com/foaf/0.1/Person&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;lionel messi&lt;/e&gt;
         &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;1.093134797819296E20&lt;/e&gt;
         &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;https://plus.google.com/109313479781929601979&lt;/e&gt;
         &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;https://lh4.googleusercontent.com/-Pngm_n54M3w/AAAAAAAAAAI/AAAAAAAAADg/Ar_dM_5bD3k/photo.jpg?sz=50&lt;/e&gt;
+        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;lionel messi&lt;/e&gt;
         &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;messi&lt;/e&gt;
         &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;male&lt;/e&gt;
         &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;lionel&lt;/e&gt;
@@ -448,90 +294,7 @@
     &lt;/Entity&gt;&lt;/Target&gt;
           &lt;/Entities&gt;)
     </LinkCandidate>
-    <LinkCandidate>
-      <Source>http://vocab.cs.uni-bonn.de/fuhsen/search/entity/111669105167412619475</Source>
-      <Target>http://vocab.cs.uni-bonn.de/fuhsen/search/entity/111669105167412619475</Target>
-      None
-      Some(&lt;Entities&gt;
-            &lt;Source&gt;&lt;Entity uri=&quot;http://vocab.cs.uni-bonn.de/fuhsen/search/entity/111669105167412619475&quot;&gt; &lt;Val&gt; &lt;e&gt;michel platini&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; 
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;http://vocab.cs.uni-bonn.de/fuhsen#SearchableEntity&lt;/e&gt;&lt;e&gt;http://xmlns.com/foaf/0.1/Agent&lt;/e&gt;&lt;e&gt;http://xmlns.com/foaf/0.1/Person&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;michel platini&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;1.1166910516741263E20&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;https://plus.google.com/111669105167412619475&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;https://lh4.googleusercontent.com/-LpIfeXymGvw/AAAAAAAAAAI/AAAAAAAAALQ/Ldhl6CnDB_A/photo.jpg?sz=50&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;platini&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;male&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;michel&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; 
-        &lt;/Val&gt;&lt;Val&gt; 
-        &lt;/Val&gt;&lt;Val&gt; 
-        &lt;/Val&gt;&lt;Val&gt; 
-        &lt;/Val&gt;&lt;Val&gt; 
-        &lt;/Val&gt;
-    &lt;/Entity&gt;&lt;/Source&gt;
-            &lt;Target&gt;&lt;Entity uri=&quot;http://vocab.cs.uni-bonn.de/fuhsen/search/entity/111669105167412619475&quot;&gt; &lt;Val&gt; &lt;e&gt;michel platini&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; 
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;http://vocab.cs.uni-bonn.de/fuhsen#SearchableEntity&lt;/e&gt;&lt;e&gt;http://xmlns.com/foaf/0.1/Agent&lt;/e&gt;&lt;e&gt;http://xmlns.com/foaf/0.1/Person&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;michel platini&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;1.1166910516741263E20&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;https://plus.google.com/111669105167412619475&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;https://lh4.googleusercontent.com/-LpIfeXymGvw/AAAAAAAAAAI/AAAAAAAAALQ/Ldhl6CnDB_A/photo.jpg?sz=50&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;platini&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;male&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;michel&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; 
-        &lt;/Val&gt;&lt;Val&gt; 
-        &lt;/Val&gt;&lt;Val&gt; 
-        &lt;/Val&gt;&lt;Val&gt; 
-        &lt;/Val&gt;&lt;Val&gt; 
-        &lt;/Val&gt;
-    &lt;/Entity&gt;&lt;/Target&gt;
-          &lt;/Entities&gt;)
-    </LinkCandidate>
   </PositiveLinks>
-  <NegativeLinks>
-    <LinkCandidate>
-      <Source>http://vocab.cs.uni-bonn.de/fuhsen/search/entity/110202110078596801881</Source>
-      <Target>http://vocab.cs.uni-bonn.de/fuhsen/search/entity/114565257313363675639</Target>
-      None
-      Some(&lt;Entities&gt;
-            &lt;Source&gt;&lt;Entity uri=&quot;http://vocab.cs.uni-bonn.de/fuhsen/search/entity/110202110078596801881&quot;&gt; &lt;Val&gt; &lt;e&gt;Diego Maradona (Ramin)&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; 
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;http://vocab.cs.uni-bonn.de/fuhsen#SearchableEntity&lt;/e&gt;&lt;e&gt;http://xmlns.com/foaf/0.1/Agent&lt;/e&gt;&lt;e&gt;http://xmlns.com/foaf/0.1/Person&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;Diego Maradona (Ramin)&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;1.1020211007859681E20&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;https://plus.google.com/110202110078596801881&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;https://lh4.googleusercontent.com/-Ru7rL8AgNQY/AAAAAAAAAAI/AAAAAAAAA-w/Uz_DTwNnL0w/photo.jpg?sz=50&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;Maradona&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;male&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;Diego&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;http://vocab.cs.uni-bonn.de/fuhsen/search/entity/110202110078596801881/Aryasasol-Polymer-Co-ASPC-&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; 
-        &lt;/Val&gt;&lt;Val&gt; 
-        &lt;/Val&gt;&lt;Val&gt; 
-        &lt;/Val&gt;&lt;Val&gt; 
-        &lt;/Val&gt;
-    &lt;/Entity&gt;&lt;/Source&gt;
-            &lt;Target&gt;&lt;Entity uri=&quot;http://vocab.cs.uni-bonn.de/fuhsen/search/entity/114565257313363675639&quot;&gt; &lt;Val&gt; &lt;e&gt;Diego Maradona&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; 
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;http://vocab.cs.uni-bonn.de/fuhsen#SearchableEntity&lt;/e&gt;&lt;e&gt;http://xmlns.com/foaf/0.1/Agent&lt;/e&gt;&lt;e&gt;http://xmlns.com/foaf/0.1/Person&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;Diego Maradona&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;1.1456525731336367E20&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;https://plus.google.com/114565257313363675639&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;https://lh6.googleusercontent.com/-iH3y6Z7AQhI/AAAAAAAAAAI/AAAAAAAAAAA/XwdKBx10sBw/photo.jpg?sz=50&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;Maradona&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;male&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; &lt;e&gt;Diego&lt;/e&gt;
-        &lt;/Val&gt;&lt;Val&gt; 
-        &lt;/Val&gt;&lt;Val&gt; 
-        &lt;/Val&gt;&lt;Val&gt; 
-        &lt;/Val&gt;&lt;Val&gt; 
-        &lt;/Val&gt;&lt;Val&gt; 
-        &lt;/Val&gt;
-    &lt;/Entity&gt;&lt;/Target&gt;
-          &lt;/Entities&gt;)
-    </LinkCandidate>
-  </NegativeLinks>
+  <NegativeLinks> </NegativeLinks>
   <UnlabeledLinks> </UnlabeledLinks>
 </Entities>

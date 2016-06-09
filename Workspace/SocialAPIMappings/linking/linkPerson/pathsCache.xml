@@ -7,10 +7,10 @@
         <Path>/&lt;http://xmlns.com/foaf/0.1/name&gt;</Path>
         <Path>/&lt;http://xmlns.com/foaf/0.1/birthday&gt;</Path>
         <Path>/&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;</Path>
-        <Path>/&lt;http://xmlns.com/foaf/0.1/name&gt;</Path>
         <Path>/&lt;http://vocab.cs.uni-bonn.de/fuhsen#id&gt;</Path>
         <Path>/&lt;http://vocab.cs.uni-bonn.de/fuhsen#url&gt;</Path>
         <Path>/&lt;http://xmlns.com/foaf/0.1/img&gt;</Path>
+        <Path>/&lt;http://xmlns.com/foaf/0.1/name&gt;</Path>
         <Path>/&lt;http://xmlns.com/foaf/0.1/family_name&gt;</Path>
         <Path>/&lt;http://xmlns.com/foaf/0.1/gender&gt;</Path>
         <Path>/&lt;http://xmlns.com/foaf/0.1/givenname&gt;</Path>
@@ -30,10 +30,10 @@
         <Path>/&lt;http://xmlns.com/foaf/0.1/name&gt;</Path>
         <Path>/&lt;http://xmlns.com/foaf/0.1/birthday&gt;</Path>
         <Path>/&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;</Path>
-        <Path>/&lt;http://xmlns.com/foaf/0.1/name&gt;</Path>
         <Path>/&lt;http://vocab.cs.uni-bonn.de/fuhsen#id&gt;</Path>
         <Path>/&lt;http://vocab.cs.uni-bonn.de/fuhsen#url&gt;</Path>
         <Path>/&lt;http://xmlns.com/foaf/0.1/img&gt;</Path>
+        <Path>/&lt;http://xmlns.com/foaf/0.1/name&gt;</Path>
         <Path>/&lt;http://xmlns.com/foaf/0.1/family_name&gt;</Path>
         <Path>/&lt;http://xmlns.com/foaf/0.1/gender&gt;</Path>
         <Path>/&lt;http://xmlns.com/foaf/0.1/givenname&gt;</Path>

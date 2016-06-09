@@ -2,6 +2,10 @@
   <Type></Type>
   <Restriction></Restriction>
   <Paths>
+    <Path>/itemId</Path>
+    <Path>/title</Path>
+    <Path>/galleryURL</Path>
+    <Path>/viewItemURL</Path>
     <Path>/globalId</Path>
     <Path>/location</Path>
     <Path>/isMultiVariationListing</Path>
@@ -10,7 +14,6 @@
     <Path>/shippingInfo/shippingType</Path>
     <Path>/shippingInfo/shipToLocations</Path>
     <Path>/paymentMethod</Path>
-    <Path>/galleryURL</Path>
     <Path>/listingInfo/startTime</Path>
     <Path>/listingInfo/bestOfferEnabled</Path>
     <Path>/listingInfo/gift</Path>
@@ -21,18 +24,16 @@
     <Path>/primaryCategory/categoryName</Path>
     <Path>/country</Path>
     <Path>/postalCode</Path>
-    <Path>/viewItemURL</Path>
     <Path>/condition/conditionId</Path>
     <Path>/condition/conditionDisplayName</Path>
     <Path>/topRatedListing</Path>
-    <Path>/itemId</Path>
-    <Path>/title</Path>
     <Path>/autoPay</Path>
+    <Path>/sellingStatus/timeLeft</Path>
     <Path>/sellingStatus/currentPrice/@currencyId</Path>
     <Path>/sellingStatus/currentPrice/__value__</Path>
+    <Path>/sellingStatus/bidCount</Path>
     <Path>/sellingStatus/convertedCurrentPrice/@currencyId</Path>
     <Path>/sellingStatus/convertedCurrentPrice/__value__</Path>
     <Path>/sellingStatus/sellingState</Path>
-    <Path>/sellingStatus/timeLeft</Path>
   </Paths>
 </EntityDescription>

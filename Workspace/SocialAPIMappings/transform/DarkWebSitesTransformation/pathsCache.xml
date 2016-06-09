@@ -2,10 +2,10 @@
   <Type></Type>
   <Restriction></Restriction>
   <Paths>
-    <Path>/@attributes/score</Path>
-    <Path>/@attributes/pos</Path>
     <Path>/@attributes/docId</Path>
     <Path>/field</Path>
     <Path>/snippet</Path>
+    <Path>/@attributes/score</Path>
+    <Path>/@attributes/pos</Path>
   </Paths>
 </EntityDescription>

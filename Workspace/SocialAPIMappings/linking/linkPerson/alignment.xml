@@ -2,8 +2,8 @@
   <Alignment>
     <map>
       <Cell>
-        <entity1 rdf:resource="http://vocab.cs.uni-bonn.de/fuhsen/search/entity/105554117020200313560"/>
-        <entity2 rdf:resource="http://vocab.cs.uni-bonn.de/fuhsen/search/entity/105554117020200313560"/>
+        <entity1 rdf:resource="http://vocab.cs.uni-bonn.de/fuhsen/search/entity/107541949019481337310"/>
+        <entity2 rdf:resource="http://vocab.cs.uni-bonn.de/fuhsen/search/entity/107541949019481337310"/>
         <relation>=</relation>
         <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
       </Cell>
@@ -13,22 +13,6 @@
         <entity1 rdf:resource="http://vocab.cs.uni-bonn.de/fuhsen/search/entity/109313479781929601979"/>
         <entity2 rdf:resource="http://vocab.cs.uni-bonn.de/fuhsen/search/entity/109313479781929601979"/>
         <relation>=</relation>
-        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
-      </Cell>
-    </map>
-    <map>
-      <Cell>
-        <entity1 rdf:resource="http://vocab.cs.uni-bonn.de/fuhsen/search/entity/111669105167412619475"/>
-        <entity2 rdf:resource="http://vocab.cs.uni-bonn.de/fuhsen/search/entity/111669105167412619475"/>
-        <relation>=</relation>
-        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
-      </Cell>
-    </map>
-    <map>
-      <Cell>
-        <entity1 rdf:resource="http://vocab.cs.uni-bonn.de/fuhsen/search/entity/110202110078596801881"/>
-        <entity2 rdf:resource="http://vocab.cs.uni-bonn.de/fuhsen/search/entity/114565257313363675639"/>
-        <relation>!=</relation>
         <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
       </Cell>
     </map>

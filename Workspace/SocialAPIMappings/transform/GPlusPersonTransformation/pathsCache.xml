@@ -2,18 +2,21 @@
   <Type></Type>
   <Restriction></Restriction>
   <Paths>
+    <Path>/id</Path>
+    <Path>/gender</Path>
     <Path>/displayName</Path>
-    <Path>/etag</Path>
     <Path>/name/familyName</Path>
     <Path>/name/givenName</Path>
+    <Path>/image/url</Path>
+    <Path>/organizations[type = &quot;work&quot;]/name</Path>
+    <Path>/occupation</Path>
+    <Path>/url</Path>
+    <Path>/etag</Path>
     <Path>/placesLived/value</Path>
     <Path>/placesLived/primary</Path>
-    <Path>/url</Path>
-    <Path>/image/url</Path>
     <Path>/image/isDefault</Path>
     <Path>/isPlusUser</Path>
     <Path>/circledByCount</Path>
-    <Path>/id</Path>
     <Path>/objectType</Path>
     <Path>/kind</Path>
     <Path>/organizations/name</Path>
@@ -22,6 +25,5 @@
     <Path>/organizations/startDate</Path>
     <Path>/organizations/primary</Path>
     <Path>/verified</Path>
-    <Path>/gender</Path>
   </Paths>
 </EntityDescription>
