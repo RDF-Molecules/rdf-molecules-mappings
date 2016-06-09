@@ -1,24 +1,54 @@
 <TransformSpec>
         <TransformRule name="product" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_317" function="constant">
+        <TransformInput id="unnamed_294" function="constantUri">
             
             <Param name="value" value="http://purl.org/goodrelations/v1#ProductOrService"/>
           </TransformInput>
       </TransformRule><TransformRule name="searchableEntity" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_319" function="constant">
+        <TransformInput id="unnamed_296" function="constantUri">
             
             <Param name="value" value="http://vocab.cs.uni-bonn.de/fuhsen#SearchableEntity"/>
           </TransformInput>
+      </TransformRule><TransformRule name="uriMapping" targetProperty="">
+        <TransformInput id="unnamed_303" function="concat">
+            <TransformInput id="unnamed_301" function="constant">
+            
+            <Param name="value" value="http://vocab.cs.uni-bonn.de/fuhsen/search/entity/"/>
+          </TransformInput><Input id="unnamed_302" path="/itemId"/>
+            <Param name="glue" value=""/>
+          </TransformInput>
       </TransformRule><TransformRule name="id" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#id">
-        <Input id="unnamed_321" path="/itemId"/>
+        <Input id="unnamed_305" path="/itemId"/>
       </TransformRule><TransformRule name="name" targetProperty="http://purl.org/goodrelations/v1#description">
-        <Input id="unnamed_323" path="/title"/>
+        <Input id="unnamed_307" path="/title"/>
       </TransformRule><TransformRule name="image" targetProperty="http://xmlns.com/foaf/0.1/img">
-        <Input id="unnamed_325" path="/galleryURL"/>
+        <Input id="unnamed_309" path="/galleryURL"/>
       </TransformRule><TransformRule name="url" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#url">
-        <Input id="unnamed_327" path="/viewItemURL"/>
-      </TransformRule>
-        <Outputs>
-          <Output id="CMEM"></Output>
-        </Outputs>
+        <Input id="unnamed_311" path="/viewItemURL"/>
+      </TransformRule><TransformRule name="price" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#price">
+        <Input id="unnamed_313" path="/sellingStatus/currentPrice/__value__"/>
+      </TransformRule><TransformRule name="currency" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#currency">
+        <Input id="unnamed_315" path="/sellingStatus/currentPrice/@currencyId"/>
+      </TransformRule><TransformRule name="priceLabel" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#priceLabel">
+        <TransformInput id="unnamed_326" function="concat">
+            <TransformInput id="unnamed_322" function="constant">
+            
+            <Param name="value" value=""/>
+          </TransformInput><Input id="unnamed_323" path="/sellingStatus/currentPrice/@currencyId"/><TransformInput id="unnamed_324" function="constant">
+            
+            <Param name="value" value=" "/>
+          </TransformInput><Input id="unnamed_325" path="/sellingStatus/currentPrice/__value__"/>
+            <Param name="glue" value=""/>
+          </TransformInput>
+      </TransformRule><TransformRule name="location" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#location">
+        <Input id="unnamed_328" path="/location"/>
+      </TransformRule><TransformRule name="postalCode" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#postalCode">
+        <Input id="unnamed_330" path="/postalCode"/>
+      </TransformRule><TransformRule name="country" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#country">
+        <Input id="unnamed_332" path="/country"/>
+      </TransformRule><TransformRule name="condition" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#condition">
+        <Input id="unnamed_334" path="/condition/conditionDisplayName"/>
+      </TransformRule><Outputs>
+        <Output id="CMEM"></Output>
+      </Outputs>
       </TransformSpec>

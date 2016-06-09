@@ -1,27 +1,52 @@
 <TransformSpec>
         <TransformRule name="website" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_256" function="constantUri">
+        <TransformInput id="unnamed_450" function="constantUri">
             
             <Param name="value" value="http://xmlns.com/foaf/0.1/Document"/>
           </TransformInput>
       </TransformRule><TransformRule name="searchableEntity" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_258" function="constantUri">
+        <TransformInput id="unnamed_452" function="constantUri">
             
             <Param name="value" value="http://vocab.cs.uni-bonn.de/fuhsen#SearchableEntity"/>
           </TransformInput>
+      </TransformRule><TransformRule name="uriMapping" targetProperty="">
+        <TransformInput id="unnamed_459" function="concat">
+            <TransformInput id="unnamed_457" function="constant">
+            
+            <Param name="value" value="http://vocab.cs.uni-bonn.de/fuhsen/search/entity/"/>
+          </TransformInput><Input id="unnamed_458" path="/@attributes/docId"/>
+            <Param name="glue" value=""/>
+          </TransformInput>
       </TransformRule><TransformRule name="id" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#id">
-        <Input id="unnamed_260" path="/@attributes/docId"/>
+        <Input id="unnamed_461" path="/@attributes/docId"/>
       </TransformRule><TransformRule name="label" targetProperty="http://www.w3.org/2000/01/rdf-schema#label">
-        <TransformInput id="getValueByIndex1" function="getValueByIndex">
-            <Input id="unnamed_222" path="/snippet"/>
+        <TransformInput id="replace2" function="replace">
+            <TransformInput id="replace1" function="replace">
+            <TransformInput id="getValueByIndex1" function="getValueByIndex">
+            <Input id="sourcePath1" path="/snippet"/>
             <Param name="index" value="0"/><Param name="failIfNotFound" value="false"/>
           </TransformInput>
+            <Param name="search" value="&lt;b&gt;"/><Param name="replace" value=""/>
+          </TransformInput>
+            <Param name="search" value="&lt;/b&gt;"/><Param name="replace" value=""/>
+          </TransformInput>
       </TransformRule><TransformRule name="url" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#url">
-        <Input id="unnamed_262" path="/field"/>
-      </TransformRule><TransformRule name="comment" targetProperty="http://www.w3.org/2000/01/rdf-schema#comment">
         <TransformInput id="getValueByIndex1" function="getValueByIndex">
-            <Input id="unnamed_264" path="/snippet"/>
+            <Input id="unnamed_419" path="/field"/>
+            <Param name="index" value="0"/><Param name="failIfNotFound" value="false"/>
+          </TransformInput>
+      </TransformRule><TransformRule name="comment" targetProperty="http://www.w3.org/2000/01/rdf-schema#comment">
+        <TransformInput id="replace1" function="replace">
+            <TransformInput id="getValueByIndex1" function="getValueByIndex">
+            <Input id="unnamed_294" path="/snippet"/>
             <Param name="index" value="2"/><Param name="failIfNotFound" value="false"/>
+          </TransformInput>
+            <Param name="search" value="{&quot;@attributes&quot;:{&quot;name&quot;:&quot;content&quot;}}"/><Param name="replace" value=""/>
+          </TransformInput>
+      </TransformRule><TransformRule name="source" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#source">
+        <TransformInput id="constant1" function="constant">
+            
+            <Param name="value" value="DearkNet"/>
           </TransformInput>
       </TransformRule><Outputs>
         <Output id="CMEM"></Output>

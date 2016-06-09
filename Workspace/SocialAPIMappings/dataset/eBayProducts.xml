@@ -1,6 +1,6 @@
 <Dataset id="eBayProducts" type="json">
   <Param name="file" value="ebay2.json"/>
   <Param name="basePath" value="findItemsByKeywordsResponse/searchResult/item"/>
-  <Param name="uriPattern" value="http://vocab.cs.uni-bonn.de/fuhsen/search/entity/{itemId}"/>
+  <Param name="uriPattern" value=""/>
   <Param name="charset" value="UTF8"/>
 </Dataset>
