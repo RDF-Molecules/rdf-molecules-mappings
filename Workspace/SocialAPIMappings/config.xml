@@ -5,6 +5,6 @@
     <Prefix id="owl" namespace="http://www.w3.org/2002/07/owl#"/>
     <Prefix id="foaf" namespace="http://xmlns.com/foaf/0.1/"/>
     <Prefix id="rdfs" namespace="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Prefix id="fs" namespace="http://vocab.cs.uni-bonn.de/fuhsen#"/>
+    <Prefix id="fs" namespace="http://vocab.lidakra.de/fuhsen#"/>
   </Prefixes>
 </ProjectConfig>
