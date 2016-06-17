@@ -1,19 +1,19 @@
 <TransformSpec>
         <TransformRule name="person" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_444" function="constant">
+        <TransformInput id="unnamed_1063" function="constantUri">
             
             <Param name="value" value="http://xmlns.com/foaf/0.1/Person"/>
           </TransformInput>
       </TransformRule><TransformRule name="id" targetProperty="http://fuhsen/id">
-        <Input id="unnamed_446" path="/id"/>
+        <Input id="unnamed_1065" path="/id"/>
       </TransformRule><TransformRule name="academic_title" targetProperty="http://xmlns.com/foaf/0.1/title">
-        <Input id="unnamed_448" path="/academic_title"/>
+        <Input id="unnamed_1067" path="/academic_title"/>
       </TransformRule><TransformRule name="firstName" targetProperty="http://xmlns.com/foaf/0.1/firstName">
-        <Input id="unnamed_450" path="/first_name"/>
+        <Input id="unnamed_1069" path="/first_name"/>
       </TransformRule><TransformRule name="lastName" targetProperty="http://xmlns.com/foaf/0.1/lastName">
-        <Input id="unnamed_452" path="/last_name"/>
+        <Input id="unnamed_1071" path="/last_name"/>
       </TransformRule><TransformRule name="Name" targetProperty="http://xmlns.com/foaf/0.1/name">
-        <Input id="unnamed_454" path="/display_name"/>
+        <Input id="unnamed_1073" path="/display_name"/>
       </TransformRule><TransformRule name="birth_date" targetProperty="http://xmlns.com/foaf/0.1/birthday">
         <TransformInput id="parseDate1" function="parseDate">
             <TransformInput id="unnamed_4" function="concat">
@@ -26,7 +26,7 @@
             <Param name="format" value="yyyy-MM-dd"/>
           </TransformInput>
       </TransformRule><TransformRule name="email" targetProperty="http://xmlns.com/foaf/0.1/mbox">
-        <Input id="unnamed_456" path="/active_email"/>
+        <Input id="unnamed_1075" path="/active_email"/>
       </TransformRule><TransformRule name="gender" targetProperty="http://xmlns.com/foaf/0.1/gender">
         <TransformInput id="unnamed_1" function="regexReplace">
             <TransformInput id="unnamed_5" function="regexReplace">
@@ -36,9 +36,8 @@
             <Param name="regex" value="^f$"/><Param name="replace" value="female"/>
           </TransformInput>
       </TransformRule><TransformRule name="worksAt" targetProperty="http://fuhsen/worksAt">
-        <Input id="unnamed_458" path="/professional_experience/primary_company/name"/>
-      </TransformRule>
-        <Outputs>
-          <Output id="CMEM"></Output>
-        </Outputs>
+        <Input id="unnamed_1077" path="/professional_experience/primary_company/name"/>
+      </TransformRule><Outputs>
+        <Output id="CMEM"></Output>
+      </Outputs>
       </TransformSpec>

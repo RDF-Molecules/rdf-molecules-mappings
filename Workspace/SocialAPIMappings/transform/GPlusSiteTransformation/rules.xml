@@ -1,33 +1,37 @@
 <TransformSpec>
         <TransformRule name="searchableEntity" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_395" function="constantUri">
+        <TransformInput id="unnamed_699" function="constantUri">
             
-            <Param name="value" value="http://vocab.cs.uni-bonn.de/fuhsen#SearchableEntity"/>
+            <Param name="value" value="http://vocab.lidakra.de/fuhsen#SearchableEntity"/>
           </TransformInput>
       </TransformRule><TransformRule name="agent" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_397" function="constantUri">
+        <TransformInput id="unnamed_701" function="constantUri">
             
             <Param name="value" value="http://xmlns.com/foaf/0.1/Agent"/>
           </TransformInput>
       </TransformRule><TransformRule name="person" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_399" function="constantUri">
+        <TransformInput id="unnamed_703" function="constantUri">
             
             <Param name="value" value="http://xmlns.com/foaf/0.1/Organization"/>
           </TransformInput>
-      </TransformRule><TransformRule name="id" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#id">
-        <Input id="unnamed_401" path="/id"/>
+      </TransformRule><TransformRule name="id" targetProperty="http://vocab.lidakra.de/fuhsen#id">
+        <Input id="unnamed_705" path="/id"/>
       </TransformRule><TransformRule name="name" targetProperty="http://xmlns.com/foaf/0.1/name">
-        <Input id="unnamed_403" path="/displayName"/>
+        <Input id="unnamed_707" path="/displayName"/>
       </TransformRule><TransformRule name="tagline" targetProperty="http://www.w3.org/2000/01/rdf-schema#label">
-        <Input id="unnamed_405" path="/tagline"/>
+        <Input id="unnamed_709" path="/tagline"/>
       </TransformRule><TransformRule name="aboutMe" targetProperty="http://www.w3.org/2000/01/rdf-schema#comment">
-        <Input id="unnamed_407" path="/aboutMe"/>
+        <Input id="unnamed_711" path="/aboutMe"/>
       </TransformRule><TransformRule name="image" targetProperty="http://xmlns.com/foaf/0.1/img">
-        <Input id="unnamed_409" path="/image/url"/>
-      </TransformRule><TransformRule name="url" targetProperty="http://vocab.cs.uni-bonn.de/fuhsen#url">
-        <Input id="unnamed_411" path="/url"/>
-      </TransformRule>
-        <Outputs>
-          <Output id="CMEM"></Output>
-        </Outputs>
+        <Input id="unnamed_713" path="/image/url"/>
+      </TransformRule><TransformRule name="url" targetProperty="http://vocab.lidakra.de/fuhsen#url">
+        <Input id="unnamed_715" path="/url"/>
+      </TransformRule><TransformRule name="source" targetProperty="http://vocab.lidakra.de/fuhsen#source">
+        <TransformInput id="constant1" function="constant">
+            
+            <Param name="value" value="Google+"/>
+          </TransformInput>
+      </TransformRule><Outputs>
+        <Output id="CMEM"></Output>
+      </Outputs>
       </TransformSpec>
