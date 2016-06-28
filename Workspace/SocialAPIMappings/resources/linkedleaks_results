@@ -1,0 +1,374 @@
+{
+  "head" : {
+    "vars" : [
+      "node_id",
+      "node",
+      "type",
+      "name",
+      "countries",
+      "address",
+      "company_type",
+      "company",
+      "jurisdiction_description",
+      "note",
+      "original_name",
+      "service_provider",
+      "status",
+      "valid_until"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "node" : {
+          "type" : "uri",
+          "value" : "http://data.ontotext.com/resource/leaks/entity-10114867"
+        },
+        "address" : {
+          "type" : "literal",
+          "value" : "SELECT SPAIN LIMITED AKARA BLDG.; 24 DE CASTRO STREET WICKHAMS CAY I; P. O. BOX 3136 ROAD TOWN; TORTOLA  BRITISH VIRGIN ISLANDS"
+        },
+        "valid_until" : {
+          "type" : "literal",
+          "value" : "The Panama Papers data is current through 2015"
+        },
+        "original_name" : {
+          "type" : "literal",
+          "value" : "SELECT SPAIN LIMITED"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "SELECT SPAIN LIMITED"
+        },
+        "service_provider" : {
+          "type" : "literal",
+          "value" : "Mossack Fonseca"
+        },
+        "countries" : {
+          "type" : "literal",
+          "value" : "Virgin Islands, British"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://data.ontotext.com/resource/leak/Entity"
+        },
+        "jurisdiction_description" : {
+          "type" : "literal",
+          "value" : "British Virgin Islands"
+        },
+        "node_id" : {
+          "type" : "literal",
+          "value" : "10114867"
+        },
+        "status" : {
+          "type" : "literal",
+          "value" : "Inactivated"
+        }
+      },
+      {
+        "node" : {
+          "type" : "uri",
+          "value" : "http://data.ontotext.com/resource/leaks/entity-10074882"
+        },
+        "address" : {
+          "type" : "literal",
+          "value" : "MOSSACK FONSECA & CO. (GENEVA) S.A. 4, RUE MICHELI-DU-CREST 1205 GENEVA SWITZERLAND"
+        },
+        "valid_until" : {
+          "type" : "literal",
+          "value" : "The Panama Papers data is current through 2015"
+        },
+        "original_name" : {
+          "type" : "literal",
+          "value" : "JILLY SPAIN LIMITED"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "JILLY SPAIN LIMITED"
+        },
+        "service_provider" : {
+          "type" : "literal",
+          "value" : "Mossack Fonseca"
+        },
+        "countries" : {
+          "type" : "literal",
+          "value" : "Switzerland"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://data.ontotext.com/resource/leak/Entity"
+        },
+        "jurisdiction_description" : {
+          "type" : "literal",
+          "value" : "British Virgin Islands"
+        },
+        "node_id" : {
+          "type" : "literal",
+          "value" : "10074882"
+        },
+        "status" : {
+          "type" : "literal",
+          "value" : "Defaulted"
+        }
+      },
+      {
+        "node" : {
+          "type" : "uri",
+          "value" : "http://data.ontotext.com/resource/leaks/entity-10042017"
+        },
+        "address" : {
+          "type" : "literal",
+          "value" : "GESTRUST S.A. CASE POSTALE 1507 1211   GENEVA 1 SWITZERLAND"
+        },
+        "valid_until" : {
+          "type" : "literal",
+          "value" : "The Panama Papers data is current through 2015"
+        },
+        "original_name" : {
+          "type" : "literal",
+          "value" : "SPAIN CONSULTING INC."
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "SPAIN CONSULTING INC."
+        },
+        "service_provider" : {
+          "type" : "literal",
+          "value" : "Mossack Fonseca"
+        },
+        "countries" : {
+          "type" : "literal",
+          "value" : "Switzerland"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://data.ontotext.com/resource/leak/Entity"
+        },
+        "jurisdiction_description" : {
+          "type" : "literal",
+          "value" : "Panama"
+        },
+        "node_id" : {
+          "type" : "literal",
+          "value" : "10042017"
+        },
+        "status" : {
+          "type" : "literal",
+          "value" : "Defaulted"
+        }
+      },
+      {
+        "node" : {
+          "type" : "uri",
+          "value" : "http://data.ontotext.com/resource/leaks/entity-10200476"
+        },
+        "address" : {
+          "type" : "literal",
+          "value" : "FREEPORT TRUST COMPANY LIMITED 4 ATHOL STREET DOUGLAS ISLE OF MAN IM1 1LD BRITISH ISLES"
+        },
+        "valid_until" : {
+          "type" : "literal",
+          "value" : "The Panama Papers data is current through 2015"
+        },
+        "original_name" : {
+          "type" : "literal",
+          "value" : "SELECT SPAIN LIMITED"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "SELECT SPAIN LIMITED"
+        },
+        "service_provider" : {
+          "type" : "literal",
+          "value" : "Mossack Fonseca"
+        },
+        "countries" : {
+          "type" : "literal",
+          "value" : "Isle of Man"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://data.ontotext.com/resource/leak/Entity"
+        },
+        "jurisdiction_description" : {
+          "type" : "literal",
+          "value" : "British Virgin Islands"
+        },
+        "node_id" : {
+          "type" : "literal",
+          "value" : "10200476"
+        },
+        "status" : {
+          "type" : "literal",
+          "value" : "Defaulted"
+        }
+      },
+      {
+        "node" : {
+          "type" : "uri",
+          "value" : "http://data.ontotext.com/resource/leaks/entity-10175455"
+        },
+        "address" : {
+          "type" : "literal",
+          "value" : "ETUDE REDING & FELTEN 109, R. CLAIR - CHENE L-4062 ESCH - SUR - ALZETTE LUXEMBOURG *S.I.*"
+        },
+        "valid_until" : {
+          "type" : "literal",
+          "value" : "The Panama Papers data is current through 2015"
+        },
+        "original_name" : {
+          "type" : "literal",
+          "value" : "BRIDGE TO SPAIN (INTERNATIONAL) S.A."
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "BRIDGE TO SPAIN (INTERNATIONAL) S.A."
+        },
+        "service_provider" : {
+          "type" : "literal",
+          "value" : "Mossack Fonseca"
+        },
+        "countries" : {
+          "type" : "literal",
+          "value" : "Luxembourg"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://data.ontotext.com/resource/leak/Entity"
+        },
+        "jurisdiction_description" : {
+          "type" : "literal",
+          "value" : "Bahamas"
+        },
+        "node_id" : {
+          "type" : "literal",
+          "value" : "10175455"
+        },
+        "status" : {
+          "type" : "literal",
+          "value" : "Defaulted"
+        }
+      },
+      {
+        "node" : {
+          "type" : "uri",
+          "value" : "http://data.ontotext.com/resource/leaks/entity-10187517"
+        },
+        "address" : {
+          "type" : "literal",
+          "value" : "PACOR SECOMA S.A.M. EST-OUEST 24 BOULEVARD PRINCESSE CHARLOTTE MC 98000 MONACO MONTE CARLO MONACO"
+        },
+        "valid_until" : {
+          "type" : "literal",
+          "value" : "The Panama Papers data is current through 2015"
+        },
+        "original_name" : {
+          "type" : "literal",
+          "value" : "HOLIDAY VILLAGE INTERNATIONAL SPAIN S.A."
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "HOLIDAY VILLAGE INTERNATIONAL SPAIN S.A."
+        },
+        "service_provider" : {
+          "type" : "literal",
+          "value" : "Mossack Fonseca"
+        },
+        "countries" : {
+          "type" : "literal",
+          "value" : "Monaco"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://data.ontotext.com/resource/leak/Entity"
+        },
+        "jurisdiction_description" : {
+          "type" : "literal",
+          "value" : "Panama"
+        },
+        "node_id" : {
+          "type" : "literal",
+          "value" : "10187517"
+        },
+        "status" : {
+          "type" : "literal",
+          "value" : "Dissolved"
+        }
+      },
+      {
+        "node" : {
+          "type" : "uri",
+          "value" : "http://data.ontotext.com/resource/leaks/officer-12062957"
+        },
+        "valid_until" : {
+          "type" : "literal",
+          "value" : "The Panama Papers data is current through 2015"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "CALATEL SPAIN, S.L."
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://data.ontotext.com/resource/leak/Officer"
+        },
+        "node_id" : {
+          "type" : "literal",
+          "value" : "12062957"
+        }
+      },
+      {
+        "node" : {
+          "type" : "uri",
+          "value" : "http://data.ontotext.com/resource/leaks/officer-4441"
+        },
+        "valid_until" : {
+          "type" : "literal",
+          "value" : "The Offshore Leaks data is current through 2010"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Mrs. Barbara Alison Spain-Radseresht"
+        },
+        "countries" : {
+          "type" : "literal",
+          "value" : "Not identified"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://data.ontotext.com/resource/leak/Officer"
+        },
+        "node_id" : {
+          "type" : "literal",
+          "value" : "4441"
+        }
+      },
+      {
+        "node" : {
+          "type" : "uri",
+          "value" : "http://data.ontotext.com/resource/leaks/officer-37406"
+        },
+        "valid_until" : {
+          "type" : "literal",
+          "value" : "The Offshore Leaks data is current through 2010"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "Mr. Mehrdad Radseresht & Mrs. Barbara Alison Spain-Radseresht (jointly)"
+        },
+        "countries" : {
+          "type" : "literal",
+          "value" : "Not identified"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://data.ontotext.com/resource/leak/Officer"
+        },
+        "node_id" : {
+          "type" : "literal",
+          "value" : "37406"
+        }
+      }
+    ]
+  }
+}

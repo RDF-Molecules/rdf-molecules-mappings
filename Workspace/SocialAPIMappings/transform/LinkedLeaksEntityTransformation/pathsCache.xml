@@ -1,0 +1,28 @@
+<EntityDescription>
+  <Type></Type>
+  <Restriction></Restriction>
+  <Paths>
+    <Path>/bindings/name/type</Path>
+    <Path>/bindings/name/value</Path>
+    <Path>/bindings/jurisdiction_description/type</Path>
+    <Path>/bindings/jurisdiction_description/value</Path>
+    <Path>/bindings/valid_until/type</Path>
+    <Path>/bindings/valid_until/value</Path>
+    <Path>/bindings/node_id/type</Path>
+    <Path>/bindings/node_id/value</Path>
+    <Path>/bindings/service_provider/type</Path>
+    <Path>/bindings/service_provider/value</Path>
+    <Path>/bindings/original_name/type</Path>
+    <Path>/bindings/original_name/value</Path>
+    <Path>/bindings/countries/type</Path>
+    <Path>/bindings/countries/value</Path>
+    <Path>/bindings/status/type</Path>
+    <Path>/bindings/status/value</Path>
+    <Path>/bindings/address/type</Path>
+    <Path>/bindings/address/value</Path>
+    <Path>/bindings/node/type</Path>
+    <Path>/bindings/node/value</Path>
+    <Path>/bindings/type/type</Path>
+    <Path>/bindings/type/value</Path>
+  </Paths>
+</EntityDescription>
