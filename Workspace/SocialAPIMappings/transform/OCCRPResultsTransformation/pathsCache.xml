@@ -1,0 +1,23 @@
+<EntityDescription>
+  <Type></Type>
+  <Restriction></Restriction>
+  <Paths>
+    <Path>/source_url</Path>
+    <Path>/file_name</Path>
+    <Path>/collection_id</Path>
+    <Path>/score</Path>
+    <Path>/data_url</Path>
+    <Path>/countries</Path>
+    <Path>/id</Path>
+    <Path>/languages</Path>
+    <Path>/api_url</Path>
+    <Path>/created_at</Path>
+    <Path>/records/total</Path>
+    <Path>/records/results</Path>
+    <Path>/title</Path>
+    <Path>/type</Path>
+    <Path>/updated_at</Path>
+    <Path>/summary</Path>
+    <Path>/extension</Path>
+  </Paths>
+</EntityDescription>

@@ -1,0 +1,46 @@
+<TransformSpec>
+        <TransformRule name="searchableEntity" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+        <TransformInput id="unnamed_1145" function="constantUri">
+            
+            <Param name="value" value="http://vocab.lidakra.de/fuhsen#SearchableEntity"/>
+          </TransformInput>
+      </TransformRule><TransformRule name="agent" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+        <TransformInput id="unnamed_1147" function="constantUri">
+            
+            <Param name="value" value="http://xmlns.com/foaf/0.1/Agent"/>
+          </TransformInput>
+      </TransformRule><TransformRule name="document" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+        <TransformInput id="unnamed_1149" function="constantUri">
+            
+            <Param name="value" value="http://xmlns.com/foaf/0.1/Document"/>
+          </TransformInput>
+      </TransformRule><TransformRule name="id" targetProperty="http://vocab.lidakra.de/fuhsen#id">
+        <Input id="unnamed_1151" path="/id"/>
+      </TransformRule><TransformRule name="api_url" targetProperty="http://vocab.lidakra.de/fuhsen#api_url">
+        <Input id="unnamed_1153" path="/api_url"/>
+      </TransformRule><TransformRule name="countries" targetProperty="http://vocab.lidakra.de/fuhsen#countries">
+        <Input id="unnamed_1155" path="/countries"/>
+      </TransformRule><TransformRule name="created_at" targetProperty="http://vocab.lidakra.de/fuhsen#created_at">
+        <Input id="unnamed_1157" path="/created_at"/>
+      </TransformRule><TransformRule name="data_url" targetProperty="http://vocab.lidakra.de/fuhsen#data_url">
+        <Input id="unnamed_1159" path="/data_url"/>
+      </TransformRule><TransformRule name="extension" targetProperty="http://vocab.lidakra.de/fuhsen#extension">
+        <Input id="unnamed_1161" path="/extension"/>
+      </TransformRule><TransformRule name="file_name" targetProperty="http://vocab.lidakra.de/fuhsen#file_name">
+        <Input id="unnamed_1163" path="/file_name"/>
+      </TransformRule><TransformRule name="languages" targetProperty="http://vocab.lidakra.de/fuhsen#languages">
+        <Input id="unnamed_1165" path="/languages"/>
+      </TransformRule><TransformRule name="source_url" targetProperty="http://vocab.lidakra.de/fuhsen#source_url">
+        <Input id="unnamed_1167" path="/source_url"/>
+      </TransformRule><TransformRule name="summary" targetProperty="http://vocab.lidakra.de/fuhsen#summary">
+        <Input id="unnamed_1169" path="/summary"/>
+      </TransformRule><TransformRule name="title" targetProperty="http://vocab.lidakra.de/fuhsen#title">
+        <Input id="unnamed_1171" path="/title"/>
+      </TransformRule><TransformRule name="type" targetProperty="http://vocab.lidakra.de/fuhsen#type">
+        <Input id="unnamed_1173" path="/type"/>
+      </TransformRule><TransformRule name="updated_at" targetProperty="http://vocab.lidakra.de/fuhsen#updated_at">
+        <Input id="unnamed_1175" path="/updated_at"/>
+      </TransformRule><Outputs>
+        <Output id="CMEM"></Output>
+      </Outputs>
+      </TransformSpec>
