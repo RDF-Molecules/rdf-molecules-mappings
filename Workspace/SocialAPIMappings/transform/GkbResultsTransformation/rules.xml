@@ -17,22 +17,22 @@
             <Param name="search" value="Person"/>
           </TransformInput>
       </TransformRule><TransformRule name="searchableEntity" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_418" function="constantUri">
+        <TransformInput id="unnamed_222" function="constantUri">
             
             <Param name="value" value="http://vocab.lidakra.de/fuhsen#SearchableEntity"/>
           </TransformInput>
       </TransformRule><TransformRule name="id" targetProperty="http://vocab.lidakra.de/fuhsen#id">
-        <Input id="unnamed_420" path="/result/@id"/>
+        <Input id="unnamed_224" path="/result/@id"/>
       </TransformRule><TransformRule name="name" targetProperty="http://xmlns.com/foaf/0.1/name">
-        <Input id="unnamed_422" path="/result/name"/>
+        <Input id="unnamed_226" path="/result/name"/>
       </TransformRule><TransformRule name="img" targetProperty="http://xmlns.com/foaf/0.1/img">
-        <Input id="unnamed_424" path="/result/image/contentUrl"/>
+        <Input id="unnamed_228" path="/result/image/contentUrl"/>
       </TransformRule><TransformRule name="url" targetProperty="http://vocab.lidakra.de/fuhsen#url">
-        <Input id="unnamed_426" path="/result/detailedDescription/url"/>
+        <Input id="unnamed_230" path="/result/detailedDescription/url"/>
       </TransformRule><TransformRule name="label" targetProperty="http://www.w3.org/2000/01/rdf-schema#label">
-        <Input id="unnamed_428" path="/result/description"/>
+        <Input id="unnamed_232" path="/result/description"/>
       </TransformRule><TransformRule name="description" targetProperty="http://www.w3.org/2000/01/rdf-schema#comment">
-        <Input id="unnamed_430" path="/result/detailedDescription/articleBody"/>
+        <Input id="unnamed_234" path="/result/detailedDescription/articleBody"/>
       </TransformRule><TransformRule name="source" targetProperty="http://vocab.lidakra.de/fuhsen#source">
         <TransformInput id="constant1" function="constant">
             

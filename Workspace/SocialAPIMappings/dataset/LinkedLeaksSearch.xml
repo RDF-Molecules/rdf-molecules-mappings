@@ -1,6 +1,6 @@
 <Dataset id="LinkedLeaksSearch" type="json">
-  <Param name="file" value="linkedleaks_results"/>
+  <Param name="file" value="linkedleaks_results.json"/>
   <Param name="basePath" value="results/bindings"/>
-  <Param name="uriPattern" value="http://vocab.cs.uni-bonn.de/fuhsen/search/entity/linkedleaks/{node_id/value}"/>
+  <Param name="uriPattern" value=""/>
   <Param name="charset" value="UTF8"/>
 </Dataset>
