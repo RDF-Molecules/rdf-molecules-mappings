@@ -4,8 +4,7 @@ This project contains mapping and linking tasks executed with Silk Link Discover
 General information about Silk can be found on the official [website](http://silkframework.org).
 
 ### Package the Silk Workbench
-Download SILK framework https://github.com/silk-framework/silk
-Compile the Silk Workbench executing the command
+Download SILK framework https://github.com/silk-framework/silk and compile the Silk Workbench executing the command
 
     $ sbt "project workbench" universal:package-zip-tarball
 
