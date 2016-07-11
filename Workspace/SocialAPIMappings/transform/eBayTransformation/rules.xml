@@ -1,53 +1,53 @@
 <TransformSpec>
         <TransformRule name="product" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_1267" function="constantUri">
+        <TransformInput id="unnamed_265" function="constantUri">
             
             <Param name="value" value="http://purl.org/goodrelations/v1#ProductOrService"/>
           </TransformInput>
       </TransformRule><TransformRule name="searchableEntity" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_1269" function="constantUri">
+        <TransformInput id="unnamed_267" function="constantUri">
             
             <Param name="value" value="http://vocab.lidakra.de/fuhsen#SearchableEntity"/>
           </TransformInput>
       </TransformRule><TransformRule name="uriMapping" targetProperty="">
-        <TransformInput id="unnamed_1276" function="concat">
-            <TransformInput id="unnamed_1274" function="constant">
+        <TransformInput id="unnamed_274" function="concat">
+            <TransformInput id="unnamed_272" function="constant">
             
             <Param name="value" value="http://vocab.lidakra.de/fuhsen/search/entity/"/>
-          </TransformInput><Input id="unnamed_1275" path="/itemId"/>
+          </TransformInput><Input id="unnamed_273" path="/itemId"/>
             <Param name="glue" value=""/>
           </TransformInput>
       </TransformRule><TransformRule name="id" targetProperty="http://vocab.lidakra.de/fuhsen#id">
-        <Input id="unnamed_1278" path="/itemId"/>
+        <Input id="unnamed_276" path="/itemId"/>
       </TransformRule><TransformRule name="name" targetProperty="http://purl.org/goodrelations/v1#description">
-        <Input id="unnamed_1280" path="/title"/>
+        <Input id="unnamed_278" path="/title"/>
       </TransformRule><TransformRule name="image" targetProperty="http://xmlns.com/foaf/0.1/img">
-        <Input id="unnamed_1282" path="/galleryURL"/>
+        <Input id="unnamed_280" path="/galleryURL"/>
       </TransformRule><TransformRule name="url" targetProperty="http://vocab.lidakra.de/fuhsen#url">
-        <Input id="unnamed_1284" path="/viewItemURL"/>
+        <Input id="unnamed_282" path="/viewItemURL"/>
       </TransformRule><TransformRule name="price" targetProperty="http://vocab.lidakra.de/fuhsen#price">
-        <Input id="unnamed_1286" path="/sellingStatus/currentPrice/__value__"/>
+        <Input id="unnamed_284" path="/sellingStatus/currentPrice/__value__"/>
       </TransformRule><TransformRule name="currency" targetProperty="http://vocab.lidakra.de/fuhsen#currency">
-        <Input id="unnamed_1288" path="/sellingStatus/currentPrice/@currencyId"/>
+        <Input id="unnamed_286" path="/sellingStatus/currentPrice/@currencyId"/>
       </TransformRule><TransformRule name="priceLabel" targetProperty="http://vocab.lidakra.de/fuhsen#priceLabel">
-        <TransformInput id="unnamed_1299" function="concat">
-            <TransformInput id="unnamed_1295" function="constant">
+        <TransformInput id="unnamed_297" function="concat">
+            <TransformInput id="unnamed_293" function="constant">
             
             <Param name="value" value=""/>
-          </TransformInput><Input id="unnamed_1296" path="/sellingStatus/currentPrice/@currencyId"/><TransformInput id="unnamed_1297" function="constant">
+          </TransformInput><Input id="unnamed_294" path="/sellingStatus/currentPrice/@currencyId"/><TransformInput id="unnamed_295" function="constant">
             
             <Param name="value" value=" "/>
-          </TransformInput><Input id="unnamed_1298" path="/sellingStatus/currentPrice/__value__"/>
+          </TransformInput><Input id="unnamed_296" path="/sellingStatus/currentPrice/__value__"/>
             <Param name="glue" value=""/>
           </TransformInput>
       </TransformRule><TransformRule name="location" targetProperty="http://vocab.lidakra.de/fuhsen#location">
-        <Input id="unnamed_1301" path="/location"/>
+        <Input id="unnamed_299" path="/location"/>
       </TransformRule><TransformRule name="postalCode" targetProperty="http://vocab.lidakra.de/fuhsen#postalCode">
-        <Input id="unnamed_1303" path="/postalCode"/>
+        <Input id="unnamed_301" path="/postalCode"/>
       </TransformRule><TransformRule name="country" targetProperty="http://vocab.lidakra.de/fuhsen#country">
-        <Input id="unnamed_1305" path="/country"/>
+        <Input id="unnamed_303" path="/country"/>
       </TransformRule><TransformRule name="condition" targetProperty="http://vocab.lidakra.de/fuhsen#condition">
-        <Input id="unnamed_1307" path="/condition/conditionDisplayName"/>
+        <Input id="unnamed_305" path="/condition/conditionDisplayName"/>
       </TransformRule><TransformRule name="source" targetProperty="http://vocab.lidakra.de/fuhsen#source">
         <TransformInput id="constant1" function="constant">
             
