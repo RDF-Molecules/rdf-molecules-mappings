@@ -1,8 +1,21 @@
 # SILK data integration workspace
 
-This project contains mapping and linking tasks executed with Silk Link Discovery Framework
+This project contains mapping and linking tasks executed with Silk Link Discovery Framework.
+Silk with a set of configurtation files is used to semantically lift data.
 General information about Silk can be found on the official [website](http://silkframework.org).
+The server can be started using sbt or from the docker image.
 
+## Run the Silk Workbench with sbt
+In order to start the workbench with the transformation rules, run the following command
+
+    $ sbt -Dworkspace.provider.file.dir=somefolder\data-integration-workspace\Workspace -Dhttp.port=9005 "project workbench" run
+
+Note: Port is specified for not having conflicts with default port 9000 which can be used for development purposes.
+
+## Run the Silk Workbench from the Docker image
+In order to deploy and run the server in a docker image you have to package the Silk workbench with the configuration files, 
+build the image from the docker file and then run it. The Docker engine must be installed in the host that will run the container.
+ 
 ### Package the Silk Workbench
 Download SILK framework https://github.com/silk-framework/silk and compile the Silk Workbench executing the command
 
@@ -26,9 +39,3 @@ From the container start the Silk Workbench in background
 
 Detach the container using the sequence Ctrl+P Ctrl+Q
 
-### Run the Silk Workbench with sbt 
-In order to start the workbench with the transformation rules, run the following command 
-
-    $ sbt -Dworkspace.provider.file.dir=somefolder\data-integration-workspace\Workspace -Dhttp.port=9005 "project workbench" run
-
-Note: Port is specified for not having conflicts with default port 9000 which can be used for development purposes.
