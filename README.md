@@ -11,7 +11,22 @@ Download SILK framework https://github.com/silk-framework/silk and compile the S
 A zipped tar file, silk-workbench-2.7.2.tgz, is created in the folder silk/silk-workbench/target/universal/. The tar file 
 contains the script to run the workbench. It must be copied in the docker image to be unzipped in a docker container
 
-### Run the Silk Workbench 
+### Create the Docker image
+An image of the project can be Built using the docker file. From the project root folder run the following command
+
+    $ docker build -t lidakra/silk:latest .
+
+Once the image has been created you can run a container with Silk and the configuration files for Fuhsen. Run the following command
+
+    $ docker run -i -t -p 9005:9005 lidakra/silk:latest /bin/bash
+
+From the container start the Silk Workbench in background
+
+    $ ./start_workbench.sh &
+
+Detach the container using the sequence Ctrl+P Ctrl+Q
+
+### Run the Silk Workbench with sbt 
 In order to start the workbench with the transformation rules, run the following command 
 
     $ sbt -Dworkspace.provider.file.dir=somefolder\data-integration-workspace\Workspace -Dhttp.port=9005 "project workbench" run
