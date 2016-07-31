@@ -1,0 +1,59 @@
+<TransformSpec id="XingPersonTransformation">
+        <TransformRule name="searchableEntity" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+        <TransformInput id="unnamed_119" function="constantUri">
+        
+        <Param name="value" value="http://vocab.lidakra.de/fuhsen#SearchableEntity"/>
+      </TransformInput>
+      </TransformRule><TransformRule name="agent" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+        <TransformInput id="unnamed_120" function="constantUri">
+        
+        <Param name="value" value="http://xmlns.com/foaf/0.1/Agent"/>
+      </TransformInput>
+      </TransformRule><TransformRule name="person" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+        <TransformInput id="unnamed_121" function="constantUri">
+        
+        <Param name="value" value="http://xmlns.com/foaf/0.1/Person"/>
+      </TransformInput>
+      </TransformRule><TransformRule name="id" targetProperty="http://vocab.lidakra.de/fuhsen#id">
+        <Input id="unnamed_122" path="/id"/>
+      </TransformRule><TransformRule name="display_name" targetProperty="http://xmlns.com/foaf/0.1/name">
+        <Input id="unnamed_123" path="/display_name"/>
+      </TransformRule><TransformRule name="first_name" targetProperty="http://xmlns.com/foaf/0.1/givenname">
+        <Input id="unnamed_124" path="/first_name"/>
+      </TransformRule><TransformRule name="last_name" targetProperty="http://xmlns.com/foaf/0.1/family_name">
+        <Input id="unnamed_125" path="/last_name"/>
+      </TransformRule><TransformRule name="photo_urls" targetProperty="http://xmlns.com/foaf/0.1/img">
+        <Input id="unnamed_126" path="/photo_urls/large"/>
+      </TransformRule><TransformRule name="permalink" targetProperty="http://vocab.lidakra.de/fuhsen#url">
+        <Input id="unnamed_127" path="/permalink"/>
+      </TransformRule><TransformRule name="academic_title" targetProperty="http://xmlns.com/foaf/0.1/title">
+        <Input id="unnamed_128" path="/academic_title"/>
+      </TransformRule><TransformRule name="employment_status" targetProperty="http://vocab.lidakra.de/fuhsen#employment_status">
+        <Input id="unnamed_129" path="/employment_status"/>
+      </TransformRule><TransformRule name="gender" targetProperty="http://xmlns.com/foaf/0.1/gender">
+        <Input id="unnamed_130" path="/gender"/>
+      </TransformRule><TransformRule name="birth_date" targetProperty="http://xmlns.com/foaf/0.1/birthday">
+        <Input id="unnamed_131" path="/birth_date"/>
+      </TransformRule><TransformRule name="active_email" targetProperty="http://vocab.lidakra.de/fuhsen#active_email">
+        <Input id="unnamed_132" path="/active_email"/>
+      </TransformRule><TransformRule name="languages" targetProperty="http://vocab.lidakra.de/fuhsen#languages">
+        <Input id="unnamed_133" path="/languages"/>
+      </TransformRule><TransformRule name="web_profiles" targetProperty="http://vocab.lidakra.de/fuhsen#web_profiles">
+        <Input id="unnamed_134" path="/web_profiles"/>
+      </TransformRule><TransformRule name="uri" targetProperty="">
+        <TransformInput id="unnamed_137" function="concat">
+        <TransformInput id="unnamed_135" function="constant">
+        
+        <Param name="value" value="http://vocab.lidakra.de/fuhsen/search/entity/"/>
+      </TransformInput><Input id="unnamed_136" path="/id"/>
+        <Param name="glue" value=""/>
+      </TransformInput>
+      </TransformRule><TransformRule name="source" targetProperty="http://vocab.lidakra.de/fuhsen#source">
+        <TransformInput id="constant1" function="constant">
+        
+        <Param name="value" value="Xing"/>
+      </TransformInput>
+      </TransformRule><Outputs>
+        <Output id="CMEM"></Output>
+      </Outputs>
+      </TransformSpec>

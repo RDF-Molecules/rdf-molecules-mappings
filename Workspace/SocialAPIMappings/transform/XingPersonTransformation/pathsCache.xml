@@ -1,0 +1,21 @@
+<EntityDescription>
+  <Type></Type>
+  <Restriction></Restriction>
+  <Paths>
+    <Path>/user/first_name</Path>
+    <Path>/user/photo_urls/large</Path>
+    <Path>/user/permalink</Path>
+    <Path>/user/academic_title</Path>
+    <Path>/user/display_name</Path>
+    <Path>/user/id</Path>
+    <Path>/user/languages/es</Path>
+    <Path>/user/last_name</Path>
+    <Path>/user/active_email</Path>
+    <Path>/user/interests</Path>
+    <Path>/user/employment_status</Path>
+    <Path>/user/birth_date/year</Path>
+    <Path>/user/birth_date/month</Path>
+    <Path>/user/birth_date/day</Path>
+    <Path>/user/gender</Path>
+  </Paths>
+</EntityDescription>
