@@ -1,0 +1,26 @@
+<EntityDescription>
+  <Type></Type>
+  <Restriction></Restriction>
+  <Paths>
+    <Path>/took</Path>
+    <Path>/timed_out</Path>
+    <Path>/_shards/total</Path>
+    <Path>/_shards/successful</Path>
+    <Path>/_shards/failed</Path>
+    <Path>/hits/total</Path>
+    <Path>/hits/max_score</Path>
+    <Path>/hits/hits/_score</Path>
+    <Path>/hits/hits/_type</Path>
+    <Path>/hits/hits/_source/digest</Path>
+    <Path>/hits/hits/_source/url</Path>
+    <Path>/hits/hits/_source/host</Path>
+    <Path>/hits/hits/_source/annotated</Path>
+    <Path>/hits/hits/_source/id</Path>
+    <Path>/hits/hits/_source/boost</Path>
+    <Path>/hits/hits/_source/tstamp</Path>
+    <Path>/hits/hits/_source/content</Path>
+    <Path>/hits/hits/_source/title</Path>
+    <Path>/hits/hits/_id</Path>
+    <Path>/hits/hits/_index</Path>
+  </Paths>
+</EntityDescription>
