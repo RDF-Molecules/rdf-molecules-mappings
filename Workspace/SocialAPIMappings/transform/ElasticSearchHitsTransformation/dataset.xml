@@ -1,0 +1,3 @@
+<SourceDataset dataSource="ElasticSearchHit" var="a" typeUri="">
+  <RestrictTo> </RestrictTo>
+</SourceDataset>
