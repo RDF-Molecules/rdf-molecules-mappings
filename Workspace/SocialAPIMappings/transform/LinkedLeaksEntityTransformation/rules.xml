@@ -1,11 +1,11 @@
 <TransformSpec id="LinkedLeaksEntityTransformation">
         <TransformRule name="searchableEntity" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_2435" function="constantUri">
+        <TransformInput id="unnamed_152" function="constantUri">
         
         <Param name="value" value="http://vocab.lidakra.de/fuhsen#SearchableEntity"/>
       </TransformInput>
       </TransformRule><TransformRule name="agent" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_2437" function="constantUri">
+        <TransformInput id="unnamed_153" function="constantUri">
         
         <Param name="value" value="http://xmlns.com/foaf/0.1/Agent"/>
       </TransformInput>
@@ -21,41 +21,41 @@
         <Param name="search" value="Officer"/>
       </TransformInput>
       </TransformRule><TransformRule name="uriMapping" targetProperty="">
-        <TransformInput id="unnamed_2444" function="concat">
-        <TransformInput id="unnamed_2442" function="constant">
+        <TransformInput id="unnamed_156" function="concat">
+        <TransformInput id="unnamed_154" function="constant">
         
         <Param name="value" value="http://vocab.lidakra.de/fuhsen/search/entity/linkedleaks/"/>
-      </TransformInput><Input id="unnamed_2443" path="/node_id/value"/>
+      </TransformInput><Input id="unnamed_155" path="/node_id/value"/>
         <Param name="glue" value=""/>
       </TransformInput>
       </TransformRule><TransformRule name="id" targetProperty="http://vocab.lidakra.de/fuhsen#id">
-        <Input id="unnamed_2446" path="/node_id/value"/>
+        <Input id="unnamed_157" path="/node_id/value"/>
       </TransformRule><TransformRule name="name" targetProperty="http://xmlns.com/foaf/0.1/name">
-        <Input id="unnamed_2448" path="/name/value"/>
+        <Input id="unnamed_158" path="/name/value"/>
       </TransformRule><TransformRule name="url" targetProperty="http://vocab.lidakra.de/fuhsen#url">
-        <Input id="unnamed_2450" path="/node/value"/>
+        <Input id="unnamed_159" path="/node/value"/>
       </TransformRule><TransformRule name="countries" targetProperty="http://vocab.lidakra.de/fuhsen#country">
-        <Input id="unnamed_2452" path="/countries/value"/>
+        <Input id="unnamed_160" path="/countries/value"/>
       </TransformRule><TransformRule name="type" targetProperty="http://vocab.lidakra.de/fuhsen#type">
-        <Input id="unnamed_2454" path="/type/value"/>
+        <Input id="unnamed_161" path="/type/value"/>
       </TransformRule><TransformRule name="original_name" targetProperty="http://vocab.lidakra.de/fuhsen#original_name">
-        <Input id="unnamed_2456" path="/original_name/value"/>
+        <Input id="unnamed_162" path="/original_name/value"/>
       </TransformRule><TransformRule name="address" targetProperty="http://vocab.lidakra.de/fuhsen#location">
-        <Input id="unnamed_2458" path="/address/value"/>
+        <Input id="unnamed_163" path="/address/value"/>
       </TransformRule><TransformRule name="company_type" targetProperty="http://www.w3.org/2000/01/rdf-schema#label">
-        <Input id="unnamed_2460" path="/company_type/value"/>
+        <Input id="unnamed_164" path="/company_type/value"/>
       </TransformRule><TransformRule name="company" targetProperty="http://vocab.lidakra.de/fuhsen#company">
-        <Input id="unnamed_2462" path="/company/value"/>
+        <Input id="unnamed_165" path="/company/value"/>
       </TransformRule><TransformRule name="jurisdiction_description" targetProperty="http://vocab.lidakra.de/fuhsen#jurisdiction_description">
-        <Input id="unnamed_2464" path="/jurisdiction_description/value"/>
+        <Input id="unnamed_166" path="/jurisdiction_description/value"/>
       </TransformRule><TransformRule name="note" targetProperty="http://www.w3.org/2000/01/rdf-schema#comment">
-        <Input id="unnamed_2466" path="/note/value"/>
+        <Input id="unnamed_167" path="/note/value"/>
       </TransformRule><TransformRule name="service_provider" targetProperty="http://vocab.lidakra.de/fuhsen#service_provider">
-        <Input id="unnamed_2468" path="/service_provider/value"/>
+        <Input id="unnamed_168" path="/service_provider/value"/>
       </TransformRule><TransformRule name="status" targetProperty="http://vocab.lidakra.de/fuhsen#status">
-        <Input id="unnamed_2470" path="/status/value"/>
+        <Input id="unnamed_169" path="/status/value"/>
       </TransformRule><TransformRule name="valid_until" targetProperty="http://vocab.lidakra.de/fuhsen#valid_until">
-        <Input id="unnamed_2472" path="/valid_until/value"/>
+        <Input id="unnamed_170" path="/valid_until/value"/>
       </TransformRule><TransformRule name="source" targetProperty="http://vocab.lidakra.de/fuhsen#source">
         <TransformInput id="constant1" function="constant">
         
