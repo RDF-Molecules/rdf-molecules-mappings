@@ -1,9 +1,10 @@
 {
   "users": {
-    "total": 4018,
+    "total": 4027,
     "items": [
       {
         "user": {
+          "id": "8213002_ef8e09",
           "display_name": "cristian camilo cardona",
           "first_name": "cristian camilo",
           "last_name": "cardona",
@@ -13,23 +14,82 @@
           "permalink": "https://www.xing.com/profile/cristiancamilo_cardona",
           "academic_title": null,
           "employment_status": null,
-          "gender": "f",
+          "gender": "m",
           "birth_date": {
-            "year": null,
-            "month": 9,
-            "day": 23
+            "year": 1977,
+            "month": 6,
+            "day": 27
           },
-          "active_email": "the-business-dude-xing-test-data@aol.com",
-          "interests": "golfing, tennis, reading, [test]",
+          "active_email": "max.mustermann-xing-test-data@xing.com",
+          "interests": "Fußball, Bergsteigen, [testdata]",
           "languages": {
             "es": null
           },
           "web_profiles": {},
-          "id": "8213002_ef8e09"
+          "page_name": "cristiancamilo_cardona",
+          "wants": "Software Development, Neue Kontakte im Bereich API-Entwicklung, [testdata]",
+          "haves": "Java EE, PHP, HTML, JavaScript, Scrum, Apache, [testdata]",
+          "top_haves": null,
+          "organisation_member": "Java Usergroup, [testdata]",
+          "private_address": {
+            "street": "Lange Reihe 12",
+            "zip_code": "22179",
+            "city": "Hamburg",
+            "province": "Hamburg",
+            "country": "Deutschland",
+            "email": "max.mustermann@gmx.de",
+            "fax": null,
+            "phone": "|40|123123123",
+            "mobile_phone": "49|172|12312323"
+          },
+          "business_address": {
+            "street": "Dammtorstraße 29-32",
+            "zip_code": "20354",
+            "city": "Hamburg",
+            "province": "Hamburg",
+            "country": "DE",
+            "email": "max.mustermann+testdata@xing.com",
+            "fax": "49|1805|61888899",
+            "phone": "49|1805|61888888",
+            "mobile_phone": "49|177|1234567"
+          },
+          "instant_messaging_accounts": {},
+          "professional_experience": {
+            "primary_company": {
+              "id": "9400007_941cfa",
+              "name": "XING AG [test]",
+              "url": "http://www.xing.com",
+              "tag": "XINGAG",
+              "title": "Software Engineer [test]",
+              "begin_date": "2010-01",
+              "end_date": null,
+              "description": null,
+              "discipline": {
+                "id": "123_abcdef",
+                "key": "IT_AND_SOFTWARE_DEVELOPMENT"
+              },
+              "until_now": true,
+              "industry": "COMPUTER_NETWORKING",
+              "industries": [
+                {
+                  "id": 90400,
+                  "localized_name": "Computer networks"
+                }
+              ],
+              "company_size": "201-500",
+              "career_level": "PROFESSIONAL_EXPERIENCED",
+              "form_of_employment": null
+            }
+          },
+          "educational_background": {
+            "degree": "Diplom",
+            "qualifications": []
+          }
         }
       },
       {
         "user": {
+          "id": "23344753_33c353",
           "display_name": "Camilo Bustos Lewin",
           "first_name": "Camilo",
           "last_name": "Bustos Lewin",
@@ -49,11 +109,70 @@
           "interests": "Fußball, Badminton, Laufen, Geschichte, [test]",
           "languages": {},
           "web_profiles": {},
-          "id": "23344753_33c353"
+          "page_name": "Camilo_BustosLewin",
+          "wants": "Neue Herausforderungen, nette Kontakte, Anregungen zum Job, [test]",
+          "haves": "Softwareentwicklung, Android, Google, G1, Adobe Flex, Java, Lucene, Perl, CPAN, Web-Frameworks, Catalyst, Plack, Template Toolkit, MySQL, fehlertolerante Suche, Internet-Architekturen, Skalierung / Skalierbarkeit, Optimierung, [test]",
+          "top_haves": null,
+          "organisation_member": null,
+          "private_address": {
+            "street": "Hamburger Strasse 459",
+            "zip_code": "20515",
+            "city": "Hamburg",
+            "province": "Hamburg",
+            "country": "Deutschland",
+            "email": "nick0815-xing-test-data@web.de",
+            "fax": null,
+            "phone": "||64222789",
+            "mobile_phone": null
+          },
+          "business_address": {
+            "street": "Reeperbahn 1",
+            "zip_code": "20115",
+            "city": "Hamburg",
+            "province": "Hamburg",
+            "country": "DE",
+            "email": "nick.mueller-xing-test-data@software-ag.de",
+            "fax": "49|40|56821148",
+            "phone": "49|40|56821147",
+            "mobile_phone": "49|174|1234567"
+          },
+          "instant_messaging_accounts": {},
+          "professional_experience": {
+            "primary_company": {
+              "id": "36555985_d48cca",
+              "name": "Software AG [test]",
+              "url": "http://www.software-ag.de",
+              "tag": "SOFTWAREAG",
+              "title": "Projektleiter [test]",
+              "begin_date": "2010-01",
+              "end_date": "2011-05",
+              "description": null,
+              "discipline": {
+                "id": "123_abcdef",
+                "key": "IT_AND_SOFTWARE_DEVELOPMENT"
+              },
+              "until_now": true,
+              "industry": "INFORMATION_TECHNOLOGY_AND_SERVICES",
+              "industries": [
+                {
+                  "id": 90000,
+                  "localized_name": "Internet and IT"
+                }
+              ],
+              "company_size": "201-500",
+              "career_level": "PROFESSIONAL_EXPERIENCED",
+              "form_of_employment": null
+            }
+          },
+          "educational_background": {
+            "degree": null,
+            "qualifications": []
+          }
         }
       },
       {
         "user": {
+          "id": "10352393_921dd7",
           "display_name": "Juan Camilo Baron Merizalde",
           "first_name": "Juan Camilo",
           "last_name": "Baron Merizalde",
@@ -65,21 +184,80 @@
           "employment_status": null,
           "gender": "f",
           "birth_date": {
-            "year": 1984,
-            "month": 3,
-            "day": 12
+            "year": null,
+            "month": 9,
+            "day": 23
           },
-          "active_email": "anne123-xing-test-data@gmx.de",
-          "interests": "Tanzen, Schwimmen, Städtereisen, Malen, [test]",
+          "active_email": "the-business-dude-xing-test-data@aol.com",
+          "interests": "golfing, tennis, reading, [test]",
           "languages": {
             "es": null
           },
           "web_profiles": {},
-          "id": "10352393_921dd7"
+          "page_name": "JuanCamilo_BaronMerizalde",
+          "wants": "business news, contacts, [test]",
+          "haves": "",
+          "top_haves": null,
+          "organisation_member": null,
+          "private_address": {
+            "street": "83/A, N G Acharya Mg",
+            "zip_code": "400071",
+            "city": "Mumbai",
+            "province": "Mumbai",
+            "country": "India",
+            "email": "the-business-dude-xing-test-data@aol.com",
+            "fax": null,
+            "phone": "91|4523|1234567",
+            "mobile_phone": null
+          },
+          "business_address": {
+            "street": null,
+            "zip_code": null,
+            "city": null,
+            "province": null,
+            "country": null,
+            "email": null,
+            "fax": null,
+            "phone": null,
+            "mobile_phone": null
+          },
+          "instant_messaging_accounts": {},
+          "professional_experience": {
+            "primary_company": {
+              "id": "12722420_2e8f1d",
+              "name": "American School of Bombay [test]",
+              "url": null,
+              "tag": "ITSOLUTIONS",
+              "title": "Teacher [test]",
+              "begin_date": "2008-03",
+              "end_date": null,
+              "description": null,
+              "discipline": {
+                "id": "789_abcdef",
+                "key": "TEACHING_R_AND_D"
+              },
+              "until_now": true,
+              "industry": "EDUCATION",
+              "industries": [
+                {
+                  "id": 200000,
+                  "localized_name": "Education and science"
+                }
+              ],
+              "company_size": "201-500",
+              "career_level": "PROFESSIONAL_EXPERIENCED",
+              "form_of_employment": null
+            }
+          },
+          "educational_background": {
+            "degree": null,
+            "qualifications": []
+          }
         }
       },
       {
         "user": {
+          "id": "13709368_d08552",
           "display_name": "Camilo Chaves",
           "first_name": "Camilo",
           "last_name": "Chaves",
@@ -87,89 +265,6 @@
             "large": "https://www.xing.com/image/6_0_b_27bdd812d_13709368_2/camilo-chaves-foto.140x185.jpg"
           },
           "permalink": "https://www.xing.com/profile/Camilo_Chaves",
-          "academic_title": null,
-          "employment_status": null,
-          "gender": "m",
-          "birth_date": {
-            "year": 1981,
-            "month": 1,
-            "day": 1
-          },
-          "active_email": "codemonkey12345-xing-test-data@googlemail.de",
-          "interests": "ruby, programming languages, web development, contracting, europe, france, travel, [test]",
-          "languages": {
-            "es": null,
-            "en": "BASIC",
-            "de": "NATIVE"
-          },
-          "web_profiles": {
-            "facebook": null
-          },
-          "id": "13709368_d08552"
-        }
-      },
-      {
-        "user": {
-          "display_name": "Camilo F. Guzmán Heim",
-          "first_name": "Camilo F.",
-          "last_name": "Guzmán Heim",
-          "photo_urls": {
-            "large": "https://www.xing.com/image/4_e_8_a3a523e18_9791822_2/camilo-f-guzm%C3%A1n-heim-foto.140x185.jpg"
-          },
-          "permalink": "https://www.xing.com/profile/CamiloF_GuzmanHeim",
-          "academic_title": null,
-          "employment_status": null,
-          "gender": "m",
-          "birth_date": {
-            "year": 1981,
-            "month": 1,
-            "day": 1
-          },
-          "active_email": "codemonkey12345-xing-test-data@googlemail.de",
-          "interests": "ruby, programming languages, web development, contracting, europe, france, travel, [test]",
-          "languages": {
-            "es": null,
-            "en": "BASIC"
-          },
-          "web_profiles": {},
-          "id": "9791822_eb2c22"
-        }
-      },
-      {
-        "user": {
-          "display_name": "CAMILO HERNAN CUERVO AVENDAÑO",
-          "first_name": "CAMILO HERNAN",
-          "last_name": "CUERVO AVENDAÑO",
-          "photo_urls": {
-            "large": "https://www.xing.com/image/a_0_4_ea4ea9f9e_18401177_1/camilo-hernan-cuervo-avenda%C3%B1o-foto.140x185.jpg"
-          },
-          "permalink": "https://www.xing.com/profile/CAMILOHERNAN_CUERVOAVENDANO",
-          "academic_title": null,
-          "employment_status": null,
-          "gender": "m",
-          "birth_date": {
-            "year": 1977,
-            "month": 6,
-            "day": 27
-          },
-          "active_email": "max.mustermann-xing-test-data@xing.com",
-          "interests": "Fußball, Bergsteigen, [testdata]",
-          "languages": {
-            "es": null
-          },
-          "web_profiles": {},
-          "id": "18401177_7b3027"
-        }
-      },
-      {
-        "user": {
-          "display_name": "Camilo Garcia",
-          "first_name": "Camilo",
-          "last_name": "Garcia",
-          "photo_urls": {
-            "large": "https://www.xing.com/image/0_9_3_5df6d3b32_23617158_1/camilo-garcia-foto.140x185.jpg"
-          },
-          "permalink": "https://www.xing.com/profile/Camilo_Garcia13",
           "academic_title": null,
           "employment_status": null,
           "gender": "f",
@@ -186,15 +281,330 @@
             "de": null
           },
           "web_profiles": {
-            "facebook": null,
-            "vimeo": null,
-            "other": null
+            "facebook": null
           },
-          "id": "23617158_8abba0"
+          "page_name": "Camilo_Chaves",
+          "wants": "business news, contacts, [test]",
+          "haves": "",
+          "top_haves": null,
+          "organisation_member": null,
+          "private_address": {
+            "street": "83/A, N G Acharya Mg",
+            "zip_code": "400071",
+            "city": "Mumbai",
+            "province": "Mumbai",
+            "country": "India",
+            "email": "the-business-dude-xing-test-data@aol.com",
+            "fax": null,
+            "phone": "91|4523|1234567",
+            "mobile_phone": null
+          },
+          "business_address": {
+            "street": null,
+            "zip_code": null,
+            "city": null,
+            "province": null,
+            "country": null,
+            "email": null,
+            "fax": null,
+            "phone": null,
+            "mobile_phone": null
+          },
+          "instant_messaging_accounts": {},
+          "professional_experience": {
+            "primary_company": {
+              "id": null,
+              "name": "American School of Bombay [test]",
+              "url": null,
+              "tag": "ITSOLUTIONS",
+              "title": "Teacher [test]",
+              "begin_date": "2008-03",
+              "end_date": null,
+              "description": null,
+              "discipline": {
+                "id": "789_abcdef",
+                "key": "TEACHING_R_AND_D"
+              },
+              "until_now": true,
+              "industry": "EDUCATION",
+              "industries": [
+                {
+                  "id": 200000,
+                  "localized_name": "Education and science"
+                }
+              ],
+              "company_size": "201-500",
+              "career_level": "PROFESSIONAL_EXPERIENCED",
+              "form_of_employment": null
+            }
+          },
+          "educational_background": {
+            "degree": null,
+            "qualifications": []
+          }
         }
       },
       {
         "user": {
+          "id": "9791822_eb2c22",
+          "display_name": "Camilo F. Guzmán Heim",
+          "first_name": "Camilo F.",
+          "last_name": "Guzmán Heim",
+          "photo_urls": {
+            "large": "https://www.xing.com/image/4_e_8_a3a523e18_9791822_2/camilo-f-guzm%C3%A1n-heim-foto.140x185.jpg"
+          },
+          "permalink": "https://www.xing.com/profile/CamiloF_GuzmanHeim",
+          "academic_title": null,
+          "employment_status": null,
+          "gender": "f",
+          "birth_date": {
+            "year": 1984,
+            "month": 3,
+            "day": 12
+          },
+          "active_email": "anne123-xing-test-data@gmx.de",
+          "interests": "Tanzen, Schwimmen, Städtereisen, Malen, [test]",
+          "languages": {
+            "es": null,
+            "en": "BASIC"
+          },
+          "web_profiles": {},
+          "page_name": "CamiloF_GuzmanHeim",
+          "wants": "Alte und neue Bekannte finden, [test]",
+          "haves": "Organisationstalent; Engagement; Verantwortungsbewusstesein und Sorgfalt; Überzeugungs- und Kommunikationsstärke, [test]",
+          "top_haves": null,
+          "organisation_member": null,
+          "private_address": {
+            "street": "Altonaer Poststrasse 128b",
+            "zip_code": "20789",
+            "city": "Hamburg",
+            "province": "Hamburg",
+            "country": "Deutschland",
+            "email": "anne123-xing-test-data@gmx.de",
+            "fax": null,
+            "phone": "||64222789",
+            "mobile_phone": null
+          },
+          "business_address": {
+            "street": "Mönckebergstrasse 72",
+            "zip_code": "20115",
+            "city": "Hamburg",
+            "province": "Hamburg",
+            "country": "DE",
+            "email": "anne.meier-xing-test-data@saturn.de",
+            "fax": null,
+            "phone": "49|40|56821147",
+            "mobile_phone": "49|174|1234567"
+          },
+          "instant_messaging_accounts": {},
+          "professional_experience": {
+            "primary_company": {
+              "id": "11801910_caf63b",
+              "name": "Saturn Hamburg [test]",
+              "url": "http://www.saturn.de",
+              "tag": "SATURN",
+              "title": "Bereichsleiterin [test]",
+              "begin_date": "2005-01",
+              "end_date": null,
+              "description": null,
+              "discipline": {
+                "id": "456_abcdef",
+                "key": "CUSTOMER_SERVICE"
+              },
+              "until_now": true,
+              "industry": "RETAIL",
+              "industries": [
+                {
+                  "id": 21200,
+                  "localized_name": "Retail"
+                }
+              ],
+              "company_size": "201-500",
+              "career_level": "PROFESSIONAL_EXPERIENCED",
+              "form_of_employment": null
+            }
+          },
+          "educational_background": {
+            "degree": null,
+            "qualifications": []
+          }
+        }
+      },
+      {
+        "user": {
+          "id": "18401177_7b3027",
+          "display_name": "CAMILO HERNAN CUERVO AVENDAÑO",
+          "first_name": "CAMILO HERNAN",
+          "last_name": "CUERVO AVENDAÑO",
+          "photo_urls": {
+            "large": "https://www.xing.com/image/a_0_4_ea4ea9f9e_18401177_1/camilo-hernan-cuervo-avenda%C3%B1o-foto.140x185.jpg"
+          },
+          "permalink": "https://www.xing.com/profile/CAMILOHERNAN_CUERVOAVENDANO",
+          "academic_title": null,
+          "employment_status": null,
+          "gender": "m",
+          "birth_date": {
+            "year": 1979,
+            "month": 12,
+            "day": 5
+          },
+          "active_email": "nick0815-xing-test-data@web.de",
+          "interests": "Fußball, Badminton, Laufen, Geschichte, [test]",
+          "languages": {
+            "es": null
+          },
+          "web_profiles": {},
+          "page_name": "CAMILOHERNAN_CUERVOAVENDANO",
+          "wants": "Neue Herausforderungen, nette Kontakte, Anregungen zum Job, [test]",
+          "haves": "Softwareentwicklung, Android, Google, G1, Adobe Flex, Java, Lucene, Perl, CPAN, Web-Frameworks, Catalyst, Plack, Template Toolkit, MySQL, fehlertolerante Suche, Internet-Architekturen, Skalierung / Skalierbarkeit, Optimierung, [test]",
+          "top_haves": null,
+          "organisation_member": null,
+          "private_address": {
+            "street": "Hamburger Strasse 459",
+            "zip_code": "20515",
+            "city": "Hamburg",
+            "province": "Hamburg",
+            "country": "Deutschland",
+            "email": "nick0815-xing-test-data@web.de",
+            "fax": null,
+            "phone": "||64222789",
+            "mobile_phone": null
+          },
+          "business_address": {
+            "street": "Reeperbahn 1",
+            "zip_code": "20115",
+            "city": "Hamburg",
+            "province": "Hamburg",
+            "country": "DE",
+            "email": "nick.mueller-xing-test-data@software-ag.de",
+            "fax": "49|40|56821148",
+            "phone": "49|40|56821147",
+            "mobile_phone": "49|174|1234567"
+          },
+          "instant_messaging_accounts": {},
+          "professional_experience": {
+            "primary_company": {
+              "id": "25697419_a1106c",
+              "name": "Software AG [test]",
+              "url": "http://www.software-ag.de",
+              "tag": "SOFTWAREAG",
+              "title": "Projektleiter [test]",
+              "begin_date": "2010-01",
+              "end_date": "2011-05",
+              "description": null,
+              "discipline": {
+                "id": "123_abcdef",
+                "key": "IT_AND_SOFTWARE_DEVELOPMENT"
+              },
+              "until_now": true,
+              "industry": "INFORMATION_TECHNOLOGY_AND_SERVICES",
+              "industries": [
+                {
+                  "id": 90000,
+                  "localized_name": "Internet and IT"
+                }
+              ],
+              "company_size": "201-500",
+              "career_level": "PROFESSIONAL_EXPERIENCED",
+              "form_of_employment": null
+            }
+          },
+          "educational_background": {
+            "degree": null,
+            "qualifications": []
+          }
+        }
+      },
+      {
+        "user": {
+          "id": "12301266_b8e9ac",
+          "display_name": "Camilo Berton",
+          "first_name": "Camilo",
+          "last_name": "Berton",
+          "photo_urls": {
+            "large": "https://www.xing.com/image/a_8_c_34c7f8a49_12301266_2/camilo-berton-foto.140x185.jpg"
+          },
+          "permalink": "https://www.xing.com/profile/Camilo_Berton",
+          "academic_title": null,
+          "employment_status": null,
+          "gender": "m",
+          "birth_date": {
+            "year": 1979,
+            "month": 12,
+            "day": 5
+          },
+          "active_email": "nick0815-xing-test-data@web.de",
+          "interests": "Fußball, Badminton, Laufen, Geschichte, [test]",
+          "languages": {
+            "es": null
+          },
+          "web_profiles": {
+            "facebook": null
+          },
+          "page_name": "Camilo_Berton",
+          "wants": "Neue Herausforderungen, nette Kontakte, Anregungen zum Job, [test]",
+          "haves": "Softwareentwicklung, Android, Google, G1, Adobe Flex, Java, Lucene, Perl, CPAN, Web-Frameworks, Catalyst, Plack, Template Toolkit, MySQL, fehlertolerante Suche, Internet-Architekturen, Skalierung / Skalierbarkeit, Optimierung, [test]",
+          "top_haves": null,
+          "organisation_member": null,
+          "private_address": {
+            "street": "Hamburger Strasse 459",
+            "zip_code": "20515",
+            "city": "Hamburg",
+            "province": "Hamburg",
+            "country": "Deutschland",
+            "email": "nick0815-xing-test-data@web.de",
+            "fax": null,
+            "phone": "||64222789",
+            "mobile_phone": null
+          },
+          "business_address": {
+            "street": "Reeperbahn 1",
+            "zip_code": "20115",
+            "city": "Hamburg",
+            "province": "Hamburg",
+            "country": "DE",
+            "email": "nick.mueller-xing-test-data@software-ag.de",
+            "fax": "49|40|56821148",
+            "phone": "49|40|56821147",
+            "mobile_phone": "49|174|1234567"
+          },
+          "instant_messaging_accounts": {},
+          "professional_experience": {
+            "primary_company": {
+              "id": "16630090_5666f8",
+              "name": "Software AG [test]",
+              "url": "http://www.software-ag.de",
+              "tag": "SOFTWAREAG",
+              "title": "Projektleiter [test]",
+              "begin_date": "2010-01",
+              "end_date": "2011-05",
+              "description": null,
+              "discipline": {
+                "id": "123_abcdef",
+                "key": "IT_AND_SOFTWARE_DEVELOPMENT"
+              },
+              "until_now": true,
+              "industry": "INFORMATION_TECHNOLOGY_AND_SERVICES",
+              "industries": [
+                {
+                  "id": 90000,
+                  "localized_name": "Internet and IT"
+                }
+              ],
+              "company_size": "201-500",
+              "career_level": "PROFESSIONAL_EXPERIENCED",
+              "form_of_employment": null
+            }
+          },
+          "educational_background": {
+            "degree": null,
+            "qualifications": []
+          }
+        }
+      },
+      {
+        "user": {
+          "id": "9795881_1203dc",
           "display_name": "Camilo Arévalo",
           "first_name": "Camilo",
           "last_name": "Arévalo",
@@ -206,12 +616,12 @@
           "employment_status": null,
           "gender": "m",
           "birth_date": {
-            "year": 1979,
-            "month": 12,
-            "day": 5
+            "year": 1981,
+            "month": 1,
+            "day": 1
           },
-          "active_email": "nick0815-xing-test-data@web.de",
-          "interests": "Fußball, Badminton, Laufen, Geschichte, [test]",
+          "active_email": "codemonkey12345-xing-test-data@googlemail.de",
+          "interests": "ruby, programming languages, web development, contracting, europe, france, travel, [test]",
           "languages": {
             "es": null,
             "fr": null,
@@ -219,11 +629,70 @@
             "it": null
           },
           "web_profiles": {},
-          "id": "9795881_1203dc"
+          "page_name": "Camilo_Arevalo",
+          "wants": "Neue Herausforderungen, nette Kontakte, Anregungen zum Job, [test]",
+          "haves": "Webdesign, Webentwicklung, Webstandards, Frontend, Grafikdesign, Photoshop, Illustrator, Screendesign, Barrierefreiheit, Usability, HTML5, XHTML, XML, CSS, CSS3, JavaScript, jQuery, PHP, SEO, [test]",
+          "top_haves": null,
+          "organisation_member": null,
+          "private_address": {
+            "street": "Bachstrasse 25",
+            "zip_code": "20515",
+            "city": "Hamburg",
+            "province": "Hamburg",
+            "country": "Deutschland",
+            "email": "codemonkey12345-xing-test-data@googlemail.de",
+            "fax": null,
+            "phone": "||1234567",
+            "mobile_phone": null
+          },
+          "business_address": {
+            "street": "Grindelalle 12",
+            "zip_code": "20115",
+            "city": "Hamburg",
+            "province": "Hamburg",
+            "country": "DE",
+            "email": "sebastian.schulze-xing-test-data@it-solutions.de",
+            "fax": "49|40|56821148",
+            "phone": "49|40|56821147",
+            "mobile_phone": "49|174|1234567"
+          },
+          "instant_messaging_accounts": {},
+          "professional_experience": {
+            "primary_company": {
+              "id": "11808440_a41de1",
+              "name": "IT Solutions [test]",
+              "url": "http://www.it-solutions.de",
+              "tag": "ITSOLUTIONS",
+              "title": "Projektleiter [test]",
+              "begin_date": "2010-01",
+              "end_date": null,
+              "description": null,
+              "discipline": {
+                "id": "123_abcdef",
+                "key": "IT_AND_SOFTWARE_DEVELOPMENT"
+              },
+              "until_now": true,
+              "industry": "INFORMATION_TECHNOLOGY_AND_SERVICES",
+              "industries": [
+                {
+                  "id": 90000,
+                  "localized_name": "Internet and IT"
+                }
+              ],
+              "company_size": "201-500",
+              "career_level": "PROFESSIONAL_EXPERIENCED",
+              "form_of_employment": null
+            }
+          },
+          "educational_background": {
+            "degree": null,
+            "qualifications": []
+          }
         }
       },
       {
         "user": {
+          "id": "8246487_333d65",
           "display_name": "Camilo Tovar",
           "first_name": "Camilo",
           "last_name": "Tovar",
@@ -235,12 +704,12 @@
           "employment_status": null,
           "gender": "m",
           "birth_date": {
-            "year": 1979,
-            "month": 12,
-            "day": 5
+            "year": 1977,
+            "month": 6,
+            "day": 27
           },
-          "active_email": "nick0815-xing-test-data@web.de",
-          "interests": "Fußball, Badminton, Laufen, Geschichte, [test]",
+          "active_email": "max.mustermann-xing-test-data@xing.com",
+          "interests": "Fußball, Bergsteigen, [testdata]",
           "languages": {
             "es": null,
             "fr": null
@@ -248,11 +717,70 @@
           "web_profiles": {
             "blog": null
           },
-          "id": "8246487_333d65"
+          "page_name": "Camilo_Tovar",
+          "wants": "Software Development, Neue Kontakte im Bereich API-Entwicklung, [testdata]",
+          "haves": "Java EE, PHP, HTML, JavaScript, Scrum, Apache, [testdata]",
+          "top_haves": null,
+          "organisation_member": "Java Usergroup, [testdata]",
+          "private_address": {
+            "street": "Lange Reihe 12",
+            "zip_code": "22179",
+            "city": "Hamburg",
+            "province": "Hamburg",
+            "country": "Deutschland",
+            "email": "max.mustermann@gmx.de",
+            "fax": null,
+            "phone": "|40|123123123",
+            "mobile_phone": "49|172|12312323"
+          },
+          "business_address": {
+            "street": "Dammtorstraße 29-32",
+            "zip_code": "20354",
+            "city": "Hamburg",
+            "province": "Hamburg",
+            "country": "DE",
+            "email": "max.mustermann+testdata@xing.com",
+            "fax": "49|1805|61888899",
+            "phone": "49|1805|61888888",
+            "mobile_phone": "49|177|1234567"
+          },
+          "instant_messaging_accounts": {},
+          "professional_experience": {
+            "primary_company": {
+              "id": "9463910_d83030",
+              "name": "XING AG [test]",
+              "url": "http://www.xing.com",
+              "tag": "XINGAG",
+              "title": "Software Engineer [test]",
+              "begin_date": "2010-01",
+              "end_date": null,
+              "description": null,
+              "discipline": {
+                "id": "123_abcdef",
+                "key": "IT_AND_SOFTWARE_DEVELOPMENT"
+              },
+              "until_now": true,
+              "industry": "COMPUTER_NETWORKING",
+              "industries": [
+                {
+                  "id": 90400,
+                  "localized_name": "Computer networks"
+                }
+              ],
+              "company_size": "201-500",
+              "career_level": "PROFESSIONAL_EXPERIENCED",
+              "form_of_employment": null
+            }
+          },
+          "educational_background": {
+            "degree": "Diplom",
+            "qualifications": []
+          }
         }
       },
       {
         "user": {
+          "id": "18697269_4d60f2",
           "display_name": "Diogo Camilo",
           "first_name": "Diogo",
           "last_name": "Camilo",
@@ -262,14 +790,14 @@
           "permalink": "https://www.xing.com/profile/Diogo_Camilo",
           "academic_title": null,
           "employment_status": null,
-          "gender": "m",
+          "gender": "f",
           "birth_date": {
-            "year": 1981,
-            "month": 1,
-            "day": 1
+            "year": 1984,
+            "month": 3,
+            "day": 12
           },
-          "active_email": "codemonkey12345-xing-test-data@googlemail.de",
-          "interests": "ruby, programming languages, web development, contracting, europe, france, travel, [test]",
+          "active_email": "anne123-xing-test-data@gmx.de",
+          "interests": "Tanzen, Schwimmen, Städtereisen, Malen, [test]",
           "languages": {
             "it": null,
             "pt": null,
@@ -278,7 +806,65 @@
             "fr": null
           },
           "web_profiles": {},
-          "id": "18697269_4d60f2"
+          "page_name": "Diogo_Camilo",
+          "wants": "Alte und neue Bekannte finden, [test]",
+          "haves": "Organisationstalent; Engagement; Verantwortungsbewusstesein und Sorgfalt; Überzeugungs- und Kommunikationsstärke, [test]",
+          "top_haves": null,
+          "organisation_member": null,
+          "private_address": {
+            "street": "Altonaer Poststrasse 128b",
+            "zip_code": "20789",
+            "city": "Hamburg",
+            "province": "Hamburg",
+            "country": "Deutschland",
+            "email": "anne123-xing-test-data@gmx.de",
+            "fax": null,
+            "phone": "||64222789",
+            "mobile_phone": null
+          },
+          "business_address": {
+            "street": "Mönckebergstrasse 72",
+            "zip_code": "20115",
+            "city": "Hamburg",
+            "province": "Hamburg",
+            "country": "DE",
+            "email": "anne.meier-xing-test-data@saturn.de",
+            "fax": null,
+            "phone": "49|40|56821147",
+            "mobile_phone": "49|174|1234567"
+          },
+          "instant_messaging_accounts": {},
+          "professional_experience": {
+            "primary_company": {
+              "id": "24927015_9f27b0",
+              "name": "Saturn Hamburg [test]",
+              "url": "http://www.saturn.de",
+              "tag": "SATURN",
+              "title": "Bereichsleiterin [test]",
+              "begin_date": "2005-01",
+              "end_date": null,
+              "description": null,
+              "discipline": {
+                "id": "456_abcdef",
+                "key": "CUSTOMER_SERVICE"
+              },
+              "until_now": true,
+              "industry": "RETAIL",
+              "industries": [
+                {
+                  "id": 21200,
+                  "localized_name": "Retail"
+                }
+              ],
+              "company_size": "201-500",
+              "career_level": "PROFESSIONAL_EXPERIENCED",
+              "form_of_employment": null
+            }
+          },
+          "educational_background": {
+            "degree": null,
+            "qualifications": []
+          }
         }
       }
     ]
