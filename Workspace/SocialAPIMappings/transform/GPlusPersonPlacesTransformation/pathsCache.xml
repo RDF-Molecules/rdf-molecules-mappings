@@ -1,0 +1,8 @@
+<EntityDescription>
+  <Type></Type>
+  <Restriction></Restriction>
+  <Paths>
+    <Path>/value</Path>
+    <Path>/primary</Path>
+  </Paths>
+</EntityDescription>

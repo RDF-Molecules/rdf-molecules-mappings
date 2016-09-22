@@ -1,17 +1,25 @@
 <TransformSpec>
         <TransformRule name="Organization" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_218" function="constantUri">
+        <TransformInput id="unnamed_1308" function="constantUri">
             
             <Param name="value" value="http://xmlns.com/foaf/0.1/Organization"/>
+          </TransformInput>
+      </TransformRule><TransformRule name="WorkOrSchool" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+        <TransformInput id="ifContains1" function="ifContains">
+            <Input id="sourcePath1" path="/type"/><TransformInput id="constant1" function="constant">
+            
+            <Param name="value" value="fs:School"/>
+          </TransformInput><TransformInput id="constant2" function="constant">
+            
+            <Param name="value" value="fs:Company"/>
+          </TransformInput>
+            <Param name="search" value="school"/>
           </TransformInput>
       </TransformRule><TransformRule name="uri1" targetProperty="">
         <TransformInput id="unnamed_117" function="concat">
             <TransformInput id="unnamed_113" function="constant">
             
             <Param name="value" value="http://vocab.cs.uni-bonn.de/fuhsen/search/entity/"/>
-          </TransformInput><Input id="unnamed_114" path="\organizations/id"/><TransformInput id="unnamed_115" function="constant">
-            
-            <Param name="value" value="/"/>
           </TransformInput><TransformInput id="urlEncode1" function="urlEncode">
             <TransformInput id="regexReplace1" function="regexReplace">
             <Input id="unnamed_116" path="/name"/>
@@ -22,9 +30,11 @@
             <Param name="glue" value=""/>
           </TransformInput>
       </TransformRule><TransformRule name="name" targetProperty="http://xmlns.com/foaf/0.1/name">
-        <Input id="unnamed_220" path="/name"/>
+        <Input id="unnamed_1310" path="/name"/>
       </TransformRule><TransformRule name="url" targetProperty="http://vocab.lidakra.de/fuhsen#url">
-        <Input id="unnamed_222" path="\organizations/url"/>
+        <Input id="unnamed_1312" path="\organizations/url"/>
+      </TransformRule><TransformRule name="primary" targetProperty="http://vocab.lidakra.de/fuhsen#isPrimary">
+        <Input id="unnamed_1314" path="/primary"/>
       </TransformRule><Outputs>
         <Output id="CMEM"></Output>
       </Outputs>
