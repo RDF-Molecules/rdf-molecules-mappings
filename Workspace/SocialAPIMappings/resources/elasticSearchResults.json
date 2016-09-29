@@ -24,7 +24,17 @@
           "boost": "1.0",
           "tstamp": "1970-01-01T00:00:00.000Z",
           "url": "http://xfnwyig7olypdq5r.onion/",
-          "annotated": true
+          "annotated": true,
+		  "annotations" : [
+			{ 	"entity-url": "http://ens.ontos.com/resource/Cicero+138697912" ,
+				"entity-type": "https://schema.org/Person",
+				"entity-name": "Cicero 138697912",
+				"entity-dbpedia": "" } ,
+			{ 	"entity-url": "http://ens.ontos.com/resource/Tor/14677508899072",
+				"entity-type": "https://schema.org/Product",
+				"entity-name": "Tor 2",
+				"entity-dbpedia": "" 
+			} ] 
         }
       },
       {
@@ -42,22 +52,16 @@
           "tstamp": "1970-01-01T00:00:00.000Z",
           "url": "http://hss3uro2hsxfogfq.onion/",
           "annotated": true,
-          "entity-url": [
-            "http://ens.ontos.com/resource/Cicero+13869791",
-            "http://ens.ontos.com/resource/Tor/1467750889907"
-          ],
-          "entity-dbpedia": [
-            "",
-            ""
-          ],
-          "entity-type": [
-            "https://schema.org/Person",
-            "https://schema.org/Product"
-          ],
-          "entity-name": [
-            "Cicero 13869791",
-            "Tor"
-          ]
+		  "annotations" : [
+			{ 	"entity-url": "http://ens.ontos.com/resource/Cicero+13869791" ,
+				"entity-type": "https://schema.org/Person",
+				"entity-name": "Cicero 13869791",
+				"entity-dbpedia": "" } ,
+			{ 	"entity-url": "http://ens.ontos.com/resource/Tor/1467750889907",
+				"entity-type": "https://schema.org/Product",
+				"entity-name": "Tor",
+				"entity-dbpedia": "" 
+			} ]          
         }
       }
     ]

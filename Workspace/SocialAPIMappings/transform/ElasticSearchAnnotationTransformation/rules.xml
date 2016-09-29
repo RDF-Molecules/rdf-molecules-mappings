@@ -1,0 +1,24 @@
+<TransformSpec>
+        <TransformRule name="annotation" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+        <TransformInput id="unnamed_125" function="constantUri">
+            
+            <Param name="value" value="http://vocab.lidakra.de/fuhsen#Annotation"/>
+          </TransformInput>
+      </TransformRule><TransformRule name="uri" targetProperty="">
+        <TransformInput id="unnamed_128" function="concat">
+            <TransformInput id="unnamed_126" function="constant">
+            
+            <Param name="value" value=""/>
+          </TransformInput><Input id="unnamed_127" path="/entity-url"/>
+            <Param name="glue" value=""/>
+          </TransformInput>
+      </TransformRule><TransformRule name="name" targetProperty="http://vocab.lidakra.de/fuhsen#entity-name">
+        <Input id="unnamed_129" path="/entity-name"/>
+      </TransformRule><TransformRule name="type" targetProperty="http://vocab.lidakra.de/fuhsen#entity-type">
+        <Input id="unnamed_130" path="/entity-type"/>
+      </TransformRule><TransformRule name="dbpedia" targetProperty="http://www.w3.org/2002/07/owl#sameAs">
+        <Input id="unnamed_131" path="/entity-dbpedia"/>
+      </TransformRule><Outputs>
+        <Output id="CMEM"></Output>
+      </Outputs>
+      </TransformSpec>

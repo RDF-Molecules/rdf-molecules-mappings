@@ -2,22 +2,18 @@
   <Type></Type>
   <Restriction></Restriction>
   <Paths>
-    <Path>/_id</Path>
-    <Path>/id</Path>
-    <Path>/_index</Path>
-    <Path>/_type</Path>
     <Path>/_score</Path>
-    <Path>/_source/content</Path>
-    <Path>/_source/title</Path>
-    <Path>/_source/url</Path>
-    <Path>/_source/entity-url</Path>
-    <Path>/_source/entity-name</Path>
-    <Path>/_source/entity-type</Path>
+    <Path>/_type</Path>
     <Path>/_source/digest</Path>
+    <Path>/_source/url</Path>
     <Path>/_source/host</Path>
     <Path>/_source/annotated</Path>
     <Path>/_source/id</Path>
     <Path>/_source/boost</Path>
     <Path>/_source/tstamp</Path>
+    <Path>/_source/content</Path>
+    <Path>/_source/title</Path>
+    <Path>/_id</Path>
+    <Path>/_index</Path>
   </Paths>
 </EntityDescription>

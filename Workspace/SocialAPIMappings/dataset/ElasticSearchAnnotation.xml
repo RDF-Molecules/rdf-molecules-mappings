@@ -1,0 +1,6 @@
+<Dataset id="ElasticSearchAnnotation" type="json">
+  <Param name="file" value="elasticSearchResults.json"/>
+  <Param name="basePath" value="hits/hits/_source/annotations"/>
+  <Param name="uriPattern" value=""/>
+  <Param name="charset" value="UTF8"/>
+</Dataset>

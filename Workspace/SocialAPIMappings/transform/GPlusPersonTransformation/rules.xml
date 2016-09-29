@@ -29,7 +29,6 @@
       </TransformRule><TransformRule name="personToOrg" targetProperty="http://vocab.lidakra.de/fuhsen#workedAt">
         <TransformInput id="unnamed_267" function="concat">
             <TransformInput id="unnamed_265" function="constant">
-            
             <Param name="value" value="http://vocab.cs.uni-bonn.de/fuhsen/search/entity/"/>
           </TransformInput><TransformInput id="urlEncode1" function="urlEncode">
             <TransformInput id="regexReplace1" function="regexReplace">

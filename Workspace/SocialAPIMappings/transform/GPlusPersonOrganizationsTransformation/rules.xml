@@ -1,6 +1,6 @@
 <TransformSpec>
         <TransformRule name="Organization" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_1308" function="constantUri">
+        <TransformInput id="unnamed_392" function="constantUri">
             
             <Param name="value" value="http://xmlns.com/foaf/0.1/Organization"/>
           </TransformInput>
@@ -30,11 +30,11 @@
             <Param name="glue" value=""/>
           </TransformInput>
       </TransformRule><TransformRule name="name" targetProperty="http://xmlns.com/foaf/0.1/name">
-        <Input id="unnamed_1310" path="/name"/>
+        <Input id="unnamed_394" path="/name"/>
       </TransformRule><TransformRule name="url" targetProperty="http://vocab.lidakra.de/fuhsen#url">
-        <Input id="unnamed_1312" path="\organizations/url"/>
+        <Input id="unnamed_396" path="\organizations/url"/>
       </TransformRule><TransformRule name="primary" targetProperty="http://vocab.lidakra.de/fuhsen#isPrimary">
-        <Input id="unnamed_1314" path="/primary"/>
+        <Input id="unnamed_398" path="/primary"/>
       </TransformRule><Outputs>
         <Output id="CMEM"></Output>
       </Outputs>
