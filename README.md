@@ -8,7 +8,7 @@ The server can be started using sbt or from the docker image.
 ## Run the Silk Workbench with sbt
 In order to start the workbench with the transformation rules, run the following command
 
-    $ sbt -Dworkspace.provider.file.dir=somefolder\data-integration-workspace\Workspace -Dhttp.port=9005 "project workbench" run
+    $ sbt -Dworkspace.provider.file.dir=somefolder\data-integration-workspace\Workspace -Dhttp.port=9005 -Dparser.text.maxLength=1024K "project workbench" run
 
 Note: Port is specified for not having conflicts with default port 9000 which can be used for development purposes.
 
