@@ -1,14 +1,15 @@
 # SILK data integration workspace
 
 This project contains mapping and linking tasks executed with Silk Link Discovery Framework.
-Silk with a set of configurtation files is used to semantically lift data.
-General information about Silk can be found on the official [website](http://silkframework.org).
+Silk with a set of configuration files is used to semantically lift data.
+General information about Silk can be found on the official [website](http://silkframework.org). Silk can be downloaded
+from the [Silk Github repository](https://github.com/silk-framework/silk).
 The server can be started using sbt or from the docker image.
 
 ## Run the Silk Workbench with sbt
-In order to start the workbench with the transformation rules, run the following command
+In order to start the workbench with the transformation rules, run the following command from the Silk root folder 
 
-    $ sbt -Dworkspace.provider.file.dir=somefolder\data-integration-workspace\Workspace -Dhttp.port=9005 -Dparser.text.maxLength=1024K "project workbench" run
+    $ sbt -Dworkspace.provider.file.dir=<data-integration-workspace path>/Workspace -Dhttp.port=9005 -Dparser.text.maxLength=1024K "project workbench" run
 
 Note: Port is specified for not having conflicts with default port 9000 which can be used for development purposes.
 
