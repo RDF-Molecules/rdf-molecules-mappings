@@ -32,7 +32,7 @@ An image of the project can be Built using the docker file. From the project roo
 
 Once the image has been created you can run a container with Silk and the configuration files for Fuhsen. Run the following command
 
-    $ docker run -i -t -p 9005:9005 lidakra/silk:latest /bin/bash
+    $ docker run -i -t -p 9005:9005 --name silk-data-integration lidakra/silk:latest /bin/bash
 
 From the container start the Silk Workbench in background
 
