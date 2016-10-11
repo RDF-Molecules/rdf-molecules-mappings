@@ -1,10 +1,10 @@
 # Dockerfile for data-integration-workspace
 # 1) Build an image using this docker file. Run the following docker command
-# $ docker build -t lidakra/silk:latest .
+#     $ docker build -t lidakra/silk:latest .
 # 2) Run a container with Silk and the configuration files for Fuhsen. Run the following docker command
-# $ docker run -i -t -p 9005:9005 lidakra/silk:latest /bin/bash
+#     $ docker run -i -t -p 9005:9005 lidakra/silk:latest /bin/bash
 # 3) Start the Silk Workbench in the container in background
-# $ ./start_workbench.sh &
+#     $ ./start_workbench.sh &
 # Detach the container using the sequence Ctrl+P Ctrl+Q
 
 # Pull base image

@@ -11,14 +11,14 @@ In order to start the workbench with the transformation rules, run the following
 
     $ sbt -Dworkspace.provider.file.dir=<data-integration-workspace path>/Workspace -Dhttp.port=9005 -Dparser.text.maxLength=1024K "project workbench" run
 
-Note: Port is specified for not having conflicts with default port 9000 which can be used for development purposes.
+Note: Port is specified to avoid conflicts with default port 9000 which can be used for development purposes.
 
 ## Run the Silk Workbench from the Docker image
 In order to deploy and run the server in a docker image you have to package the Silk workbench with the configuration files, 
 build the image from the docker file and then run it. The Docker engine must be installed in the host that will run the container.
  
 ### Package the Silk Workbench
-Download SILK framework https://github.com/silk-framework/silk and compile the Silk Workbench executing the command
+Clone the SILK framework from the [Silk Github repository](https://github.com/silk-framework/silk) and compile the Silk Workbench executing the command
 
     $ sbt "project workbench" universal:package-zip-tarball
 
