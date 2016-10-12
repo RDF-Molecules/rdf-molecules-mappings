@@ -24,6 +24,10 @@ RUN apt-get update && \
 # Define JAVA_HOME environment variable
 ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
 
+# Install vi for editing
+RUN apt-get update && \
+    apt-get install -y vim
+
 # Install Silk-Workbench 
 COPY silk-workbench-2.7.2.tgz /home/lidakra/
 WORKDIR /home/lidakra/
