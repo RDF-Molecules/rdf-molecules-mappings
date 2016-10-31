@@ -24,6 +24,12 @@ RUN apt-get update && \
 # Define JAVA_HOME environment variable
 ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
 
+# Install  network tools (ifconfig, netstat, ping, ip)
+RUN apt-get update && \
+    apt-get install -y net-tools && \
+    apt-get install -y iputils-ping && \
+    apt-get install -y iproute2
+
 # Install vi for editing
 RUN apt-get update && \
     apt-get install -y vim
