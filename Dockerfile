@@ -6,6 +6,8 @@
 # 3) Start the Silk Workbench in the container in background
 #     $ ./start_workbench.sh &
 # Detach the container using the sequence Ctrl+P Ctrl+Q
+# The container can also be started in detach mode executing the command
+# $ docker run -d -p 9005:9005 --name silk lidakra/silk:v1.0.0  
 
 # Pull base image
 FROM ubuntu:15.04
@@ -47,4 +49,4 @@ COPY start_workbench.sh /home/lidakra/silk-workbench-2.7.2/
 WORKDIR /home/lidakra/silk-workbench-2.7.2/
 RUN ["chmod", "u+x", "start_workbench.sh"]
 
-#CMD ./start_workbench.sh &
+CMD ./start_workbench.sh 
