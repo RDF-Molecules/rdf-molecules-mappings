@@ -7,7 +7,7 @@
 #     $ ./start_workbench.sh &
 # Detach the container using the sequence Ctrl+P Ctrl+Q
 # The container can also be started in detach mode executing the command
-# $ docker run -d -p 9005:9005 --name silk lidakra/silk:v1.0.0  
+# $ docker run -d -p 9005:9005 --network=fuhsen-net --name silk lidakra/silk:v1.0.0  
 
 # Pull base image
 FROM ubuntu:15.04
