@@ -6,10 +6,17 @@
 # 3) Start the Silk Workbench in the container in background
 #     $ ./start_workbench.sh &
 # Detach the container using the sequence Ctrl+P Ctrl+Q
+# The container can also be started in detach mode executing the command
+# $ docker run -d -p 9005:9005 --network=fuhsen-net --name silk lidakra/silk:v1.0.0  
 
 # Pull base image
 FROM ubuntu:15.04
 MAINTAINER Luigi Selmi <luigiselmi@gmail.com>
+
+RUN locale-gen en_US.UTF-8
+ENV LANG en_US.UTF-8
+ENV LANGUAGE en_US:en
+ENV LC_ALL en_US.UTF-8
 
 # Install Java 8.
 RUN apt-get update && \
@@ -23,6 +30,12 @@ RUN apt-get update && \
 
 # Define JAVA_HOME environment variable
 ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
+
+# Install  network tools (ifconfig, netstat, ping, ip)
+RUN apt-get update && \
+    apt-get install -y net-tools && \
+    apt-get install -y iputils-ping && \
+    apt-get install -y iproute2
 
 # Install vi for editing
 RUN apt-get update && \
@@ -41,4 +54,4 @@ COPY start_workbench.sh /home/lidakra/silk-workbench-2.7.2/
 WORKDIR /home/lidakra/silk-workbench-2.7.2/
 RUN ["chmod", "u+x", "start_workbench.sh"]
 
-#CMD ./start_workbench.sh &
+CMD ./start_workbench.sh 
