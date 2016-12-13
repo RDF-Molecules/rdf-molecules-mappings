@@ -1,41 +1,41 @@
 <TransformSpec id="OCCRPResultsTransformation">
         <TransformRule name="searchableEntity" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_491" function="constantUri">
+        <TransformInput id="generateType" function="constantUri">
         
         <Param name="value" value="http://vocab.lidakra.de/fuhsen#SearchableEntity"/>
       </TransformInput>
       </TransformRule><TransformRule name="agent" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_493" function="constantUri">
+        <TransformInput id="generateType" function="constantUri">
         
         <Param name="value" value="http://xmlns.com/foaf/0.1/Agent"/>
       </TransformInput>
       </TransformRule><TransformRule name="document" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_495" function="constantUri">
+        <TransformInput id="generateType" function="constantUri">
         
         <Param name="value" value="http://vocab.lidakra.de/fuhsen#Document"/>
       </TransformInput>
       </TransformRule><TransformRule name="id" targetProperty="http://vocab.lidakra.de/fuhsen#id">
-        <Input id="unnamed_497" path="/id"/>
+        <Input id="id" path="/id"/>
       </TransformRule><TransformRule name="api_url" targetProperty="http://vocab.lidakra.de/fuhsen#api_url">
-        <Input id="unnamed_499" path="/api_url"/>
+        <Input id="api_url" path="/api_url"/>
       </TransformRule><TransformRule name="countries" targetProperty="http://vocab.lidakra.de/fuhsen#country">
-        <Input id="unnamed_501" path="/countries"/>
+        <Input id="countries" path="/countries"/>
       </TransformRule><TransformRule name="created_at" targetProperty="http://vocab.lidakra.de/fuhsen#created_at">
-        <Input id="unnamed_503" path="/created_at"/>
+        <Input id="created_at" path="/created_at"/>
       </TransformRule><TransformRule name="data_url" targetProperty="http://vocab.lidakra.de/fuhsen#data_url">
-        <Input id="unnamed_505" path="/data_url"/>
+        <Input id="data_url" path="/data_url"/>
       </TransformRule><TransformRule name="extension" targetProperty="http://vocab.lidakra.de/fuhsen#extension">
         <TransformInput id="upperCase1" function="upperCase">
         <Input id="unnamed_348" path="/extension"/>
         
       </TransformInput>
       </TransformRule><TransformRule name="file_name" targetProperty="http://vocab.lidakra.de/fuhsen#file_name">
-        <Input id="unnamed_507" path="/file_name"/>
+        <Input id="file_name" path="/file_name"/>
       </TransformRule><TransformRule name="languages" targetProperty="http://vocab.lidakra.de/fuhsen#language">
-        <Input id="unnamed_509" path="/languages"/>
+        <Input id="languages" path="/languages"/>
       </TransformRule><TransformRule name="source_url" targetProperty="http://vocab.lidakra.de/fuhsen#url">
-        <Input id="unnamed_511" path="/source_url"/>
-      </TransformRule><TransformRule name="summary" targetProperty="http://www.w3.org/2000/01/rdf-schema#comment">
+        <Input id="source_url" path="/source_url"/>
+      </TransformRule><TransformRule name="summary" targetProperty="http://vocab.lidakra.de/fuhsen#comment">
         <TransformInput id="replace2" function="replace">
         <TransformInput id="replace1" function="replace">
         <TransformInput id="ifContains1" function="ifContains">
@@ -49,12 +49,12 @@
       </TransformInput>
         <Param name="search" value="&lt;/em&gt;"/><Param name="replace" value=""/>
       </TransformInput>
-      </TransformRule><TransformRule name="title" targetProperty="http://www.w3.org/2000/01/rdf-schema#label">
-        <Input id="unnamed_513" path="/title"/>
+      </TransformRule><TransformRule name="title" targetProperty="http://vocab.lidakra.de/fuhsen#label">
+        <Input id="title" path="/title"/>
       </TransformRule><TransformRule name="type" targetProperty="http://vocab.lidakra.de/fuhsen#type">
-        <Input id="unnamed_515" path="/type"/>
+        <Input id="type" path="/type"/>
       </TransformRule><TransformRule name="updated_at" targetProperty="http://vocab.lidakra.de/fuhsen#updated_at">
-        <Input id="unnamed_517" path="/updated_at"/>
+        <Input id="updated_at" path="/updated_at"/>
       </TransformRule><TransformRule name="source" targetProperty="http://vocab.lidakra.de/fuhsen#source">
         <TransformInput id="constant1" function="constant">
         
