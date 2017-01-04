@@ -1,23 +1,26 @@
 <TransformSpec>
         <TransformRule name="annotation" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_125" function="constantUri">
+        <TransformInput id="unnamed_543" function="constantUri">
             
             <Param name="value" value="http://vocab.lidakra.de/fuhsen#Annotation"/>
           </TransformInput>
       </TransformRule><TransformRule name="uri" targetProperty="">
-        <TransformInput id="unnamed_128" function="concat">
-            <TransformInput id="unnamed_126" function="constant">
+        <TransformInput id="unnamed_550" function="concat">
+            <TransformInput id="unnamed_548" function="constant">
             
             <Param name="value" value=""/>
-          </TransformInput><Input id="unnamed_127" path="/entity-url"/>
+          </TransformInput><Input id="unnamed_549" path="/entity-url"/>
             <Param name="glue" value=""/>
           </TransformInput>
-      </TransformRule><TransformRule name="name" targetProperty="http://vocab.lidakra.de/fuhsen#entity-name">
-        <Input id="unnamed_129" path="/entity-name"/>
+      </TransformRule><TransformRule name="name" targetProperty="http://vocab.lidakra.de/fuhsen#name">
+        <Input id="unnamed_552" path="/entity-name"/>
       </TransformRule><TransformRule name="type" targetProperty="http://vocab.lidakra.de/fuhsen#entity-type">
-        <Input id="unnamed_130" path="/entity-type"/>
+        <TransformInput id="replace1" function="replace">
+            <Input id="unnamed_554" path="/entity-type"/>
+            <Param name="search" value="https://schema.org/"/><Param name="replace" value=""/>
+          </TransformInput>
       </TransformRule><TransformRule name="dbpedia" targetProperty="http://www.w3.org/2002/07/owl#sameAs">
-        <Input id="unnamed_131" path="/entity-dbpedia"/>
+        <Input id="unnamed_556" path="/entity-dbpedia"/>
       </TransformRule><Outputs>
         <Output id="CMEM"></Output>
       </Outputs>
