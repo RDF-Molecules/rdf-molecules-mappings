@@ -1,4 +1,9 @@
 <TransformSpec id="XingGetPersonTransformation">
+        <SourceDataset dataSource="XingGetPerson" var="a" typeUri="">
+        <RestrictTo>
+          
+        </RestrictTo>
+      </SourceDataset>
         <TransformRule name="person" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
         <TransformInput id="generateType" function="constantUri">
         
@@ -37,7 +42,10 @@
       </TransformInput>
       </TransformRule><TransformRule name="worksAt" targetProperty="http://fuhsen/worksAt">
         <Input id="worksAt" path="/professional_experience/primary_company/name"/>
+      </TransformRule><TransformRule name="exact_matching" targetProperty="http://www.w3.org/2000/01/rdf-schema#label">
+        <Input id="exact_matching" path="/display_name"/>
       </TransformRule><Outputs>
         <Output id="CMEM"></Output>
       </Outputs>
+        <TargetVocabularies> </TargetVocabularies>
       </TransformSpec>

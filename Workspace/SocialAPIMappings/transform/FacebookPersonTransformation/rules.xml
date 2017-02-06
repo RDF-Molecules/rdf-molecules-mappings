@@ -1,4 +1,9 @@
 <TransformSpec id="FacebookPersonTransformation">
+        <SourceDataset dataSource="FacebookSearchPeople" var="a" typeUri="">
+        <RestrictTo>
+          
+        </RestrictTo>
+      </SourceDataset>
         <TransformRule name="searchableEntity" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
         <TransformInput id="generateType" function="constantUri">
         
@@ -31,7 +36,10 @@
         
         <Param name="value" value="Facebook"/>
       </TransformInput>
+      </TransformRule><TransformRule name="exact_matching" targetProperty="http://www.w3.org/2000/01/rdf-schema#label">
+        <Input id="exact_matching" path="/name"/>
       </TransformRule><Outputs>
         <Output id="CMEM"></Output>
       </Outputs>
+        <TargetVocabularies> </TargetVocabularies>
       </TransformSpec>

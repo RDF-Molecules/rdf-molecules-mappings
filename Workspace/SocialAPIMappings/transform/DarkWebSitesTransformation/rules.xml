@@ -1,54 +1,71 @@
-<TransformSpec>
+<TransformSpec id="DarkWebSitesTransformation">
+        <SourceDataset dataSource="DarkSites" var="a" typeUri="">
+        <RestrictTo>
+          
+        </RestrictTo>
+      </SourceDataset>
         <TransformRule name="website" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_750" function="constantUri">
-            
-            <Param name="value" value="http://xmlns.com/foaf/0.1/Document"/>
-          </TransformInput>
+        <TransformInput id="generateType" function="constantUri">
+        
+        <Param name="value" value="http://xmlns.com/foaf/0.1/Document"/>
+      </TransformInput>
       </TransformRule><TransformRule name="searchableEntity" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_752" function="constantUri">
-            
-            <Param name="value" value="http://vocab.lidakra.de/fuhsen#SearchableEntity"/>
-          </TransformInput>
+        <TransformInput id="generateType" function="constantUri">
+        
+        <Param name="value" value="http://vocab.lidakra.de/fuhsen#SearchableEntity"/>
+      </TransformInput>
       </TransformRule><TransformRule name="uriMapping" targetProperty="">
-        <TransformInput id="unnamed_759" function="concat">
-            <TransformInput id="unnamed_757" function="constant">
-            
-            <Param name="value" value="http://vocab.lidakra.de/fuhsen/search/entity/"/>
-          </TransformInput><Input id="unnamed_758" path="/@attributes/docId"/>
-            <Param name="glue" value=""/>
-          </TransformInput>
+        <TransformInput id="unnamed_212" function="concat">
+        <TransformInput id="constant0" function="constant">
+        
+        <Param name="value" value="http://vocab.lidakra.de/fuhsen/search/entity/"/>
+      </TransformInput><Input id="path1" path="/@attributes/docId"/>
+        <Param name="glue" value=""/>
+      </TransformInput>
       </TransformRule><TransformRule name="id" targetProperty="http://vocab.lidakra.de/fuhsen#id">
-        <Input id="unnamed_761" path="/@attributes/docId"/>
+        <Input id="id" path="/@attributes/docId"/>
       </TransformRule><TransformRule name="label" targetProperty="http://vocab.lidakra.de/fuhsen#label">
         <TransformInput id="replace2" function="replace">
-            <TransformInput id="replace1" function="replace">
-            <TransformInput id="getValueByIndex1" function="getValueByIndex">
-            <Input id="sourcePath1" path="/snippet"/>
-            <Param name="index" value="0"/><Param name="failIfNotFound" value="false"/>
-          </TransformInput>
-            <Param name="search" value="&lt;b&gt;"/><Param name="replace" value=""/>
-          </TransformInput>
-            <Param name="search" value="&lt;/b&gt;"/><Param name="replace" value=""/>
-          </TransformInput>
+        <TransformInput id="replace1" function="replace">
+        <TransformInput id="getValueByIndex1" function="getValueByIndex">
+        <Input id="sourcePath1" path="/snippet"/>
+        <Param name="index" value="0"/><Param name="failIfNotFound" value="false"/><Param name="emptyStringToEmptyResult" value="false"/>
+      </TransformInput>
+        <Param name="search" value="&lt;b&gt;"/><Param name="replace" value=""/>
+      </TransformInput>
+        <Param name="search" value="&lt;/b&gt;"/><Param name="replace" value=""/>
+      </TransformInput>
       </TransformRule><TransformRule name="url" targetProperty="http://vocab.lidakra.de/fuhsen#url">
         <TransformInput id="getValueByIndex1" function="getValueByIndex">
-            <Input id="unnamed_419" path="/field"/>
-            <Param name="index" value="0"/><Param name="failIfNotFound" value="false"/>
-          </TransformInput>
+        <Input id="unnamed_419" path="/field"/>
+        <Param name="index" value="0"/><Param name="failIfNotFound" value="false"/><Param name="emptyStringToEmptyResult" value="false"/>
+      </TransformInput>
       </TransformRule><TransformRule name="comment" targetProperty="http://vocab.lidakra.de/fuhsen#comment">
         <TransformInput id="replace1" function="replace">
-            <TransformInput id="getValueByIndex1" function="getValueByIndex">
-            <Input id="unnamed_294" path="/snippet"/>
-            <Param name="index" value="2"/><Param name="failIfNotFound" value="false"/>
-          </TransformInput>
-            <Param name="search" value="{&quot;@attributes&quot;:{&quot;name&quot;:&quot;content&quot;}}"/><Param name="replace" value=""/>
-          </TransformInput>
+        <TransformInput id="getValueByIndex1" function="getValueByIndex">
+        <Input id="unnamed_294" path="/snippet"/>
+        <Param name="index" value="2"/><Param name="failIfNotFound" value="false"/><Param name="emptyStringToEmptyResult" value="false"/>
+      </TransformInput>
+        <Param name="search" value="{&quot;@attributes&quot;:{&quot;name&quot;:&quot;content&quot;}}"/><Param name="replace" value=""/>
+      </TransformInput>
       </TransformRule><TransformRule name="source" targetProperty="http://vocab.lidakra.de/fuhsen#source">
         <TransformInput id="constant1" function="constant">
-            
-            <Param name="value" value="DearkNet"/>
-          </TransformInput>
+        
+        <Param name="value" value="DearkNet"/>
+      </TransformInput>
+      </TransformRule><TransformRule name="exact_matching" targetProperty="http://www.w3.org/2000/01/rdf-schema#label">
+        <TransformInput id="replace2" function="replace">
+        <TransformInput id="replace1" function="replace">
+        <TransformInput id="getValueByIndex" function="getValueByIndex">
+        <Input id="exact_matching" path="/snippet"/>
+        <Param name="index" value="0"/><Param name="failIfNotFound" value="false"/><Param name="emptyStringToEmptyResult" value="false"/>
+      </TransformInput>
+        <Param name="search" value="&lt;b&gt;"/><Param name="replace" value=""/>
+      </TransformInput>
+        <Param name="search" value="&lt;/b&gt;"/><Param name="replace" value=""/>
+      </TransformInput>
       </TransformRule><Outputs>
         <Output id="CMEM"></Output>
       </Outputs>
+        <TargetVocabularies> </TargetVocabularies>
       </TransformSpec>

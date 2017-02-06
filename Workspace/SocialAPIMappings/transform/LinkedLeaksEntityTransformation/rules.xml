@@ -1,4 +1,9 @@
 <TransformSpec id="LinkedLeaksEntityTransformation">
+        <SourceDataset dataSource="LinkedLeaksSearch" var="a" typeUri="">
+        <RestrictTo>
+          
+        </RestrictTo>
+      </SourceDataset>
         <TransformRule name="searchableEntity" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
         <TransformInput id="generateType" function="constantUri">
         
@@ -8,6 +13,14 @@
         <TransformInput id="generateType" function="constantUri">
         
         <Param name="value" value="http://xmlns.com/foaf/0.1/Agent"/>
+      </TransformInput>
+      </TransformRule><TransformRule name="uriMapping" targetProperty="">
+        <TransformInput id="unnamed_489" function="concat">
+        <TransformInput id="constant0" function="constant">
+        
+        <Param name="value" value="http://vocab.lidakra.de/fuhsen/search/entity/linkedleaks/"/>
+      </TransformInput><Input id="path1" path="/node_id/value"/>
+        <Param name="glue" value=""/>
       </TransformInput>
       </TransformRule><TransformRule name="organization" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
         <TransformInput id="ifContains1" function="ifContains">
@@ -19,14 +32,6 @@
         <Param name="value" value="http://xmlns.com/foaf/0.1/Organization"/>
       </TransformInput>
         <Param name="search" value="Officer"/>
-      </TransformInput>
-      </TransformRule><TransformRule name="uriMapping" targetProperty="">
-        <TransformInput id="unnamed_204" function="concat">
-        <TransformInput id="constant0" function="constant">
-        
-        <Param name="value" value="http://vocab.lidakra.de/fuhsen/search/entity/linkedleaks/"/>
-      </TransformInput><Input id="path1" path="/node_id/value"/>
-        <Param name="glue" value=""/>
       </TransformInput>
       </TransformRule><TransformRule name="id" targetProperty="http://vocab.lidakra.de/fuhsen#id">
         <Input id="id" path="/node_id/value"/>
@@ -61,7 +66,10 @@
         
         <Param name="value" value="LinkedLeaks"/>
       </TransformInput>
+      </TransformRule><TransformRule name="exact_matching" targetProperty="http://www.w3.org/2000/01/rdf-schema#label">
+        <Input id="exact_matching" path="/name/value"/>
       </TransformRule><Outputs>
         <Output id="CMEM"></Output>
       </Outputs>
+        <TargetVocabularies> </TargetVocabularies>
       </TransformSpec>

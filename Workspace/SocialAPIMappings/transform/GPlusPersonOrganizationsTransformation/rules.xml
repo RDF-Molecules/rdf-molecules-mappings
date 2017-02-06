@@ -1,4 +1,9 @@
 <TransformSpec id="GPlusPersonOrganizationsTransformation">
+        <SourceDataset dataSource="GPlusOrganizationsOfPerson" var="a" typeUri="">
+        <RestrictTo>
+          
+        </RestrictTo>
+      </SourceDataset>
         <TransformRule name="Organization" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
         <TransformInput id="generateType" function="constantUri">
         
@@ -35,7 +40,10 @@
         <Input id="url" path="\organizations/url"/>
       </TransformRule><TransformRule name="primary" targetProperty="http://vocab.lidakra.de/fuhsen#isPrimary">
         <Input id="primary" path="/primary"/>
+      </TransformRule><TransformRule name="exact_matching" targetProperty="http://www.w3.org/2000/01/rdf-schema#label">
+        <Input id="exact_matching" path="/name"/>
       </TransformRule><Outputs>
         <Output id="CMEM"></Output>
       </Outputs>
+        <TargetVocabularies> </TargetVocabularies>
       </TransformSpec>

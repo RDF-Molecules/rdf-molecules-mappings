@@ -1,27 +1,35 @@
-<TransformSpec>
+<TransformSpec id="ElasticSearchAnnotationTransformation">
+        <SourceDataset dataSource="ElasticSearchAnnotation" var="a" typeUri="">
+        <RestrictTo>
+          
+        </RestrictTo>
+      </SourceDataset>
         <TransformRule name="annotation" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="unnamed_543" function="constantUri">
-            
-            <Param name="value" value="http://vocab.lidakra.de/fuhsen#Annotation"/>
-          </TransformInput>
+        <TransformInput id="generateType" function="constantUri">
+        
+        <Param name="value" value="http://vocab.lidakra.de/fuhsen#Annotation"/>
+      </TransformInput>
       </TransformRule><TransformRule name="uri" targetProperty="">
-        <TransformInput id="unnamed_550" function="concat">
-            <TransformInput id="unnamed_548" function="constant">
-            
-            <Param name="value" value=""/>
-          </TransformInput><Input id="unnamed_549" path="/entity-url"/>
-            <Param name="glue" value=""/>
-          </TransformInput>
+        <TransformInput id="unnamed_287" function="concat">
+        <TransformInput id="constant0" function="constant">
+        
+        <Param name="value" value=""/>
+      </TransformInput><Input id="path1" path="/entity-url"/>
+        <Param name="glue" value=""/>
+      </TransformInput>
       </TransformRule><TransformRule name="name" targetProperty="http://vocab.lidakra.de/fuhsen#name">
-        <Input id="unnamed_552" path="/entity-name"/>
+        <Input id="name" path="/entity-name"/>
       </TransformRule><TransformRule name="type" targetProperty="http://vocab.lidakra.de/fuhsen#entity-type">
         <TransformInput id="replace1" function="replace">
-            <Input id="unnamed_554" path="/entity-type"/>
-            <Param name="search" value="https://schema.org/"/><Param name="replace" value=""/>
-          </TransformInput>
+        <Input id="unnamed_554" path="/entity-type"/>
+        <Param name="search" value="https://schema.org/"/><Param name="replace" value=""/>
+      </TransformInput>
       </TransformRule><TransformRule name="dbpedia" targetProperty="http://www.w3.org/2002/07/owl#sameAs">
-        <Input id="unnamed_556" path="/entity-dbpedia"/>
+        <Input id="dbpedia" path="/entity-dbpedia"/>
+      </TransformRule><TransformRule name="exact_matching" targetProperty="http://www.w3.org/2000/01/rdf-schema#label">
+        <Input id="exact_matching" path="/entity-name"/>
       </TransformRule><Outputs>
         <Output id="CMEM"></Output>
       </Outputs>
+        <TargetVocabularies> </TargetVocabularies>
       </TransformSpec>

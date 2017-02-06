@@ -1,5 +1,15 @@
 <TransformSpec id="GkbResultsTransformation">
-        <TransformRule name="person" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+        <SourceDataset dataSource="GoogleKB_Entities" var="a" typeUri="">
+        <RestrictTo>
+          
+        </RestrictTo>
+      </SourceDataset>
+        <TransformRule name="searchableEntity" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+        <TransformInput id="generateType" function="constantUri">
+        
+        <Param name="value" value="http://vocab.lidakra.de/fuhsen#SearchableEntity"/>
+      </TransformInput>
+      </TransformRule><TransformRule name="person" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
         <TransformInput id="ifContains1" function="ifContains">
         <Input id="sourcePath1" path="/result/@type"/><TransformInput id="constant1" function="constant">
         
@@ -15,11 +25,6 @@
         <Param name="search" value="Organization"/>
       </TransformInput>
         <Param name="search" value="Person"/>
-      </TransformInput>
-      </TransformRule><TransformRule name="searchableEntity" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-        <TransformInput id="generateType" function="constantUri">
-        
-        <Param name="value" value="http://vocab.lidakra.de/fuhsen#SearchableEntity"/>
       </TransformInput>
       </TransformRule><TransformRule name="id" targetProperty="http://vocab.lidakra.de/fuhsen#id">
         <Input id="id" path="/result/@id"/>
@@ -38,7 +43,10 @@
         
         <Param name="value" value="GoogleKG"/>
       </TransformInput>
+      </TransformRule><TransformRule name="exact_matching" targetProperty="http://www.w3.org/2000/01/rdf-schema#label">
+        <Input id="exact_matching" path="/result/name"/>
       </TransformRule><Outputs>
         <Output id="CMEM"></Output>
       </Outputs>
+        <TargetVocabularies> </TargetVocabularies>
       </TransformSpec>
