@@ -15,7 +15,7 @@
         <Param name="value" value="http://vocab.lidakra.de/fuhsen#SearchableEntity"/>
       </TransformInput>
       </TransformRule><TransformRule name="uriMapping" targetProperty="">
-        <TransformInput id="unnamed_212" function="concat">
+        <TransformInput id="unnamed_36" function="concat">
         <TransformInput id="constant0" function="constant">
         
         <Param name="value" value="http://vocab.lidakra.de/fuhsen/search/entity/"/>
@@ -51,7 +51,7 @@
       </TransformRule><TransformRule name="source" targetProperty="http://vocab.lidakra.de/fuhsen#source">
         <TransformInput id="constant1" function="constant">
         
-        <Param name="value" value="DearkNet"/>
+        <Param name="value" value="DarkNet"/>
       </TransformInput>
       </TransformRule><TransformRule name="exact_matching" targetProperty="http://www.w3.org/2000/01/rdf-schema#label">
         <TransformInput id="replace2" function="replace">
