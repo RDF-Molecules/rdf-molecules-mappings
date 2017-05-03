@@ -3,33 +3,46 @@
         <RestrictTo>
           
         </RestrictTo>
-      </SourceDataset>
-        <TransformRule name="annotation" targetProperty="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+      </SourceDataset><TransformRule name="annotation">
         <TransformInput id="generateType" function="constantUri">
         
         <Param name="value" value="http://vocab.lidakra.de/fuhsen#Annotation"/>
-      </TransformInput>
-      </TransformRule><TransformRule name="uri" targetProperty="">
-        <TransformInput id="unnamed_287" function="concat">
+      </TransformInput><MappingTarget uri="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+        <ValueType nodeType="UriValueType"/>
+      </MappingTarget>
+      </TransformRule><TransformRule name="uri">
+        <TransformInput id="unnamed_279" function="concat">
         <TransformInput id="constant0" function="constant">
         
-        <Param name="value" value=""/>
-      </TransformInput><Input id="path1" path="/entity-url"/>
+        <Param name="value" value="http://lidakra.ontos.com/resources/entities/"/>
+      </TransformInput><TransformInput id="encode1" function="urlEncode">
+        <Input id="path1" path="/entity-name"/>
+        <Param name="encoding" value="UTF-8"/>
+      </TransformInput>
         <Param name="glue" value=""/>
       </TransformInput>
-      </TransformRule><TransformRule name="name" targetProperty="http://vocab.lidakra.de/fuhsen#name">
-        <Input id="name" path="/entity-name"/>
-      </TransformRule><TransformRule name="type" targetProperty="http://vocab.lidakra.de/fuhsen#entity-type">
+      </TransformRule><TransformRule name="name">
+        <Input id="name" path="/entity-name"/><MappingTarget uri="http://vocab.lidakra.de/fuhsen#name">
+        <ValueType nodeType="AutoDetectValueType"/>
+      </MappingTarget>
+      </TransformRule><TransformRule name="type">
         <TransformInput id="replace1" function="replace">
         <Input id="unnamed_554" path="/entity-type"/>
         <Param name="search" value="https://schema.org/"/><Param name="replace" value=""/>
-      </TransformInput>
-      </TransformRule><TransformRule name="dbpedia" targetProperty="http://www.w3.org/2002/07/owl#sameAs">
-        <Input id="dbpedia" path="/entity-dbpedia"/>
-      </TransformRule><TransformRule name="exact_matching" targetProperty="http://www.w3.org/2000/01/rdf-schema#label">
-        <Input id="exact_matching" path="/entity-name"/>
+      </TransformInput><MappingTarget uri="http://vocab.lidakra.de/fuhsen#entity-type">
+        <ValueType nodeType="AutoDetectValueType"/>
+      </MappingTarget>
+      </TransformRule><TransformRule name="dbpedia">
+        <Input id="dbpedia" path="/entity-dbpedia"/><MappingTarget uri="http://www.w3.org/2002/07/owl#sameAs">
+        <ValueType nodeType="AutoDetectValueType"/>
+      </MappingTarget>
+      </TransformRule><TransformRule name="exact_matching">
+        <Input id="exact_matching" path="/entity-name"/><MappingTarget uri="http://www.w3.org/2000/01/rdf-schema#label">
+        <ValueType nodeType="AutoDetectValueType"/>
+      </MappingTarget>
       </TransformRule><Outputs>
         <Output id="CMEM"></Output>
-      </Outputs>
-        <TargetVocabularies> </TargetVocabularies>
+      </Outputs><TargetVocabularies>
+        
+      </TargetVocabularies>
       </TransformSpec>
