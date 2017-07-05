@@ -18,7 +18,7 @@
         <ValueType nodeType="UriValueType"/>
       </MappingTarget>
       </TransformRule><TransformRule name="uri">
-        <TransformInput id="unnamed_231" function="concat">
+        <TransformInput id="unnamed_83" function="concat">
         <TransformInput id="constant0" function="constant">
         
         <Param name="value" value="http://vocab.lidakra.de/fuhsen/search/entity/"/>
@@ -67,7 +67,7 @@
         <ValueType nodeType="AutoDetectValueType"/>
       </MappingTarget>
       </TransformRule><TransformRule name="annotation">
-        <TransformInput id="unnamed_242" function="concat">
+        <TransformInput id="unnamed_94" function="concat">
         <TransformInput id="constant0" function="constant">
         
         <Param name="value" value="http://lidakra.ontos.com/resources/entities/"/>
@@ -81,6 +81,10 @@
       </MappingTarget>
       </TransformRule><TransformRule name="exact_matching">
         <Input id="exact_matching" path="/_source/title"/><MappingTarget uri="http://www.w3.org/2000/01/rdf-schema#label">
+        <ValueType nodeType="AutoDetectValueType"/>
+      </MappingTarget>
+      </TransformRule><TransformRule name="sourcePath1">
+        <Input id="sourcePath1" path="/_source/title"/><MappingTarget uri="http://vocab.lidakra.de/fuhsen#label">
         <ValueType nodeType="AutoDetectValueType"/>
       </MappingTarget>
       </TransformRule><Outputs>

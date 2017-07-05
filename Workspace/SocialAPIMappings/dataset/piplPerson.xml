@@ -1,0 +1,6 @@
+<Dataset id="piplPerson" type="json">
+  <Param name="file" value="pipl.json"/>
+  <Param name="basePath" value="possible_persons"/>
+  <Param name="uriPattern" value=""/>
+  <Param name="charset" value="UTF8"/>
+</Dataset>
