@@ -1,114 +1,213 @@
 <TransformSpec id="VkPersonTransformation">
-        <SourceDataset dataSource="VkSearchPeople" var="a" typeUri="">
-        <RestrictTo>
-          
-        </RestrictTo>
-      </SourceDataset><TransformRule name="type1">
+  <MetaData>
+    <Label></Label>
+    <Description></Description>
+  </MetaData>
+  <SourceDataset dataSource="VkSearchPeople" var="a" typeUri="">
+    <RestrictTo> </RestrictTo>
+  </SourceDataset>
+  <RootMappingRule id="root">
+    <MappingRules>
+      <TransformRule name="uri">
+        <MetaData>
+          <Label></Label>
+          <Description></Description>
+        </MetaData>
+        <TransformInput id="buildUri" function="concat">
+          <TransformInput id="constant0" function="constant">
+            <Param name="value"><![CDATA[http://example.org/]]></Param>
+          </TransformInput>
+          <TransformInput id="encode1" function="urlEncode">
+            <Input id="path1" path="/id"/>
+            <Param name="encoding"><![CDATA[UTF-8]]></Param>
+            <Param name="onlyIfNeeded"><![CDATA[true]]></Param>
+          </TransformInput>
+          <Param name="glue"><![CDATA[]]></Param>
+        </TransformInput>
+      </TransformRule>
+      <TransformRule name="type1">
+        <MetaData>
+          <Label></Label>
+          <Description></Description>
+        </MetaData>
         <TransformInput id="generateType" function="constantUri">
-        
-        <Param name="value" value="http://vocab.lidakra.de/fuhsen#SearchableEntity"/>
-      </TransformInput><MappingTarget uri="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" isBackwardProperty="false">
-        <ValueType nodeType="UriValueType"/>
-      </MappingTarget>
-      </TransformRule><TransformRule name="type2">
+          <Param name="value"><![CDATA[<http://vocab.lidakra.de/fuhsen#SearchableEntity>]]></Param>
+        </TransformInput>
+        <MappingTarget uri="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" isBackwardProperty="false">
+          <ValueType nodeType="UriValueType"/>
+        </MappingTarget>
+      </TransformRule>
+      <TransformRule name="type2">
+        <MetaData>
+          <Label></Label>
+          <Description></Description>
+        </MetaData>
         <TransformInput id="generateType" function="constantUri">
-        
-        <Param name="value" value="http://xmlns.com/foaf/0.1/Agent"/>
-      </TransformInput><MappingTarget uri="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" isBackwardProperty="false">
-        <ValueType nodeType="UriValueType"/>
-      </MappingTarget>
-      </TransformRule><TransformRule name="type3">
+          <Param name="value"><![CDATA[<http://xmlns.com/foaf/0.1/Agent>]]></Param>
+        </TransformInput>
+        <MappingTarget uri="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" isBackwardProperty="false">
+          <ValueType nodeType="UriValueType"/>
+        </MappingTarget>
+      </TransformRule>
+      <TransformRule name="type3">
+        <MetaData>
+          <Label></Label>
+          <Description></Description>
+        </MetaData>
         <TransformInput id="generateType" function="constantUri">
-        
-        <Param name="value" value="http://xmlns.com/foaf/0.1/Person"/>
-      </TransformInput><MappingTarget uri="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" isBackwardProperty="false">
-        <ValueType nodeType="UriValueType"/>
-      </MappingTarget>
-      </TransformRule><TransformRule name="uri">
-        <TransformInput id="unnamed_407" function="concat">
-        <TransformInput id="constant0" function="constant">
-        
-        <Param name="value" value="http://example.org/"/>
-      </TransformInput><TransformInput id="encode1" function="urlEncode">
-        <Input id="path1" path="/ID"/>
-        <Param name="encoding" value="UTF-8"/>
-      </TransformInput>
-        <Param name="glue" value=""/>
-      </TransformInput>
-      </TransformRule><TransformRule name="sourcePath1">
-        <Input id="sourcePath1" path="/id"/><MappingTarget uri="http://vocab.lidakra.de/fuhsen#id" isBackwardProperty="false">
-        <ValueType nodeType="AutoDetectValueType"/>
-      </MappingTarget>
-      </TransformRule><TransformRule name="sourcePath2">
-        <Input id="sourcePath2" path="/first_name"/><MappingTarget uri="http://vocab.lidakra.de/fuhsen#given_name" isBackwardProperty="false">
-        <ValueType nodeType="AutoDetectValueType"/>
-      </MappingTarget>
-      </TransformRule><TransformRule name="sourcePath3">
-        <Input id="sourcePath3" path="/last_name"/><MappingTarget uri="http://vocab.lidakra.de/fuhsen#family_name" isBackwardProperty="false">
-        <ValueType nodeType="AutoDetectValueType"/>
-      </MappingTarget>
-      </TransformRule><TransformRule name="sourcePath4">
-        <Input id="sourcePath4" path="/photo_50"/><MappingTarget uri="http://vocab.lidakra.de/fuhsen#img" isBackwardProperty="false">
-        <ValueType nodeType="AutoDetectValueType"/>
-      </MappingTarget>
-      </TransformRule><TransformRule name="source">
+          <Param name="value"><![CDATA[<http://xmlns.com/foaf/0.1/Person>]]></Param>
+        </TransformInput>
+        <MappingTarget uri="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" isBackwardProperty="false">
+          <ValueType nodeType="UriValueType"/>
+        </MappingTarget>
+      </TransformRule>
+      <TransformRule name="sourcePath1">
+        <MetaData>
+          <Label></Label>
+          <Description></Description>
+        </MetaData>
+        <Input id="sourcePath1" path="/id"/>
+        <MappingTarget uri="http://vocab.lidakra.de/fuhsen#id" isBackwardProperty="false">
+          <ValueType nodeType="AutoDetectValueType"/>
+        </MappingTarget>
+      </TransformRule>
+      <TransformRule name="sourcePath2">
+        <MetaData>
+          <Label></Label>
+          <Description></Description>
+        </MetaData>
+        <Input id="sourcePath2" path="/first_name"/>
+        <MappingTarget uri="http://vocab.lidakra.de/fuhsen#given_name" isBackwardProperty="false">
+          <ValueType nodeType="AutoDetectValueType"/>
+        </MappingTarget>
+      </TransformRule>
+      <TransformRule name="sourcePath3">
+        <MetaData>
+          <Label></Label>
+          <Description></Description>
+        </MetaData>
+        <Input id="sourcePath3" path="/last_name"/>
+        <MappingTarget uri="http://vocab.lidakra.de/fuhsen#family_name" isBackwardProperty="false">
+          <ValueType nodeType="AutoDetectValueType"/>
+        </MappingTarget>
+      </TransformRule>
+      <TransformRule name="sourcePath4">
+        <MetaData>
+          <Label></Label>
+          <Description></Description>
+        </MetaData>
+        <Input id="sourcePath4" path="/photo_50"/>
+        <MappingTarget uri="http://vocab.lidakra.de/fuhsen#img" isBackwardProperty="false">
+          <ValueType nodeType="AutoDetectValueType"/>
+        </MappingTarget>
+      </TransformRule>
+      <TransformRule name="source">
+        <MetaData>
+          <Label></Label>
+          <Description></Description>
+        </MetaData>
         <TransformInput id="constant1" function="constant">
-        
-        <Param name="value" value="VK"/>
-      </TransformInput><MappingTarget uri="http://vocab.lidakra.de/fuhsen#source" isBackwardProperty="false">
-        <ValueType nodeType="StringValueType"/>
-      </MappingTarget>
-      </TransformRule><TransformRule name="screen_name">
+          <Param name="value"><![CDATA[VK]]></Param>
+        </TransformInput>
+        <MappingTarget uri="http://vocab.lidakra.de/fuhsen#source" isBackwardProperty="false">
+          <ValueType nodeType="StringValueType"/>
+        </MappingTarget>
+      </TransformRule>
+      <TransformRule name="screen_name">
+        <MetaData>
+          <Label></Label>
+          <Description></Description>
+        </MetaData>
         <TransformInput id="unnamed_47" function="concat">
-        <TransformInput id="constant0" function="constant">
-        
-        <Param name="value" value="http://vk.com/"/>
-      </TransformInput><TransformInput id="encode1" function="urlEncode">
-        <Input id="path1" path="/screen_name"/>
-        <Param name="encoding" value="UTF-8"/>
-      </TransformInput>
-        <Param name="glue" value=""/>
-      </TransformInput><MappingTarget uri="http://vocab.lidakra.de/fuhsen#url" isBackwardProperty="false">
-        <ValueType nodeType="AutoDetectValueType"/>
-      </MappingTarget>
-      </TransformRule><TransformRule name="name">
+          <TransformInput id="constant0" function="constant">
+            <Param name="value"><![CDATA[http://vk.com/]]></Param>
+          </TransformInput>
+          <TransformInput id="encode1" function="urlEncode">
+            <Input id="path1" path="/screen_name"/>
+            <Param name="encoding"><![CDATA[UTF-8]]></Param>
+            <Param name="onlyIfNeeded"><![CDATA[false]]></Param>
+          </TransformInput>
+          <Param name="glue"><![CDATA[]]></Param>
+        </TransformInput>
+        <MappingTarget uri="http://vocab.lidakra.de/fuhsen#url" isBackwardProperty="false">
+          <ValueType nodeType="AutoDetectValueType"/>
+        </MappingTarget>
+      </TransformRule>
+      <TransformRule name="name">
+        <MetaData>
+          <Label></Label>
+          <Description></Description>
+        </MetaData>
         <TransformInput id="concat1" function="concat">
-        <Input id="sourcePath1" path="/first_name"/><Input id="sourcePath2" path="/last_name"/>
-        <Param name="glue" value=" "/>
-      </TransformInput><MappingTarget uri="http://vocab.lidakra.de/fuhsen#name" isBackwardProperty="false">
-        <ValueType nodeType="StringValueType"/>
-      </MappingTarget>
-      </TransformRule><TransformRule name="sourcePath5">
-        <Input id="sourcePath5" path="/country/title"/><MappingTarget uri="http://vocab.lidakra.de/fuhsen#country" isBackwardProperty="false">
-        <ValueType nodeType="AutoDetectValueType"/>
-      </MappingTarget>
-      </TransformRule><TransformRule name="name">
+          <Input id="sourcePath1" path="/first_name"/>
+          <Input id="sourcePath2" path="/last_name"/>
+          <Param name="glue"><![CDATA[ ]]></Param>
+        </TransformInput>
+        <MappingTarget uri="http://vocab.lidakra.de/fuhsen#name" isBackwardProperty="false">
+          <ValueType nodeType="StringValueType"/>
+        </MappingTarget>
+      </TransformRule>
+      <TransformRule name="sourcePath5">
+        <MetaData>
+          <Label></Label>
+          <Description></Description>
+        </MetaData>
+        <Input id="sourcePath5" path="/country/title"/>
+        <MappingTarget uri="http://vocab.lidakra.de/fuhsen#country" isBackwardProperty="false">
+          <ValueType nodeType="AutoDetectValueType"/>
+        </MappingTarget>
+      </TransformRule>
+      <TransformRule name="name">
+        <MetaData>
+          <Label></Label>
+          <Description></Description>
+        </MetaData>
         <TransformInput id="unnamed_367" function="concat">
-        <Input id="sourcePath1" path="/first_name"/><Input id="sourcePath2" path="/last_name"/>
-        <Param name="glue" value=" "/>
-      </TransformInput><MappingTarget uri="http://www.w3.org/2000/01/rdf-schema#label" isBackwardProperty="false">
-        <ValueType nodeType="UriValueType"/>
-      </MappingTarget>
-      </TransformRule><TransformRule name="sourcePath6">
+          <Input id="sourcePath1" path="/first_name"/>
+          <Input id="sourcePath2" path="/last_name"/>
+          <Param name="glue"><![CDATA[ ]]></Param>
+        </TransformInput>
+        <MappingTarget uri="http://www.w3.org/2000/01/rdf-schema#label" isBackwardProperty="false">
+          <ValueType nodeType="UriValueType"/>
+        </MappingTarget>
+      </TransformRule>
+      <TransformRule name="sourcePath6">
+        <MetaData>
+          <Label></Label>
+          <Description></Description>
+        </MetaData>
         <TransformInput id="ifContains1" function="ifContains">
-        <Input id="sourcePath6" path="/sex"/><TransformInput id="constant1" function="constant">
-        
-        <Param name="value" value="Female"/>
-      </TransformInput><TransformInput id="constant2" function="constant">
-        
-        <Param name="value" value="Male"/>
-      </TransformInput>
-        <Param name="search" value="1"/>
-      </TransformInput><MappingTarget uri="http://vocab.lidakra.de/fuhsen#gender" isBackwardProperty="false">
-        <ValueType nodeType="AutoDetectValueType"/>
-      </MappingTarget>
-      </TransformRule><TransformRule name="sourcePath7">
-        <Input id="sourcePath7" path="/bdate"/><MappingTarget uri="http://vocab.lidakra.de/fuhsen#birthday" isBackwardProperty="false">
-        <ValueType nodeType="AutoDetectValueType"/>
-      </MappingTarget>
-      </TransformRule><Outputs>
-        <Output id="CMEM"></Output>
-      </Outputs><TargetVocabularies>
-        
-      </TargetVocabularies>
-      </TransformSpec>
+          <Input id="sourcePath6" path="/sex"/>
+          <TransformInput id="constant1" function="constant">
+            <Param name="value"><![CDATA[Female]]></Param>
+          </TransformInput>
+          <TransformInput id="constant2" function="constant">
+            <Param name="value"><![CDATA[Male]]></Param>
+          </TransformInput>
+          <Param name="search"><![CDATA[1]]></Param>
+        </TransformInput>
+        <MappingTarget uri="http://vocab.lidakra.de/fuhsen#gender" isBackwardProperty="false">
+          <ValueType nodeType="AutoDetectValueType"/>
+        </MappingTarget>
+      </TransformRule>
+      <TransformRule name="sourcePath7">
+        <MetaData>
+          <Label></Label>
+          <Description></Description>
+        </MetaData>
+        <Input id="sourcePath7" path="/bdate"/>
+        <MappingTarget uri="http://vocab.lidakra.de/fuhsen#birthday" isBackwardProperty="false">
+          <ValueType nodeType="AutoDetectValueType"/>
+        </MappingTarget>
+      </TransformRule>
+    </MappingRules>
+    <MetaData>
+      <Label></Label>
+      <Description></Description>
+    </MetaData>
+  </RootMappingRule>
+  <Outputs>
+    <Output id="CMEM"></Output>
+  </Outputs>
+  <TargetVocabularies> </TargetVocabularies>
+</TransformSpec>
