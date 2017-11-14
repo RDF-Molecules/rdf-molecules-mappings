@@ -1,0 +1,141 @@
+{
+    "took": 2,
+    "timed_out": false,
+    "_shards": {
+        "total": 5,
+        "successful": 5,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": 1,
+        "max_score": 0.3555314,
+        "hits": [
+            {
+                "_index": "summary",
+                "_type": "product",
+                "_id": "AV-60tOmdvI37rpikMZA",
+                "_score": 0.3555314,
+                "_source": {
+                    "marketplace": "Agora",
+                    "name": "10000 XANAX BARS WITH SHIPPING $6500",
+                    "category": "Drugs-Prescription",
+                    "Imagereference": [
+                        "A04wBcnPYU.jpg"
+                    ],
+                    "price": 30.11,
+                    "vendor": "RXChemist",
+                    "revenue": [
+                        {
+                            "month": "Januar 2014",
+                            "amount": 0
+                        },
+                        {
+                            "month": "Februar 2014",
+                            "amount": 0
+                        },
+                        {
+                            "month": "März 2014",
+                            "amount": 0
+                        },
+                        {
+                            "month": "April 2014",
+                            "amount": 0
+                        },
+                        {
+                            "month": "Mai 2014",
+                            "amount": 12388
+                        },
+                        {
+                            "month": "Juni 2014",
+                            "amount": 56
+                        },
+                        {
+                            "month": "Juli 2014",
+                            "amount": 4124
+                        },
+                        {
+                            "month": "August 2014",
+                            "amount": 7656
+                        },
+                        {
+                            "month": "September 2014",
+                            "amount": 5567
+                        },
+                        {
+                            "month": "Oktober 2014",
+                            "amount": 2966
+                        },
+                        {
+                            "month": "November 2014",
+                            "amount": 12722
+                        },
+                        {
+                            "month": "Dezember 2014",
+                            "amount": 28464
+                        },
+                        {
+                            "month": "Januar 2015",
+                            "amount": 26988
+                        },
+                        {
+                            "month": "Februar 2015",
+                            "amount": 25307
+                        },
+                        {
+                            "month": "März 2015",
+                            "amount": 7999
+                        },
+                        {
+                            "month": "April 2015",
+                            "amount": 17627
+                        },
+                        {
+                            "month": "Mai 2015",
+                            "amount": 39535
+                        },
+                        {
+                            "month": "Juni 2015",
+                            "amount": 24301
+                        },
+                        {
+                            "month": "Juli 2015",
+                            "amount": 3868
+                        },
+                        {
+                            "month": "August 2015",
+                            "amount": 0
+                        },
+                        {
+                            "month": "September 2015",
+                            "amount": 0
+                        },
+                        {
+                            "month": "Oktober 2015",
+                            "amount": 0
+                        },
+                        {
+                            "month": "November 2015",
+                            "amount": 0
+                        },
+                        {
+                            "month": "Dezember 2015",
+                            "amount": 0
+                        }
+                    ],
+                    "revenueTotal": 207188,
+                    "productsFromGermany": false,
+                    "verifications": [
+                        "Silkroad2"
+                    ],
+                    "shipsFrom": "",
+                    "destinations": "",
+                    "firstSeen": "2015-01-25T00:10:13.000Z",
+                    "lastSeen": "2015-07-04T06:18:32.000Z",
+                    "description": "10,000 XANAX BARS WITH SHIPPING We Provide : 1.Discreet Packing Available 2.Tracking No. Available Express shipping.",
+                    "timeframe": "February 2013 - August 2015"
+                }
+            }
+        ]
+    }
+}
