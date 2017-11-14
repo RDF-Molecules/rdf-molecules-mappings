@@ -1,0 +1,6 @@
+<Dataset id="VkSearchPeople" type="json">
+  <Param name="file" value="vk_full.json"/>
+  <Param name="basePath" value="/response/items"/>
+  <Param name="uriPattern" value="http://vocab.cs.uni-bonn.de/fuhsen/search/entity/vk/{id}"/>
+  <Param name="charset" value="UTF8"/>
+</Dataset>
