@@ -1,0 +1,10 @@
+<EntityDescription>
+  <Type></Type>
+  <Restriction></Restriction>
+  <Paths>
+    <TypedPath>
+      <Path> /url </Path>
+      <ValueType nodeType="StringValueType"/>
+    </TypedPath>
+  </Paths>
+</EntityDescription>
