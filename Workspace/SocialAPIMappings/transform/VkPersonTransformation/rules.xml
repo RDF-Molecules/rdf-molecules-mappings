@@ -25,7 +25,7 @@
         <ValueType nodeType="UriValueType"/>
       </MappingTarget>
       </TransformRule><TransformRule name="uri">
-        <TransformInput id="unnamed_357" function="concat">
+        <TransformInput id="unnamed_407" function="concat">
         <TransformInput id="constant0" function="constant">
         
         <Param name="value" value="http://example.org/"/>
@@ -88,6 +88,23 @@
         <Param name="glue" value=" "/>
       </TransformInput><MappingTarget uri="http://www.w3.org/2000/01/rdf-schema#label" isBackwardProperty="false">
         <ValueType nodeType="UriValueType"/>
+      </MappingTarget>
+      </TransformRule><TransformRule name="sourcePath6">
+        <TransformInput id="ifContains1" function="ifContains">
+        <Input id="sourcePath6" path="/sex"/><TransformInput id="constant1" function="constant">
+        
+        <Param name="value" value="Female"/>
+      </TransformInput><TransformInput id="constant2" function="constant">
+        
+        <Param name="value" value="Male"/>
+      </TransformInput>
+        <Param name="search" value="1"/>
+      </TransformInput><MappingTarget uri="http://vocab.lidakra.de/fuhsen#gender" isBackwardProperty="false">
+        <ValueType nodeType="AutoDetectValueType"/>
+      </MappingTarget>
+      </TransformRule><TransformRule name="sourcePath7">
+        <Input id="sourcePath7" path="/bdate"/><MappingTarget uri="http://vocab.lidakra.de/fuhsen#birthday" isBackwardProperty="false">
+        <ValueType nodeType="AutoDetectValueType"/>
       </MappingTarget>
       </TransformRule><Outputs>
         <Output id="CMEM"></Output>
