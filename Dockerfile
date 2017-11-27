@@ -10,9 +10,10 @@
 # $ docker run -d -p 9005:9005 --network=fuhsen-net --name silk lidakra/silk:v1.0.0  
 
 # Pull base image
-FROM ubuntu:15.04
+FROM ubuntu
 MAINTAINER Luigi Selmi <luigiselmi@gmail.com>
 
+RUN apt-get update && apt-get -y install locales
 RUN locale-gen en_US.UTF-8
 ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US:en
