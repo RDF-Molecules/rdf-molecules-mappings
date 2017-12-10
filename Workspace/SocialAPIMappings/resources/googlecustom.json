@@ -1,0 +1,281 @@
+{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+ },
+ "queries": {
+  "request": [
+   {
+    "title": "Google Custom Search - ibuprofen",
+    "totalResults": "44000",
+    "searchTerms": "ibuprofen",
+    "count": 10,
+    "startIndex": 1,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "010367647792668362002:visq5cb5clq"
+   }
+  ],
+  "nextPage": [
+   {
+    "title": "Google Custom Search - ibuprofen",
+    "totalResults": "44000",
+    "searchTerms": "ibuprofen",
+    "count": 10,
+    "startIndex": 11,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "010367647792668362002:visq5cb5clq"
+   }
+  ]
+ },
+ "context": {
+  "title": "FuhSen Google Custom Search"
+ },
+ "searchInformation": {
+  "searchTime": 0.470485,
+  "formattedSearchTime": "0.47",
+  "totalResults": "44000",
+  "formattedTotalResults": "44,000"
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "Ibuprofen Suspension (ibuprofen) dose, indications, adverse effects ...",
+   "htmlTitle": "<b>Ibuprofen</b> Suspension (<b>ibuprofen</b>) dose, indications, adverse effects ...",
+   "link": "http://www.pdr.net/drug-summary/Ibuprofen-Suspension-ibuprofen-2619",
+   "displayLink": "www.pdr.net",
+   "snippet": "Chronic use of ibuprofen can result in gastritis, ulceration with or without GI \nperforation, and/or GI bleeding, which can occur at any time, often without \npreceding symptoms. Serious and fatal GI adverse reactions including \ninflammation, bleeding, ulceration, and perforation of the stomach, small intestine\n, or large intestine ...",
+   "htmlSnippet": "Chronic use of <b>ibuprofen</b> can result in gastritis, ulceration with or without GI <br>\nperforation, and/or GI bleeding, which can occur at any time, often without <br>\npreceding symptoms. Serious and fatal GI adverse reactions including <br>\ninflammation, bleeding, ulceration, and perforation of the stomach, small intestine<br>\n, or large intestine&nbsp;...",
+   "formattedUrl": "www.pdr.net/drug-summary/Ibuprofen-Suspension-ibuprofen-2619",
+   "htmlFormattedUrl": "www.pdr.net/drug-summary/<b>Ibuprofen</b>-Suspension-<b>ibuprofen</b>-2619",
+   "pagemap": {
+    "metatags": [
+     {
+      "viewport": "width=device-width",
+      "og:description": "PDR Drug Summaries are concise point-of-care prescribing, dosing and administering information to help phsyicans more efficiently and accurately prescribe in their practice  PDR&#39;s drug summaries are available free of charge and serve as a great resource for US based MDs, DOs, NPs and PAs in patient practice"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Ibuprofen Suspension | Drug Information | PDR.net",
+   "htmlTitle": "<b>Ibuprofen</b> Suspension | Drug Information | PDR.net",
+   "link": "http://www.pdr.net/drug-information/ibuprofen-suspension?druglabelid=2619",
+   "displayLink": "www.pdr.net",
+   "snippet": "The Related Drug Information Index provides comprehensive access to all drug \ninformation related to a specific drug Types of content include full prescribing \ninformation, drug summaries, Full Prescribing Information Continuing Medication \nEducation (Full PI CME), Medication Guides, Risk Evaluation and Mitigation ...",
+   "htmlSnippet": "The Related Drug Information Index provides comprehensive access to all drug <br>\ninformation related to a specific drug Types of content include full prescribing <br>\ninformation, drug summaries, Full Prescribing Information Continuing Medication <br>\nEducation (Full PI CME), Medication Guides, Risk Evaluation and Mitigation&nbsp;...",
+   "cacheId": "MFvCCEuDPB8J",
+   "formattedUrl": "www.pdr.net/drug-information/ibuprofen-suspension?druglabelid...",
+   "htmlFormattedUrl": "www.pdr.net/drug-information/<b>ibuprofen</b>-suspension?druglabelid...",
+   "pagemap": {
+    "metatags": [
+     {
+      "viewport": "width=device-width",
+      "og:description": "The Related Drug Information Index provides comprehensive access to all drug information related to a specific drug  Types of content include full prescribing information, drug summaries, Full Prescribing Information Continuing Medication Education (Full PI CME), Medication Guides, Risk Evaluation and Mitigation Strategies (REMS Summaries), REMS Continuing Medication Education (REMS CME), and FDA Drug Safety Notifications"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Ibuprofen Oral Suspension PDR+ Consumer Monograph | PDR.net",
+   "htmlTitle": "<b>Ibuprofen</b> Oral Suspension PDR+ Consumer Monograph | PDR.net",
+   "link": "http://www.pdr.net/pdr-consumer-monograph/ibuprofen-oral-suspension?druglabelid=2619&ConsumerId=3202",
+   "displayLink": "www.pdr.net",
+   "snippet": "Ibuprofen Oral Suspension. Generic Name: (ibuprofen). Other Brands: Ibuprofen. \nLast Revised: 11/2013. What is this medication and its most common uses? What \nshould I know when beginning and continuing on this medication? What are the \npossible side effects of this medication? Who should not take this medication?",
+   "htmlSnippet": "<b>Ibuprofen</b> Oral Suspension. Generic Name: (<b>ibuprofen</b>). Other Brands: <b>Ibuprofen</b>. <br>\nLast Revised: 11/2013. What is this medication and its most common uses? What <br>\nshould I know when beginning and continuing on this medication? What are the <br>\npossible side effects of this medication? Who should not take this medication?",
+   "cacheId": "npfBBNtjO04J",
+   "formattedUrl": "www.pdr.net/pdr-consumer.../ibuprofen-oral-suspension?...2619...",
+   "htmlFormattedUrl": "www.pdr.net/pdr-consumer.../<b>ibuprofen</b>-oral-suspension?...2619...",
+   "pagemap": {
+    "metatags": [
+     {
+      "viewport": "width=device-width"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Ibuprofen Tablets PDR+ Consumer Monograph | PDR.net",
+   "htmlTitle": "<b>Ibuprofen</b> Tablets PDR+ Consumer Monograph | PDR.net",
+   "link": "http://www.pdr.net/pdr-consumer-monograph/ibuprofen-tablets?druglabelid=2618&ConsumerId=1276",
+   "displayLink": "www.pdr.net",
+   "snippet": "Ibuprofen Tablets. Generic Name: (ibuprofen). Other Brands: Ibuprofen. Last \nRevised: 11/2013. What is this medication and its most common uses? What \nshould I know when beginning and continuing on this medication? What are the \npossible side effects of this medication? Who should not take this medication?",
+   "htmlSnippet": "<b>Ibuprofen</b> Tablets. Generic Name: (<b>ibuprofen</b>). Other Brands: <b>Ibuprofen</b>. Last <br>\nRevised: 11/2013. What is this medication and its most common uses? What <br>\nshould I know when beginning and continuing on this medication? What are the <br>\npossible side effects of this medication? Who should not take this medication?",
+   "cacheId": "8uG9r7cNauIJ",
+   "formattedUrl": "www.pdr.net/pdr-consumer-monograph/ibuprofen-tablets?...",
+   "htmlFormattedUrl": "www.pdr.net/pdr-consumer-monograph/<b>ibuprofen</b>-tablets?...",
+   "pagemap": {
+    "metatags": [
+     {
+      "viewport": "width=device-width"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Ibuprofen - Drugs.com",
+   "htmlTitle": "<b>Ibuprofen</b> - Drugs.com",
+   "link": "https://www.drugs.com/international/ibuprofen.html",
+   "displayLink": "www.drugs.com",
+   "snippet": "Ibuprofen is a medicine available in a number of countries worldwide. A list of US \nmedications equivalent to Ibuprofen is available on the Drugs.com website.",
+   "htmlSnippet": "<b>Ibuprofen</b> is a medicine available in a number of countries worldwide. A list of US <br>\nmedications equivalent to <b>Ibuprofen</b> is available on the Drugs.com website.",
+   "cacheId": "iDminBddvrgJ",
+   "formattedUrl": "https://www.drugs.com/international/ibuprofen.html",
+   "htmlFormattedUrl": "https://www.drugs.com/international/<b>ibuprofen</b>.html",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "200",
+      "height": "200",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNXb7Pdl0UcOs5tHC9Dqsqsglpg69NSf4chiI8IbAHcZYv42UrACWpJxPM"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1.0",
+      "referrer": "origin-when-cross-origin",
+      "og:title": "Ibuprofen - Drugs.com",
+      "og:image": "https://www.drugs.com/img/social/ddc-facebook-icon.png",
+      "og:site_name": "Drugs.com",
+      "og:locale": "en_US",
+      "og:type": "article",
+      "og:description": "Ibuprofen is a medicine available in a number of countries worldwide. A list of US medications equivalent to Ibuprofen is available on the Drugs.com website.",
+      "og:url": "https://www.drugs.com/international/ibuprofen.html",
+      "theme-color": "#2a9cd7"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://www.drugs.com/img/social/ddc-facebook-icon.png"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "NeoProfen (ibuprofen lysine) dose, indications, adverse effects ...",
+   "htmlTitle": "NeoProfen (<b>ibuprofen</b> lysine) dose, indications, adverse effects ...",
+   "link": "http://www.pdr.net/drug-summary/NeoProfen-ibuprofen-lysine-2195.5812",
+   "displayLink": "www.pdr.net",
+   "snippet": "Initially, 10 mg/kg IV followed, if necessary, by 2 doses of 5 mg/kg IV at 24-hour \nintervals. Base all doses on birth weight. Dose should be held in cases of oliguria \n(< 0.6 ml/kg/hour) or anuria. If the ductus arteriosus fails to close or reopens, a \nsecond course of ibuprofen lysine, alternative pharmacological therapy, or \nsurgical ...",
+   "htmlSnippet": "Initially, 10 mg/kg IV followed, if necessary, by 2 doses of 5 mg/kg IV at 24-hour <br>\nintervals. Base all doses on birth weight. Dose should be held in cases of oliguria <br>\n(&lt; 0.6 ml/kg/hour) or anuria. If the ductus arteriosus fails to close or reopens, a <br>\nsecond course of <b>ibuprofen</b> lysine, alternative pharmacological therapy, or <br>\nsurgical&nbsp;...",
+   "cacheId": "JEQGa6zt9MQJ",
+   "formattedUrl": "www.pdr.net/drug.../NeoProfen-ibuprofen-lysine-2195.5812",
+   "htmlFormattedUrl": "www.pdr.net/drug.../NeoProfen-<b>ibuprofen</b>-lysine-2195.5812",
+   "pagemap": {
+    "metatags": [
+     {
+      "viewport": "width=device-width",
+      "og:description": "PDR Drug Summaries are concise point-of-care prescribing, dosing and administering information to help phsyicans more efficiently and accurately prescribe in their practice  PDR&#39;s drug summaries are available free of charge and serve as a great resource for US based MDs, DOs, NPs and PAs in patient practice"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Vicoprofen (hydrocodone bitartrate/ibuprofen) dose, indications ...",
+   "htmlTitle": "Vicoprofen (hydrocodone bitartrate/<b>ibuprofen</b>) dose, indications ...",
+   "link": "http://www.pdr.net/drug-summary/Vicoprofen-hydrocodone-bitartrate-ibuprofen-36",
+   "displayLink": "www.pdr.net",
+   "snippet": "Hydrocodone and ibuprofen should be used cautiously to patients with \npreexisting hepatic disease. Drug accumulation or prolonged duration of action \ncan occur in these patients. In acute situations, patients require close monitoring \nto avoid excessive toxicity. Patients with chronic hepatic disease may require less \nfrequent ...",
+   "htmlSnippet": "Hydrocodone and <b>ibuprofen</b> should be used cautiously to patients with <br>\npreexisting hepatic disease. Drug accumulation or prolonged duration of action <br>\ncan occur in these patients. In acute situations, patients require close monitoring <br>\nto avoid excessive toxicity. Patients with chronic hepatic disease may require less <br>\nfrequent&nbsp;...",
+   "formattedUrl": "www.pdr.net/drug.../Vicoprofen-hydrocodone-bitartrate-ibuprofen-36",
+   "htmlFormattedUrl": "www.pdr.net/drug.../Vicoprofen-hydrocodone-bitartrate-<b>ibuprofen</b>-36",
+   "pagemap": {
+    "metatags": [
+     {
+      "viewport": "width=device-width",
+      "og:description": "PDR Drug Summaries are concise point-of-care prescribing, dosing and administering information to help phsyicans more efficiently and accurately prescribe in their practice  PDR&#39;s drug summaries are available free of charge and serve as a great resource for US based MDs, DOs, NPs and PAs in patient practice"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Children's Motrin Cold (ibuprofen/pseudoephedrine hydrochloride ...",
+   "htmlTitle": "Children&#39;s Motrin Cold (<b>ibuprofen</b>/pseudoephedrine hydrochloride ...",
+   "link": "http://www.pdr.net/drug-summary/Children--39-s-Motrin-Cold-ibuprofen-pseudoephedrine-hydrochloride-1773",
+   "displayLink": "www.pdr.net",
+   "snippet": "PDR Drug Summaries are concise point-of-care prescribing, dosing and \nadministering information to help phsyicans more efficiently and accurately \nprescribe in their practice PDR's drug summaries are available free of charge \nand serve as a great resource for US based MDs, DOs, NPs and PAs in patient \npractice.",
+   "htmlSnippet": "PDR Drug Summaries are concise point-of-care prescribing, dosing and <br>\nadministering information to help phsyicans more efficiently and accurately <br>\nprescribe in their practice PDR&#39;s drug summaries are available free of charge <br>\nand serve as a great resource for US based MDs, DOs, NPs and PAs in patient <br>\npractice.",
+   "cacheId": "k7bX5fmqnm4J",
+   "formattedUrl": "www.pdr.net/.../Children--39-s-Motrin-Cold-ibuprofen-pseudoephedrine- hydrochloride-1773",
+   "htmlFormattedUrl": "www.pdr.net/.../Children--39-s-Motrin-Cold-<b>ibuprofen</b>-pseudoephedrine- hydrochloride-1773",
+   "pagemap": {
+    "metatags": [
+     {
+      "viewport": "width=device-width",
+      "og:description": "PDR Drug Summaries are concise point-of-care prescribing, dosing and administering information to help phsyicans more efficiently and accurately prescribe in their practice  PDR&#39;s drug summaries are available free of charge and serve as a great resource for US based MDs, DOs, NPs and PAs in patient practice"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Advil Cold and Sinus Caplets (ibuprofen/pseudoephedrine ...",
+   "htmlTitle": "Advil Cold and Sinus Caplets (<b>ibuprofen</b>/pseudoephedrine ...",
+   "link": "http://www.pdr.net/drug-summary/Advil-Cold-and-Sinus-Caplets-ibuprofen-pseudoephedrine-hydrochloride-1425",
+   "displayLink": "www.pdr.net",
+   "snippet": "Ibuprofen is contraindicated in patients with salicylate hypersensitivity or NSAID \nhypersensitivity who have experienced asthma, urticaria, or other allergic \nreactions after taking aspirin or other NSAIDs. Severe, rarely fatal, anaphylactoid \nreactions to ibuprofen have been reported in such patients. Ibuprofen should not \nbe ...",
+   "htmlSnippet": "<b>Ibuprofen</b> is contraindicated in patients with salicylate hypersensitivity or NSAID <br>\nhypersensitivity who have experienced asthma, urticaria, or other allergic <br>\nreactions after taking aspirin or other NSAIDs. Severe, rarely fatal, anaphylactoid <br>\nreactions to <b>ibuprofen</b> have been reported in such patients. <b>Ibuprofen</b> should not <br>\nbe&nbsp;...",
+   "formattedUrl": "www.pdr.net/.../Advil-Cold-and-Sinus-Caplets-ibuprofen-pseudoephedrine- hydrochloride-1425",
+   "htmlFormattedUrl": "www.pdr.net/.../Advil-Cold-and-Sinus-Caplets-<b>ibuprofen</b>-pseudoephedrine- hydrochloride-1425",
+   "pagemap": {
+    "metatags": [
+     {
+      "viewport": "width=device-width",
+      "og:description": "PDR Drug Summaries are concise point-of-care prescribing, dosing and administering information to help phsyicans more efficiently and accurately prescribe in their practice  PDR&#39;s drug summaries are available free of charge and serve as a great resource for US based MDs, DOs, NPs and PAs in patient practice"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Ibuprofen Lysine - Drugs.com",
+   "htmlTitle": "<b>Ibuprofen</b> Lysine - Drugs.com",
+   "link": "https://www.drugs.com/international/ibuprofen-lysine.html",
+   "displayLink": "www.drugs.com",
+   "snippet": "Ibuprofen Lysine is a medicine available in a number of countries worldwide. A \nlist of US medications equivalent to Ibuprofen Lysine is available on the Drugs.\ncom website.",
+   "htmlSnippet": "<b>Ibuprofen</b> Lysine is a medicine available in a number of countries worldwide. A <br>\nlist of US medications equivalent to <b>Ibuprofen</b> Lysine is available on the Drugs.<br>\ncom website.",
+   "cacheId": "2jdRCR2dV1QJ",
+   "formattedUrl": "https://www.drugs.com/international/ibuprofen-lysine.html",
+   "htmlFormattedUrl": "https://www.drugs.com/international/<b>ibuprofen</b>-lysine.html",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "200",
+      "height": "200",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNXb7Pdl0UcOs5tHC9Dqsqsglpg69NSf4chiI8IbAHcZYv42UrACWpJxPM"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1.0",
+      "referrer": "origin-when-cross-origin",
+      "og:title": "Ibuprofen Lysine - Drugs.com",
+      "og:image": "https://www.drugs.com/img/social/ddc-facebook-icon.png",
+      "og:site_name": "Drugs.com",
+      "og:locale": "en_US",
+      "og:type": "article",
+      "og:description": "Ibuprofen Lysine is a medicine available in a number of countries worldwide. A list of US medications equivalent to Ibuprofen Lysine is available on the Drugs.com website.",
+      "og:url": "https://www.drugs.com/international/ibuprofen-lysine.html",
+      "theme-color": "#2a9cd7"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://www.drugs.com/img/social/ddc-facebook-icon.png"
+     }
+    ]
+   }
+  }
+ ]
+}

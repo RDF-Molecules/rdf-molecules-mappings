@@ -1,0 +1,38 @@
+<CachedEntitySchemata>
+  <ConfiguredEntitySchema>
+    <EntityDescription>
+      <Type></Type>
+      <Restriction></Restriction>
+      <Paths>
+        <TypedPath isAttribute="false">
+          <Path> /@attributes/docId </Path>
+          <ValueType nodeType="StringValueType"/>
+        </TypedPath>
+        <TypedPath isAttribute="false">
+          <Path> /snippet </Path>
+          <ValueType nodeType="StringValueType"/>
+        </TypedPath>
+        <TypedPath isAttribute="false">
+          <Path> /field </Path>
+          <ValueType nodeType="StringValueType"/>
+        </TypedPath>
+        <TypedPath isAttribute="false">
+          <Path> </Path>
+          <ValueType nodeType="StringValueType"/>
+        </TypedPath>
+        <TypedPath isAttribute="false">
+          <Path> /@attributes </Path>
+          <ValueType nodeType="StringValueType"/>
+        </TypedPath>
+        <TypedPath isAttribute="false">
+          <Path> /@attributes/score </Path>
+          <ValueType nodeType="StringValueType"/>
+        </TypedPath>
+        <TypedPath isAttribute="false">
+          <Path> /@attributes/pos </Path>
+          <ValueType nodeType="StringValueType"/>
+        </TypedPath>
+      </Paths>
+    </EntityDescription>
+  </ConfiguredEntitySchema>
+</CachedEntitySchemata>

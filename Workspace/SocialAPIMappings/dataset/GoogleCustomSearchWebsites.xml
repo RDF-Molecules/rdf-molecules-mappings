@@ -1,0 +1,10 @@
+<Dataset id="GoogleCustomSearchWebsites" type="json">
+  <Param name="file" xml:space="preserve"><![CDATA[googlecustom.json]]></Param>
+  <Param name="basePath" xml:space="preserve"><![CDATA[/items]]></Param>
+  <Param name="uriPattern" xml:space="preserve"><![CDATA[http://vocab.cs.uni-bonn.de/fuhsen/search/entity/gcs/{id}]]></Param>
+  <Param name="charset" xml:space="preserve"><![CDATA[UTF8]]></Param>
+  <MetaData>
+    <Label></Label>
+    <Description></Description>
+  </MetaData>
+</Dataset>
