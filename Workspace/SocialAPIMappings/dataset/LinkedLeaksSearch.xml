@@ -1,6 +1,0 @@
-<Dataset id="LinkedLeaksSearch" type="json">
-  <Param name="file" value="linkedleaks_results.json"/>
-  <Param name="basePath" value="results/bindings"/>
-  <Param name="uriPattern" value=""/>
-  <Param name="charset" value="UTF8"/>
-</Dataset>

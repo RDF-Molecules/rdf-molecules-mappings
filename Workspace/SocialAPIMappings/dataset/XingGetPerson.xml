@@ -1,6 +1,0 @@
-<Dataset id="XingGetPerson" type="json">
-  <Param name="file" value="xing_getPerson.json"/>
-  <Param name="basePath" value="users"/>
-  <Param name="uriPattern" value="http://vocab.cs.uni-bonn.de/fuhsen/search/entity/{id}"/>
-  <Param name="charset" value="UTF8"/>
-</Dataset>

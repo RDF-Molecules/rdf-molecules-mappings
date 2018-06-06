@@ -1,8 +1,0 @@
-<Dataset id="GPlusSearchPeople">
-  <DatasetPlugin type="json">
-    <Param name="file" value="gplus_searchPeople.json"/>
-    <Param name="basePath" value="items"/>
-    <Param name="uriPattern" value="http://vocab.cs.uni-bonn.de/fuhsen/search/entity/gplus/{id}"/>
-    <Param name="charset" value="UTF8"/>
-  </DatasetPlugin>
-</Dataset>

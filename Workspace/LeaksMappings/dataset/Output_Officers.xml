@@ -1,5 +1,0 @@
-<Dataset id="Output_Officers" type="file">
-  <Param name="file" value="Output_Officers"/>
-  <Param name="format" value="N-Triples"/>
-  <Param name="graph" value=""/>
-</Dataset>

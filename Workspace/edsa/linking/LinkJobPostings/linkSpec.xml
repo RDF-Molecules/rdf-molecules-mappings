@@ -1,0 +1,28 @@
+<Interlink id="LinkJobPostings">
+  <MetaData>
+    <Label></Label>
+    <Description></Description>
+  </MetaData>
+  <SourceDataset dataSource="JoobleGraph" var="a" typeUri="http://www.edsa-project.eu/edsa#JobPosting">
+    <RestrictTo> </RestrictTo>
+  </SourceDataset>
+  <TargetDataset dataSource="AdzunaGraph" var="b" typeUri="http://www.edsa-project.eu/edsa#JobPosting">
+    <RestrictTo> </RestrictTo>
+  </TargetDataset>
+  <LinkageRule linkType="&lt;http://www.w3.org/2002/07/owl#sameAs&gt;">
+    <Aggregate id="average1" required="false" weight="1" type="average">
+      <Compare id="equality1" required="true" weight="1" metric="equality" threshold="0.0" indexing="true">
+        <Input id="sourcePath2" path="/&lt;http://schema.org/title&gt;"/>
+        <Input id="targetPath2" path="/&lt;http://schema.org/title&gt;"/>
+      </Compare>
+      <Compare id="equality2" required="true" weight="1" metric="equality" threshold="0.0" indexing="true">
+        <Input id="sourcePath3" path="/&lt;http://schema.org/hiringOrganization&gt;"/>
+        <Input id="targetPath3" path="/&lt;http://schema.org/hiringOrganization&gt;"/>
+      </Compare>
+    </Aggregate>
+    <Filter/>
+  </LinkageRule>
+  <Outputs>
+    <Output id="CMEM"></Output>
+  </Outputs>
+</Interlink>

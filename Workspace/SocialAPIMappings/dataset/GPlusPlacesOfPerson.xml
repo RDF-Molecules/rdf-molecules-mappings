@@ -1,6 +1,0 @@
-<Dataset id="GPlusPlacesOfPerson" type="json">
-  <Param name="file" value="personGPlus.json"/>
-  <Param name="basePath" value="placesLived"/>
-  <Param name="uriPattern" value=""/>
-  <Param name="charset" value="UTF8"/>
-</Dataset>

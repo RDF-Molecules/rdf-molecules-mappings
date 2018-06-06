@@ -1,0 +1,538 @@
+<response version="2">
+	<query>data science</query>
+	<location/>
+	<paginationPayload/>
+	<dupefilter>true</dupefilter>
+	<highlight>false</highlight>
+	<start>1</start>
+	<end>25</end>
+	<pageNumber>0</pageNumber>
+	<totalresults>1216</totalresults>
+	<results>
+		<result>
+			<jobtitle>Data Scientist</jobtitle>
+			<company>ING</company>
+			<city>Brussels</city>
+			<state>BRU</state>
+			<country>BE</country>
+			<language>en</language>
+			<formattedLocation></formattedLocation>
+			<source>ING</source>
+			<date>Thu, 17 Aug 2017 12:55:45 GMT</date>
+			<snippet>Initiate, design &amp;amp; implement innovative projects in the field of data science. Complex business problems, to be tackled and solved with huge amounts of data...</snippet>
+			<url>http://be.indeed.com/viewjob?jk=542a867cd2af027b&amp;qd=Tc6jDt4rh0PweGpMuxZ98GY8TIXuY32CqJm9F4sgDd0s9TpGDuebySKB4dSmjcVr9FpGg-ZihnxHcU8w1yPzUQcc-PZUTjGu4_bLO7GHCx4&amp;indpubnum=126997023285851&amp;atk=1bu8s8dmi0nre7e8</url>
+			<onmousedown>indeed_clk(this,'6305');</onmousedown>
+			<jobkey>542a867cd2af027b</jobkey>
+			<sponsored>false</sponsored>
+			<expired>false</expired>
+			<indeedApply>false</indeedApply>
+			<formattedLocationFull>Brussel</formattedLocationFull>
+			<formattedRelativeTime>30+ dagen geleden</formattedRelativeTime>
+			<stations/>
+		</result>
+		<result>
+			<jobtitle>Junior Data Scientist</jobtitle>
+			<company>Ordina</company>
+			<city/>
+			<state/>
+			<country>BE</country>
+			<language>nl</language>
+			<formattedLocation>Vlaams Gewest</formattedLocation>
+			<source>Ordina</source>
+			<date>Mon, 23 Oct 2017 21:39:07 GMT</date>
+			<snippet>Kom dan zeker solliciteren en wie weet versterk jij binnenkort ons Data Science team! Junior Data Visualisatie Consultant....</snippet>
+			<url>http://be.indeed.com/viewjob?jk=a6c7de89f56d1ad1&amp;qd=Tc6jDt4rh0PweGpMuxZ98GY8TIXuY32CqJm9F4sgDd0s9TpGDuebySKB4dSmjcVr9FpGg-ZihnxHcU8w1yPzUQcc-PZUTjGu4_bLO7GHCx4&amp;indpubnum=126997023285851&amp;atk=1bu8s8dmi0nre7e8</url>
+			<onmousedown>indeed_clk(this,'6305');</onmousedown>
+			<jobkey>a6c7de89f56d1ad1</jobkey>
+			<sponsored>false</sponsored>
+			<expired>false</expired>
+			<indeedApply>false</indeedApply>
+			<formattedLocationFull>Vlaams Gewest</formattedLocationFull>
+			<formattedRelativeTime>13 dagen geleden</formattedRelativeTime>
+			<stations/>
+		</result>
+		<result>
+			<jobtitle>Junior Big Data / Cloud Architecture Consultant</jobtitle>
+			<company>Ordina</company>
+			<city/>
+			<state/>
+			<country>BE</country>
+			<language>nl</language>
+			<formattedLocation>Vlaams Gewest</formattedLocation>
+			<source>Ordina</source>
+			<date>Sat, 28 Oct 2017 09:41:18 GMT</date>
+			<snippet>Junior Data Scientist. Junior Data Visualisatie Consultant. Data &amp;amp; Business Intelligence Architect. Als Junior Big Data &amp;amp; Cloud Architecture Consultant ga je...</snippet>
+			<url>http://be.indeed.com/viewjob?jk=13298a832899dd47&amp;qd=Tc6jDt4rh0PweGpMuxZ98GY8TIXuY32CqJm9F4sgDd0s9TpGDuebySKB4dSmjcVr9FpGg-ZihnxHcU8w1yPzUQcc-PZUTjGu4_bLO7GHCx4&amp;indpubnum=126997023285851&amp;atk=1bu8s8dmi0nre7e8</url>
+			<onmousedown>indeed_clk(this,'6305');</onmousedown>
+			<jobkey>13298a832899dd47</jobkey>
+			<sponsored>false</sponsored>
+			<expired>false</expired>
+			<indeedApply>false</indeedApply>
+			<formattedLocationFull>Vlaams Gewest</formattedLocationFull>
+			<formattedRelativeTime>9 dagen geleden</formattedRelativeTime>
+			<stations/>
+		</result>
+		<result>
+			<jobtitle>Data Scientist</jobtitle>
+			<company>Info Support</company>
+			<city/>
+			<state/>
+			<country>BE</country>
+			<language>nl</language>
+			<formattedLocation>Vlaams Gewest</formattedLocation>
+			<source>Info Support</source>
+			<date>Wed, 12 Jul 2017 07:16:43 GMT</date>
+			<snippet>Als Data Scientist ben je specialist in het bedenken en uitvoeren van complexe Data Science opdrachten. Als Data Scientist word je onderdeel van het Data...</snippet>
+			<url>http://be.indeed.com/viewjob?jk=f7399be1ba7ec110&amp;qd=Tc6jDt4rh0PweGpMuxZ98GY8TIXuY32CqJm9F4sgDd0s9TpGDuebySKB4dSmjcVr9FpGg-ZihnxHcU8w1yPzUQcc-PZUTjGu4_bLO7GHCx4&amp;indpubnum=126997023285851&amp;atk=1bu8s8dmi0nre7e8</url>
+			<onmousedown>indeed_clk(this,'6305');</onmousedown>
+			<jobkey>f7399be1ba7ec110</jobkey>
+			<sponsored>false</sponsored>
+			<expired>false</expired>
+			<indeedApply>false</indeedApply>
+			<formattedLocationFull>Vlaams Gewest</formattedLocationFull>
+			<formattedRelativeTime>30+ dagen geleden</formattedRelativeTime>
+			<stations/>
+		</result>
+		<result>
+			<jobtitle>Data &amp; Analytics Consultant</jobtitle>
+			<company>delaware</company>
+			<city/>
+			<state/>
+			<country>BE</country>
+			<language>en</language>
+			<formattedLocation>België</formattedLocation>
+			<source>delaware</source>
+			<date>Mon, 23 Oct 2017 09:16:55 GMT</date>
+			<snippet>Analytics and data science . Do you have a track record of 3+ years in Business Intelligence, Big Data or data science?...</snippet>
+			<url>http://be.indeed.com/viewjob?jk=f6262404b4423209&amp;qd=Tc6jDt4rh0PweGpMuxZ98GY8TIXuY32CqJm9F4sgDd0s9TpGDuebySKB4dSmjcVr9FpGg-ZihnxHcU8w1yPzUQcc-PZUTjGu4_bLO7GHCx4&amp;indpubnum=126997023285851&amp;atk=1bu8s8dmi0nre7e8</url>
+			<onmousedown>indeed_clk(this,'6305');</onmousedown>
+			<jobkey>f6262404b4423209</jobkey>
+			<sponsored>false</sponsored>
+			<expired>false</expired>
+			<indeedApply>false</indeedApply>
+			<formattedLocationFull>België</formattedLocationFull>
+			<formattedRelativeTime>14 dagen geleden</formattedRelativeTime>
+			<stations/>
+		</result>
+		<result>
+			<jobtitle>Data Scientist</jobtitle>
+			<company>REstore</company>
+			<city>Antwerpen (stad)</city>
+			<state>VAN</state>
+			<country>BE</country>
+			<language>en</language>
+			<formattedLocation>Antwerpen (stad)</formattedLocation>
+			<source>REstore</source>
+			<date>Sun, 08 Oct 2017 09:44:53 GMT</date>
+			<snippet>Apply data analysis and visualization techniques to gain insight into energy, household appliance and industrial process data....</snippet>
+			<url>http://be.indeed.com/viewjob?jk=2f624205be3ebf22&amp;qd=Tc6jDt4rh0PweGpMuxZ98GY8TIXuY32CqJm9F4sgDd0s9TpGDuebySKB4dSmjcVr9FpGg-ZihnxHcU8w1yPzUQcc-PZUTjGu4_bLO7GHCx4&amp;indpubnum=126997023285851&amp;atk=1bu8s8dmi0nre7e8</url>
+			<onmousedown>indeed_clk(this,'6305');</onmousedown>
+			<jobkey>2f624205be3ebf22</jobkey>
+			<sponsored>false</sponsored>
+			<expired>false</expired>
+			<indeedApply>false</indeedApply>
+			<formattedLocationFull>Antwerpen (stad)</formattedLocationFull>
+			<formattedRelativeTime>29 dagen geleden</formattedRelativeTime>
+			<stations/>
+		</result>
+		<result>
+			<jobtitle>Big Data Scientist</jobtitle>
+			<company>NGDATA</company>
+			<city>Gent</city>
+			<state>VOV</state>
+			<country>BE</country>
+			<language>en</language>
+			<formattedLocation>Gent</formattedLocation>
+			<source>NGDATA</source>
+			<date>Fri, 13 Oct 2017 06:12:19 GMT</date>
+			<snippet>As a data scientist, you sift through the explosion of data to discover what the data is telling you. The data scientist, as an emerging career path, is at the...</snippet>
+			<url>http://be.indeed.com/viewjob?jk=81f91e2464e00061&amp;qd=Tc6jDt4rh0PweGpMuxZ98GY8TIXuY32CqJm9F4sgDd0s9TpGDuebySKB4dSmjcVr9FpGg-ZihnxHcU8w1yPzUQcc-PZUTjGu4_bLO7GHCx4&amp;indpubnum=126997023285851&amp;atk=1bu8s8dmi0nre7e8</url>
+			<onmousedown>indeed_clk(this,'6305');</onmousedown>
+			<jobkey>81f91e2464e00061</jobkey>
+			<sponsored>false</sponsored>
+			<expired>false</expired>
+			<indeedApply>false</indeedApply>
+			<formattedLocationFull>Gent</formattedLocationFull>
+			<formattedRelativeTime>24 dagen geleden</formattedRelativeTime>
+			<stations/>
+		</result>
+		<result>
+			<jobtitle>Data Science Consultant</jobtitle>
+			<company>delaware</company>
+			<city/>
+			<state/>
+			<country>BE</country>
+			<language>en</language>
+			<formattedLocation>België</formattedLocation>
+			<source>delaware</source>
+			<date>Wed, 27 Sep 2017 14:04:03 GMT</date>
+			<snippet>Data science, 2) sales &amp;amp; marketing, and 3) strategy? A pure strategist sometimes overlooks the data, whereas a data fetishist occasionally loses sight of the...</snippet>
+			<url>http://be.indeed.com/viewjob?jk=1d1e6f60e04bc987&amp;qd=Tc6jDt4rh0PweGpMuxZ98GY8TIXuY32CqJm9F4sgDd0s9TpGDuebySKB4dSmjcVr9FpGg-ZihnxHcU8w1yPzUQcc-PZUTjGu4_bLO7GHCx4&amp;indpubnum=126997023285851&amp;atk=1bu8s8dmi0nre7e8</url>
+			<onmousedown>indeed_clk(this,'6305');</onmousedown>
+			<jobkey>1d1e6f60e04bc987</jobkey>
+			<sponsored>false</sponsored>
+			<expired>false</expired>
+			<indeedApply>false</indeedApply>
+			<formattedLocationFull>België</formattedLocationFull>
+			<formattedRelativeTime>30+ dagen geleden</formattedRelativeTime>
+			<stations/>
+		</result>
+		<result>
+			<jobtitle>Data Scientist</jobtitle>
+			<company>PYCO Group</company>
+			<city>Brussels</city>
+			<state>BRU</state>
+			<country>BE</country>
+			<language>en</language>
+			<formattedLocation>Brussel</formattedLocation>
+			<source>pyco group</source>
+			<date>Thu, 26 Oct 2017 15:54:55 GMT</date>
+			<snippet>Identify valuable data sources. Bachelor Degree in Computer Science, Master's degree in Management Science, or similar....</snippet>
+			<url>http://be.indeed.com/viewjob?jk=93fb8454b39f122a&amp;qd=Tc6jDt4rh0PweGpMuxZ98GY8TIXuY32CqJm9F4sgDd0s9TpGDuebySKB4dSmjcVr9FpGg-ZihnxHcU8w1yPzUQcc-PZUTjGu4_bLO7GHCx4&amp;indpubnum=126997023285851&amp;atk=1bu8s8dmi0nre7e8</url>
+			<onmousedown>indeed_clk(this,'6305');</onmousedown>
+			<jobkey>93fb8454b39f122a</jobkey>
+			<sponsored>false</sponsored>
+			<expired>false</expired>
+			<indeedApply>false</indeedApply>
+			<formattedLocationFull>Brussel</formattedLocationFull>
+			<formattedRelativeTime>10 dagen geleden</formattedRelativeTime>
+			<stations/>
+		</result>
+		<result>
+			<jobtitle>Data &amp; Analytics Consultant</jobtitle>
+			<company>PwC</company>
+			<city>Brussels</city>
+			<state>BRU</state>
+			<country>BE</country>
+			<language>en</language>
+			<formattedLocation>Brussel</formattedLocation>
+			<source>PwC</source>
+			<date>Mon, 02 Oct 2017 17:32:50 GMT</date>
+			<snippet>At PwC, data. Our data and analytics. In IT or computer science-related programmes, in data science, in civil or. We believe that effective data and analytics....</snippet>
+			<url>http://be.indeed.com/viewjob?jk=691bcaf1b5f45515&amp;qd=Tc6jDt4rh0PweGpMuxZ98GY8TIXuY32CqJm9F4sgDd0s9TpGDuebySKB4dSmjcVr9FpGg-ZihnxHcU8w1yPzUQcc-PZUTjGu4_bLO7GHCx4&amp;indpubnum=126997023285851&amp;atk=1bu8s8dmi0nre7e8</url>
+			<onmousedown>indeed_clk(this,'6305');</onmousedown>
+			<jobkey>691bcaf1b5f45515</jobkey>
+			<sponsored>false</sponsored>
+			<expired>false</expired>
+			<indeedApply>false</indeedApply>
+			<formattedLocationFull>Brussel</formattedLocationFull>
+			<formattedRelativeTime>30+ dagen geleden</formattedRelativeTime>
+			<stations/>
+		</result>
+		<result>
+			<jobtitle>Data Analytics Consultant - European Institutions</jobtitle>
+			<company>Everis</company>
+			<city>Brussels</city>
+			<state>BRU</state>
+			<country>BE</country>
+			<language>en</language>
+			<formattedLocation>Brussel</formattedLocation>
+			<source>Everis</source>
+			<date>Thu, 13 Jul 2017 17:23:58 GMT</date>
+			<snippet>Big data, text-mining. Data analysis using descriptive and exploratory statistics. Degree in statistics, in mathematics, in data science, etc.IT or systems...</snippet>
+			<url>http://be.indeed.com/viewjob?jk=44c75b06e7bbd30a&amp;qd=Tc6jDt4rh0PweGpMuxZ98GY8TIXuY32CqJm9F4sgDd0s9TpGDuebySKB4dSmjcVr9FpGg-ZihnxHcU8w1yPzUQcc-PZUTjGu4_bLO7GHCx4&amp;indpubnum=126997023285851&amp;atk=1bu8s8dmi0nre7e8</url>
+			<onmousedown>indeed_clk(this,'6305');</onmousedown>
+			<jobkey>44c75b06e7bbd30a</jobkey>
+			<sponsored>false</sponsored>
+			<expired>false</expired>
+			<indeedApply>false</indeedApply>
+			<formattedLocationFull>Brussel</formattedLocationFull>
+			<formattedRelativeTime>30+ dagen geleden</formattedRelativeTime>
+			<stations/>
+		</result>
+		<result>
+			<jobtitle>Market Research &amp; Data Analyst</jobtitle>
+			<company>Foodpairing</company>
+			<city/>
+			<state/>
+			<country>BE</country>
+			<language>en</language>
+			<formattedLocation>Vlaams Gewest</formattedLocation>
+			<source>Foodpairing</source>
+			<date>Fri, 15 Sep 2017 08:21:43 GMT</date>
+			<snippet>Our data gathering process combines several sources including unique proprietary data sets such as the Scientific data, Chef data aggregated from Foodpairing...</snippet>
+			<url>http://be.indeed.com/viewjob?jk=0777fd8f143cb5f0&amp;qd=Tc6jDt4rh0PweGpMuxZ98GY8TIXuY32CqJm9F4sgDd0s9TpGDuebySKB4dSmjcVr9FpGg-ZihnxHcU8w1yPzUQcc-PZUTjGu4_bLO7GHCx4&amp;indpubnum=126997023285851&amp;atk=1bu8s8dmi0nre7e8</url>
+			<onmousedown>indeed_clk(this,'6305');</onmousedown>
+			<jobkey>0777fd8f143cb5f0</jobkey>
+			<sponsored>false</sponsored>
+			<expired>false</expired>
+			<indeedApply>false</indeedApply>
+			<formattedLocationFull>Vlaams Gewest</formattedLocationFull>
+			<formattedRelativeTime>30+ dagen geleden</formattedRelativeTime>
+			<stations/>
+		</result>
+		<result>
+			<jobtitle>Junior HANA BI Data Modeler &amp; Reporting</jobtitle>
+			<company>Tenneco Inc.</company>
+			<city>Sint-Truiden</city>
+			<state>VLI</state>
+			<country>BE</country>
+			<language>en</language>
+			<formattedLocation>Sint-Truiden</formattedLocation>
+			<source>Tenneco Inc.</source>
+			<date>Wed, 01 Nov 2017 05:35:13 GMT</date>
+			<snippet>Interest or a first experience in creating logical data models and extensive data warehouse database design. Junior HANA BI data modeler &amp;amp; Reporting....</snippet>
+			<url>http://be.indeed.com/viewjob?jk=7adb64fb638cca7d&amp;qd=Tc6jDt4rh0PweGpMuxZ98GY8TIXuY32CqJm9F4sgDd0s9TpGDuebySKB4dSmjcVr9FpGg-ZihnxHcU8w1yPzUQcc-PZUTjGu4_bLO7GHCx4&amp;indpubnum=126997023285851&amp;atk=1bu8s8dmi0nre7e8</url>
+			<onmousedown>indeed_clk(this,'6305');</onmousedown>
+			<jobkey>7adb64fb638cca7d</jobkey>
+			<sponsored>false</sponsored>
+			<expired>false</expired>
+			<indeedApply>false</indeedApply>
+			<formattedLocationFull>Sint-Truiden</formattedLocationFull>
+			<formattedRelativeTime>5 dagen geleden</formattedRelativeTime>
+			<stations/>
+		</result>
+		<result>
+			<jobtitle>Data Science Specialist for Customer Intelligence - f/h/x - Digital</jobtitle>
+			<company>BNP Paribas</company>
+			<city>Brussels</city>
+			<state>BRU</state>
+			<country>BE</country>
+			<language>fr</language>
+			<formattedLocation>Brussel</formattedLocation>
+			<source>BNP Paribas</source>
+			<date>Wed, 18 Oct 2017 10:55:45 GMT</date>
+			<snippet>Data science/data mining, computer science, ingénieur informatique. Nous sommes actuellement à la recherche d’un spécialiste en data science au sein de notre...</snippet>
+			<url>http://be.indeed.com/viewjob?jk=62ce8156f94b9a68&amp;qd=Tc6jDt4rh0PweGpMuxZ98GY8TIXuY32CqJm9F4sgDd0s9TpGDuebySKB4dSmjcVr9FpGg-ZihnxHcU8w1yPzUQcc-PZUTjGu4_bLO7GHCx4&amp;indpubnum=126997023285851&amp;atk=1bu8s8dmi0nre7e8</url>
+			<onmousedown>indeed_clk(this,'6305');</onmousedown>
+			<jobkey>62ce8156f94b9a68</jobkey>
+			<sponsored>false</sponsored>
+			<expired>false</expired>
+			<indeedApply>false</indeedApply>
+			<formattedLocationFull>Brussel</formattedLocationFull>
+			<formattedRelativeTime>19 dagen geleden</formattedRelativeTime>
+			<stations/>
+		</result>
+		<result>
+			<jobtitle>Data Scientists</jobtitle>
+			<company>Capgemini BE</company>
+			<city/>
+			<state/>
+			<country>BE</country>
+			<language>en</language>
+			<formattedLocation>België</formattedLocation>
+			<source>Capgemini BE</source>
+			<date>Sun, 23 Jul 2017 05:08:29 GMT</date>
+			<snippet>Data science, data mining, statistics, artificial intelligence, computer science, mathematics or engineering....</snippet>
+			<url>http://be.indeed.com/viewjob?jk=1e790cbeece03b00&amp;qd=Tc6jDt4rh0PweGpMuxZ98GY8TIXuY32CqJm9F4sgDd0s9TpGDuebySKB4dSmjcVr9FpGg-ZihnxHcU8w1yPzUQcc-PZUTjGu4_bLO7GHCx4&amp;indpubnum=126997023285851&amp;atk=1bu8s8dmi0nre7e8</url>
+			<onmousedown>indeed_clk(this,'6305');</onmousedown>
+			<jobkey>1e790cbeece03b00</jobkey>
+			<sponsored>false</sponsored>
+			<expired>false</expired>
+			<indeedApply>false</indeedApply>
+			<formattedLocationFull>België</formattedLocationFull>
+			<formattedRelativeTime>30+ dagen geleden</formattedRelativeTime>
+			<stations/>
+		</result>
+		<result>
+			<jobtitle>Data Analytics Researcher</jobtitle>
+			<company>Skyline Communications</company>
+			<city>Izegem</city>
+			<state>VWV</state>
+			<country>BE</country>
+			<language>en</language>
+			<formattedLocation>Izegem</formattedLocation>
+			<source>Skyline Communications</source>
+			<date>Fri, 13 Oct 2017 08:28:14 GMT</date>
+			<snippet>Civil Engineer or Master in Computer Science. Proven interest and skills in analytics and data mining. Develop methodologies and technologies to transform raw...</snippet>
+			<url>http://be.indeed.com/viewjob?jk=a076b5eb6faaec25&amp;qd=Tc6jDt4rh0PweGpMuxZ98GY8TIXuY32CqJm9F4sgDd0s9TpGDuebySKB4dSmjcVr9FpGg-ZihnxHcU8w1yPzUQcc-PZUTjGu4_bLO7GHCx4&amp;indpubnum=126997023285851&amp;atk=1bu8s8dmi0nre7e8</url>
+			<onmousedown>indeed_clk(this,'6305');</onmousedown>
+			<jobkey>a076b5eb6faaec25</jobkey>
+			<sponsored>false</sponsored>
+			<expired>false</expired>
+			<indeedApply>false</indeedApply>
+			<formattedLocationFull>Izegem</formattedLocationFull>
+			<formattedRelativeTime>24 dagen geleden</formattedRelativeTime>
+			<stations/>
+		</result>
+		<result>
+			<jobtitle>Junior Tax Technology, Data &amp; Analytics Consultant</jobtitle>
+			<company>PwC</company>
+			<city>Brussels</city>
+			<state>BRU</state>
+			<country>BE</country>
+			<language>en</language>
+			<formattedLocation>Brussel</formattedLocation>
+			<source>PwC</source>
+			<date>Thu, 05 Oct 2017 17:34:14 GMT</date>
+			<snippet>Computer science engineering, ICT, bachelor in informatics; At PwC, data &amp;amp; technology is at the heart of everything we do....</snippet>
+			<url>http://be.indeed.com/viewjob?jk=cfeee64299fc778e&amp;qd=Tc6jDt4rh0PweGpMuxZ98GY8TIXuY32CqJm9F4sgDd0s9TpGDuebySKB4dSmjcVr9FpGg-ZihnxHcU8w1yPzUQcc-PZUTjGu4_bLO7GHCx4&amp;indpubnum=126997023285851&amp;atk=1bu8s8dmi0nre7e8</url>
+			<onmousedown>indeed_clk(this,'6305');</onmousedown>
+			<jobkey>cfeee64299fc778e</jobkey>
+			<sponsored>false</sponsored>
+			<expired>false</expired>
+			<indeedApply>false</indeedApply>
+			<formattedLocationFull>Brussel</formattedLocationFull>
+			<formattedRelativeTime>30+ dagen geleden</formattedRelativeTime>
+			<stations/>
+		</result>
+		<result>
+			<jobtitle>Data Scientist R&amp;D</jobtitle>
+			<company>Picanol</company>
+			<city>Ieper</city>
+			<state>VWV</state>
+			<country>BE</country>
+			<language>nl</language>
+			<formattedLocation>Ieper</formattedLocation>
+			<source>Picanol Group</source>
+			<date>Fri, 27 Oct 2017 10:55:45 GMT</date>
+			<snippet>Je verzamelt data vanuit verschillende bronnen (klanten, in-house, proefmachines, ...). Je werkt nauw samen met externen om up-to-date te blijven van de...</snippet>
+			<url>http://be.indeed.com/viewjob?jk=82baa8ef4777a44d&amp;qd=Tc6jDt4rh0PweGpMuxZ98GY8TIXuY32CqJm9F4sgDd0s9TpGDuebySKB4dSmjcVr9FpGg-ZihnxHcU8w1yPzUQcc-PZUTjGu4_bLO7GHCx4&amp;indpubnum=126997023285851&amp;atk=1bu8s8dmi0nre7e8</url>
+			<onmousedown>indeed_clk(this,'6305');</onmousedown>
+			<jobkey>82baa8ef4777a44d</jobkey>
+			<sponsored>false</sponsored>
+			<expired>false</expired>
+			<indeedApply>false</indeedApply>
+			<formattedLocationFull>Ieper</formattedLocationFull>
+			<formattedRelativeTime>10 dagen geleden</formattedRelativeTime>
+			<stations/>
+		</result>
+		<result>
+			<jobtitle>Big Data developer</jobtitle>
+			<company>Archimiddle</company>
+			<city>Kontich</city>
+			<state>VAN</state>
+			<country>BE</country>
+			<language>en</language>
+			<formattedLocation>Kontich</formattedLocation>
+			<source>Archimiddle</source>
+			<date>Wed, 09 Aug 2017 07:27:48 GMT</date>
+			<snippet>Increase your data architecture and data science knowledge. Big Data Architecture. As a Big Data developer, you will be working with multiple data stores and....</snippet>
+			<url>http://be.indeed.com/viewjob?jk=30de3eab79fb4f5e&amp;qd=Tc6jDt4rh0PweGpMuxZ98GY8TIXuY32CqJm9F4sgDd0s9TpGDuebySKB4dSmjcVr9FpGg-ZihnxHcU8w1yPzUQcc-PZUTjGu4_bLO7GHCx4&amp;indpubnum=126997023285851&amp;atk=1bu8s8dmi0nre7e8</url>
+			<onmousedown>indeed_clk(this,'6305');</onmousedown>
+			<jobkey>30de3eab79fb4f5e</jobkey>
+			<sponsored>false</sponsored>
+			<expired>false</expired>
+			<indeedApply>false</indeedApply>
+			<formattedLocationFull>Kontich</formattedLocationFull>
+			<formattedRelativeTime>30+ dagen geleden</formattedRelativeTime>
+			<stations/>
+		</result>
+		<result>
+			<jobtitle>POST-DOC BIG DATA FOR ADVANCED RECYCLING</jobtitle>
+			<company>Vito</company>
+			<city>Mol</city>
+			<state>VAN</state>
+			<country>BE</country>
+			<language>en</language>
+			<formattedLocation>Mol</formattedLocation>
+			<source>Vito</source>
+			<date>Tue, 31 Oct 2017 13:30:24 GMT</date>
+			<snippet>In the field of physics, mathematics or data science. Python/Matlab/C), experience with data analysis. The algorithms will be applied to data generated by a...</snippet>
+			<url>http://be.indeed.com/viewjob?jk=0e85eb775bd0e766&amp;qd=Tc6jDt4rh0PweGpMuxZ98GY8TIXuY32CqJm9F4sgDd0s9TpGDuebySKB4dSmjcVr9FpGg-ZihnxHcU8w1yPzUQcc-PZUTjGu4_bLO7GHCx4&amp;indpubnum=126997023285851&amp;atk=1bu8s8dmi0nre7e8</url>
+			<onmousedown>indeed_clk(this,'6305');</onmousedown>
+			<jobkey>0e85eb775bd0e766</jobkey>
+			<sponsored>false</sponsored>
+			<expired>false</expired>
+			<indeedApply>false</indeedApply>
+			<formattedLocationFull>Mol</formattedLocationFull>
+			<formattedRelativeTime>6 dagen geleden</formattedRelativeTime>
+			<stations/>
+		</result>
+		<result>
+			<jobtitle>Creative Data Visualizer</jobtitle>
+			<company>Archimiddle</company>
+			<city>Kontich</city>
+			<state>VAN</state>
+			<country>BE</country>
+			<language>en</language>
+			<formattedLocation>Kontich</formattedLocation>
+			<source>Archimiddle</source>
+			<date>Tue, 15 Aug 2017 07:33:31 GMT</date>
+			<snippet>Active in integration, data science, data and cloud architecture. As data visualizer. As data visualizer, you will work closely with our team of data scientists...</snippet>
+			<url>http://be.indeed.com/viewjob?jk=f45c8261cd26bb0c&amp;qd=Tc6jDt4rh0PweGpMuxZ98GY8TIXuY32CqJm9F4sgDd0s9TpGDuebySKB4dSmjcVr9FpGg-ZihnxHcU8w1yPzUQcc-PZUTjGu4_bLO7GHCx4&amp;indpubnum=126997023285851&amp;atk=1bu8s8dmi0nre7e8</url>
+			<onmousedown>indeed_clk(this,'6305');</onmousedown>
+			<jobkey>f45c8261cd26bb0c</jobkey>
+			<sponsored>false</sponsored>
+			<expired>false</expired>
+			<indeedApply>false</indeedApply>
+			<formattedLocationFull>Kontich</formattedLocationFull>
+			<formattedRelativeTime>30+ dagen geleden</formattedRelativeTime>
+			<stations/>
+		</result>
+		<result>
+			<jobtitle>Audit Data Analyst</jobtitle>
+			<company>Euroclear</company>
+			<city>Brussels</city>
+			<state>BRU</state>
+			<country>BE</country>
+			<language>en</language>
+			<formattedLocation>Brussel</formattedLocation>
+			<source>Euroclear</source>
+			<date>Wed, 04 Oct 2017 00:22:08 GMT</date>
+			<snippet>You possess a good knowledge of industry standards relating data analytics and data science. You have 5 years of experience in using computer assisted audit...</snippet>
+			<url>http://be.indeed.com/viewjob?jk=a5ab0e734a68c4c0&amp;qd=Tc6jDt4rh0PweGpMuxZ98GY8TIXuY32CqJm9F4sgDd0s9TpGDuebySKB4dSmjcVr9FpGg-ZihnxHcU8w1yPzUQcc-PZUTjGu4_bLO7GHCx4&amp;indpubnum=126997023285851&amp;atk=1bu8s8dmi0nre7e8</url>
+			<onmousedown>indeed_clk(this,'6305');</onmousedown>
+			<jobkey>a5ab0e734a68c4c0</jobkey>
+			<sponsored>false</sponsored>
+			<expired>false</expired>
+			<indeedApply>false</indeedApply>
+			<formattedLocationFull>Brussel</formattedLocationFull>
+			<formattedRelativeTime>30+ dagen geleden</formattedRelativeTime>
+			<stations/>
+		</result>
+		<result>
+			<jobtitle>Data Scientist</jobtitle>
+			<company>CELONIS SE</company>
+			<city/>
+			<state>WLX</state>
+			<country>BE</country>
+			<language>en</language>
+			<formattedLocation>Luxemburg</formattedLocation>
+			<source>CELONIS SE</source>
+			<date>Tue, 17 Oct 2017 19:36:53 GMT</date>
+			<snippet>Big Data, Data Mining and Process Mining excite you and you seek constant improvement of your Know-how. Business Intelligence and data analysis are areas that...</snippet>
+			<url>http://be.indeed.com/viewjob?jk=61887c4b776ab2ec&amp;qd=Tc6jDt4rh0PweGpMuxZ98GY8TIXuY32CqJm9F4sgDd0s9TpGDuebySKB4dSmjcVr9FpGg-ZihnxHcU8w1yPzUQcc-PZUTjGu4_bLO7GHCx4&amp;indpubnum=126997023285851&amp;atk=1bu8s8dmi0nre7e8</url>
+			<onmousedown>indeed_clk(this,'6305');</onmousedown>
+			<jobkey>61887c4b776ab2ec</jobkey>
+			<sponsored>false</sponsored>
+			<expired>false</expired>
+			<indeedApply>false</indeedApply>
+			<formattedLocationFull>Luxemburg</formattedLocationFull>
+			<formattedRelativeTime>19 dagen geleden</formattedRelativeTime>
+			<stations/>
+		</result>
+		<result>
+			<jobtitle>Data Analyst with min 2 years of experience (7/1213) M/V/X</jobtitle>
+			<company>AXA</company>
+			<city/>
+			<state>BRU</state>
+			<country>BE</country>
+			<language>nl</language>
+			<formattedLocation>Brussel-Hoofdstad</formattedLocation>
+			<source>AXA</source>
+			<date>Mon, 17 Jul 2017 15:46:37 GMT</date>
+			<snippet>Geavanceerde kennis van Excel (kennis van de diverse Data Sciences tools is een belangrijk pluspunt). Binnen HR is het team ‘People Planning &amp;amp; Analytics’ een...</snippet>
+			<url>http://be.indeed.com/viewjob?jk=f9b3b086c096dcad&amp;qd=Tc6jDt4rh0PweGpMuxZ98GY8TIXuY32CqJm9F4sgDd0s9TpGDuebySKB4dSmjcVr9FpGg-ZihnxHcU8w1yPzUQcc-PZUTjGu4_bLO7GHCx4&amp;indpubnum=126997023285851&amp;atk=1bu8s8dmi0nre7e8</url>
+			<onmousedown>indeed_clk(this,'6305');</onmousedown>
+			<jobkey>f9b3b086c096dcad</jobkey>
+			<sponsored>false</sponsored>
+			<expired>false</expired>
+			<indeedApply>false</indeedApply>
+			<formattedLocationFull>Brussel-Hoofdstad</formattedLocationFull>
+			<formattedRelativeTime>30+ dagen geleden</formattedRelativeTime>
+			<stations/>
+		</result>
+		<result>
+			<jobtitle>Master Data Analyst</jobtitle>
+			<company>Barry Callebaut</company>
+			<city>Lebbeke Wieze</city>
+			<state>VOV</state>
+			<country>BE</country>
+			<language>en</language>
+			<formattedLocation>Lebbeke Wieze</formattedLocation>
+			<source>Barry Callebaut</source>
+			<date>Mon, 25 Sep 2017 18:42:28 GMT</date>
+			<snippet>Secure high quality data. Business development from our data. Management of master data driven applications. You assist in projects for material (direct spend),...</snippet>
+			<url>http://be.indeed.com/viewjob?jk=d654f39958fe6a13&amp;qd=Tc6jDt4rh0PweGpMuxZ98GY8TIXuY32CqJm9F4sgDd0s9TpGDuebySKB4dSmjcVr9FpGg-ZihnxHcU8w1yPzUQcc-PZUTjGu4_bLO7GHCx4&amp;indpubnum=126997023285851&amp;atk=1bu8s8dmi0nre7e8</url>
+			<onmousedown>indeed_clk(this,'6305');</onmousedown>
+			<jobkey>d654f39958fe6a13</jobkey>
+			<sponsored>false</sponsored>
+			<expired>false</expired>
+			<indeedApply>false</indeedApply>
+			<formattedLocationFull>Lebbeke Wieze</formattedLocationFull>
+			<formattedRelativeTime>30+ dagen geleden</formattedRelativeTime>
+			<stations/>
+		</result>
+	</results>
+</response>

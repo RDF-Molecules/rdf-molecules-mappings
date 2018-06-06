@@ -1,6 +1,0 @@
-<Dataset id="TwitterPerson" type="json">
-  <Param name="file" value="twitter_user2.json"/>
-  <Param name="basePath" value=""/>
-  <Param name="uriPattern" value=""/>
-  <Param name="charset" value="UTF8"/>
-</Dataset>

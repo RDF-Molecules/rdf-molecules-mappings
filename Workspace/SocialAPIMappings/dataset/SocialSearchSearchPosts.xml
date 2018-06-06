@@ -1,6 +1,0 @@
-<Dataset id="SocialSearchSearchPosts" type="json">
-  <Param name="file" value="socialsearch.json"/>
-  <Param name="basePath" value="/posts"/>
-  <Param name="uriPattern" value="http://vocab.cs.uni-bonn.de/fuhsen/search/entity/socialsearch/{id}"/>
-  <Param name="charset" value="UTF8"/>
-</Dataset>

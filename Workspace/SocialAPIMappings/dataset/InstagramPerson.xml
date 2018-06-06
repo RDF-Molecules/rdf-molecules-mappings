@@ -1,6 +1,0 @@
-<Dataset id="InstagramPerson" type="json">
-  <Param name="file" value="instagram_getPerson.json"/>
-  <Param name="basePath" value="data"/>
-  <Param name="uriPattern" value="http://vocab.cs.uni-bonn.de/fuhsen/search/entity/{id}"/>
-  <Param name="charset" value="UTF8"/>
-</Dataset>

@@ -1,0 +1,317 @@
+<TransformSpec id="AdzunaTransformationTask">
+  <MetaData>
+    <Label></Label>
+    <Description></Description>
+  </MetaData>
+  <SourceDataset dataSource="Adzuna" var="a" typeUri="">
+    <RestrictTo> </RestrictTo>
+  </SourceDataset>
+  <RootMappingRule id="root">
+    <MappingRules>
+      <TransformRule name="uri">
+        <MetaData>
+          <Label></Label>
+          <Description></Description>
+        </MetaData>
+        <TransformInput id="buildUri" function="concat">
+          <TransformInput id="constant0" function="constant">
+            <Param name="value"><![CDATA[http://www.edsa-project.eu/jobpost/]]></Param>
+          </TransformInput>
+          <TransformInput id="encode1" function="urlEncode">
+            <Input id="path1" path="/id"/>
+            <Param name="encoding"><![CDATA[UTF-8]]></Param>
+            <Param name="onlyIfNeeded"><![CDATA[true]]></Param>
+          </TransformInput>
+          <Param name="glue"><![CDATA[]]></Param>
+        </TransformInput>
+      </TransformRule>
+      <TransformRule name="type4">
+        <MetaData>
+          <Label></Label>
+          <Description></Description>
+        </MetaData>
+        <TransformInput id="generateType" function="constantUri">
+          <Param name="value"><![CDATA[<http://vocab.lidakra.de/fuhsen#SearchableEntity>]]></Param>
+        </TransformInput>
+        <MappingTarget uri="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" isBackwardProperty="false">
+          <ValueType nodeType="UriValueType"/>
+        </MappingTarget>
+      </TransformRule>
+      <TransformRule name="type5">
+        <MetaData>
+          <Label></Label>
+          <Description></Description>
+        </MetaData>
+        <TransformInput id="generateType" function="constantUri">
+          <Param name="value"><![CDATA[<http://vocab.lidakra.de/fuhsen#Job>]]></Param>
+        </TransformInput>
+        <MappingTarget uri="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" isBackwardProperty="false">
+          <ValueType nodeType="UriValueType"/>
+        </MappingTarget>
+      </TransformRule>
+      <TransformRule name="employmentType">
+        <MetaData>
+          <Label></Label>
+          <Description></Description>
+        </MetaData>
+        <Input id="employmentType" path="/contract_type"/>
+        <MappingTarget uri="http://schema.org/employmentType" isBackwardProperty="false">
+          <ValueType nodeType="AutoDetectValueType"/>
+        </MappingTarget>
+      </TransformRule>
+      <TransformRule name="id">
+        <MetaData>
+          <Label></Label>
+          <Description></Description>
+        </MetaData>
+        <Input id="id" path="/id"/>
+        <MappingTarget uri="http://vocab.lidakra.de/fuhsen#id" isBackwardProperty="false">
+          <ValueType nodeType="AutoDetectValueType"/>
+        </MappingTarget>
+      </TransformRule>
+      <TransformRule name="url">
+        <MetaData>
+          <Label></Label>
+          <Description></Description>
+        </MetaData>
+        <Input id="url" path="/redirect_url"/>
+        <MappingTarget uri="http://vocab.lidakra.de/fuhsen#url" isBackwardProperty="false">
+          <ValueType nodeType="AutoDetectValueType"/>
+        </MappingTarget>
+      </TransformRule>
+      <TransformRule name="description">
+        <MetaData>
+          <Label></Label>
+          <Description></Description>
+        </MetaData>
+        <TransformInput id="replace2" function="replace">
+          <TransformInput id="replace1" function="replace">
+            <Input id="description" path="/description"/>
+            <Param name="search"><![CDATA[<strong>]]></Param>
+            <Param name="replace"><![CDATA[]]></Param>
+          </TransformInput>
+          <Param name="search"><![CDATA[</strong>]]></Param>
+          <Param name="replace"><![CDATA[]]></Param>
+        </TransformInput>
+        <MappingTarget uri="http://schema.org/description" isBackwardProperty="false">
+          <ValueType nodeType="AutoDetectValueType"/>
+        </MappingTarget>
+      </TransformRule>
+      <TransformRule name="title">
+        <MetaData>
+          <Label></Label>
+          <Description></Description>
+        </MetaData>
+        <TransformInput id="replace2" function="replace">
+          <TransformInput id="replace1" function="replace">
+            <Input id="title" path="/title"/>
+            <Param name="search"><![CDATA[<strong>]]></Param>
+            <Param name="replace"><![CDATA[]]></Param>
+          </TransformInput>
+          <Param name="search"><![CDATA[</strong>]]></Param>
+          <Param name="replace"><![CDATA[]]></Param>
+        </TransformInput>
+        <MappingTarget uri="http://schema.org/title" isBackwardProperty="false">
+          <ValueType nodeType="AutoDetectValueType"/>
+        </MappingTarget>
+      </TransformRule>
+      <TransformRule name="source">
+        <MetaData>
+          <Label></Label>
+          <Description></Description>
+        </MetaData>
+        <TransformInput id="constant1" function="constant">
+          <Param name="value"><![CDATA[adzuna]]></Param>
+        </TransformInput>
+        <MappingTarget uri="http://vocab.lidakra.de/fuhsen#source" isBackwardProperty="false">
+          <ValueType nodeType="AutoDetectValueType"/>
+        </MappingTarget>
+      </TransformRule>
+      <TransformRule name="datePosted">
+        <MetaData>
+          <Label></Label>
+          <Description></Description>
+        </MetaData>
+        <TransformInput id="parseDate1" function="parseDate">
+          <TransformInput id="substring1" function="substring">
+            <Input id="datePosted" path="/created"/>
+            <Param name="beginIndex"><![CDATA[0]]></Param>
+            <Param name="endIndex"><![CDATA[10]]></Param>
+            <Param name="stringMustBeInRange"><![CDATA[true]]></Param>
+          </TransformInput>
+          <Param name="format"><![CDATA[yyyy-MM-dd]]></Param>
+        </TransformInput>
+        <MappingTarget uri="http://vocab.lidakra.de/fuhsen#datePosted" isBackwardProperty="false">
+          <ValueType nodeType="AutoDetectValueType"/>
+        </MappingTarget>
+      </TransformRule>
+      <TransformRule name="category">
+        <MetaData>
+          <Label></Label>
+          <Description></Description>
+        </MetaData>
+        <Input id="category" path="/category/tag"/>
+        <MappingTarget uri="http://schema.org/occupationalCategory" isBackwardProperty="false">
+          <ValueType nodeType="AutoDetectValueType"/>
+        </MappingTarget>
+      </TransformRule>
+      <TransformRule name="categoryLabel">
+        <MetaData>
+          <Label></Label>
+          <Description></Description>
+        </MetaData>
+        <Input id="categoryLabel" path="/category/label"/>
+        <MappingTarget uri="http://schema.org/occupationalCategoryLabel" isBackwardProperty="false">
+          <ValueType nodeType="AutoDetectValueType"/>
+        </MappingTarget>
+      </TransformRule>
+      <TransformRule name="jobLocationUri">
+        <MetaData>
+          <Label></Label>
+          <Description></Description>
+        </MetaData>
+        <TransformInput id="concat1" function="concat">
+          <TransformInput id="constant1" function="constant">
+            <Param name="value"><![CDATA[http://vocab.dsa.de/search/location/]]></Param>
+          </TransformInput>
+          <TransformInput id="urlEncode1" function="urlEncode">
+            <TransformInput id="regexReplace1" function="regexReplace">
+              <TransformInput id="replace1" function="replace">
+                <Input id="unnamed_585" path="/location/display_name"/>
+                <Param name="search"><![CDATA[,]]></Param>
+                <Param name="replace"><![CDATA[]]></Param>
+              </TransformInput>
+              <Param name="regex"><![CDATA[\W+]]></Param>
+              <Param name="replace"><![CDATA[-]]></Param>
+            </TransformInput>
+            <Param name="encoding"><![CDATA[UTF-8]]></Param>
+            <Param name="onlyIfNeeded"><![CDATA[false]]></Param>
+          </TransformInput>
+          <Param name="glue"><![CDATA[]]></Param>
+        </TransformInput>
+        <MappingTarget uri="http://schema.org/jobLocationUri" isBackwardProperty="false">
+          <ValueType nodeType="AutoDetectValueType"/>
+        </MappingTarget>
+      </TransformRule>
+      <TransformRule name="jobLocation">
+        <MetaData>
+          <Label></Label>
+          <Description></Description>
+        </MetaData>
+        <Input id="jobLocation" path="/location/display_name"/>
+        <MappingTarget uri="http://vocab.lidakra.de/fuhsen#jobLocation" isBackwardProperty="false">
+          <ValueType nodeType="AutoDetectValueType"/>
+        </MappingTarget>
+      </TransformRule>
+      <TransformRule name="hiringOrganizationUri">
+        <MetaData>
+          <Label></Label>
+          <Description></Description>
+        </MetaData>
+        <TransformInput id="concat1" function="concat">
+          <TransformInput id="constant1" function="constant">
+            <Param name="value"><![CDATA[http://vocab.dsa.de/search/organization/]]></Param>
+          </TransformInput>
+          <TransformInput id="regexReplace1" function="regexReplace">
+            <Input id="unnamed_1525" path="/company/display_name"/>
+            <Param name="regex"><![CDATA[\W+]]></Param>
+            <Param name="replace"><![CDATA[-]]></Param>
+          </TransformInput>
+          <Param name="glue"><![CDATA[]]></Param>
+        </TransformInput>
+        <MappingTarget uri="http://schema.org/hiringOrganizationUri" isBackwardProperty="false">
+          <ValueType nodeType="AutoDetectValueType"/>
+        </MappingTarget>
+      </TransformRule>
+      <TransformRule name="hiringOrganization">
+        <MetaData>
+          <Label></Label>
+          <Description></Description>
+        </MetaData>
+        <Input id="hiringOrganization" path="/company/display_name"/>
+        <MappingTarget uri="http://vocab.lidakra.de/fuhsen#hiringOrganization" isBackwardProperty="false">
+          <ValueType nodeType="AutoDetectValueType"/>
+        </MappingTarget>
+      </TransformRule>
+      <ObjectMapping name="baseSalaryUri" relativePath="">
+        <MetaData>
+          <Label></Label>
+          <Description></Description>
+        </MetaData>
+        <MappingRules>
+          <TransformRule name="baseSalaryUriuri">
+            <MetaData>
+              <Label></Label>
+              <Description></Description>
+            </MetaData>
+            <TransformInput id="buildUri" function="concat">
+              <TransformInput id="constant0" function="constant">
+                <Param name="value"><![CDATA[http://vocab.edsa.de/search/jobpost/]]></Param>
+              </TransformInput>
+              <TransformInput id="encode1" function="urlEncode">
+                <Input id="path1" path="/id"/>
+                <Param name="encoding"><![CDATA[UTF-8]]></Param>
+                <Param name="onlyIfNeeded"><![CDATA[true]]></Param>
+              </TransformInput>
+              <TransformInput id="constant2" function="constant">
+                <Param name="value"><![CDATA[/salary]]></Param>
+              </TransformInput>
+              <Param name="glue"><![CDATA[]]></Param>
+            </TransformInput>
+          </TransformRule>
+        </MappingRules>
+        <MappingTarget uri="http://schema.org/baseSalaryUri" isBackwardProperty="false">
+          <ValueType nodeType="UriValueType"/>
+        </MappingTarget>
+      </ObjectMapping>
+      <TransformRule name="baseSalary">
+        <MetaData>
+          <Label></Label>
+          <Description></Description>
+        </MetaData>
+        <Input id="baseSalary" path="/salary_max"/>
+        <MappingTarget uri="http://schema.org/baseSalary" isBackwardProperty="false">
+          <ValueType nodeType="AutoDetectValueType"/>
+        </MappingTarget>
+      </TransformRule>
+      <TransformRule name="latitude">
+        <MetaData>
+          <Label></Label>
+          <Description></Description>
+        </MetaData>
+        <Input id="latitude" path="/latitude"/>
+        <MappingTarget uri="http://www.w3.org/2003/01/geo/wgs84_pos#lat" isBackwardProperty="false">
+          <ValueType nodeType="AutoDetectValueType"/>
+        </MappingTarget>
+      </TransformRule>
+      <TransformRule name="longitude">
+        <MetaData>
+          <Label></Label>
+          <Description></Description>
+        </MetaData>
+        <Input id="longitude" path="/longitude"/>
+        <MappingTarget uri="http://www.w3.org/2003/01/geo/wgs84_pos#long" isBackwardProperty="false">
+          <ValueType nodeType="AutoDetectValueType"/>
+        </MappingTarget>
+      </TransformRule>
+      <TransformRule name="direct">
+        <MetaData>
+          <Label></Label>
+          <Description></Description>
+        </MetaData>
+        <Input id="direct" path="/title"/>
+        <MappingTarget uri="http://www.w3.org/2000/01/rdf-schema#label" isBackwardProperty="false">
+          <ValueType nodeType="AutoDetectValueType"/>
+        </MappingTarget>
+      </TransformRule>
+    </MappingRules>
+    <MetaData>
+      <Label></Label>
+      <Description></Description>
+    </MetaData>
+  </RootMappingRule>
+  <Outputs>
+    <Output id="Results"></Output>
+  </Outputs>
+  <TargetVocabularies> </TargetVocabularies>
+</TransformSpec>

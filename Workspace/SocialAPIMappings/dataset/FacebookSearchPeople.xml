@@ -1,6 +1,0 @@
-<Dataset id="FacebookSearchPeople" type="json">
-  <Param name="file" value="facebook_results.json"/>
-  <Param name="basePath" value="data"/>
-  <Param name="uriPattern" value="http://vocab.cs.uni-bonn.de/fuhsen/search/entity/facebook/{id}"/>
-  <Param name="charset" value="UTF8"/>
-</Dataset>

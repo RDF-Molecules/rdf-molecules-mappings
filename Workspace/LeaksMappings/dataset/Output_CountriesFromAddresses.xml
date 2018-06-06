@@ -1,5 +1,0 @@
-<Dataset id="Output_CountriesFromAddresses" type="file">
-  <Param name="file" value="Ouput_CountriesFromAddresses"/>
-  <Param name="format" value="N-Triples"/>
-  <Param name="graph" value=""/>
-</Dataset>

@@ -1,6 +1,0 @@
-<Dataset id="DarknetMarketsProduct" type="json">
-  <Param name="file" value="darknetmarkets.json"/>
-  <Param name="basePath" value="/hits/hits"/>
-  <Param name="uriPattern" value="http://vocab.cs.uni-bonn.de/fuhsen/search/entity/darknetmarkets/{id}"/>
-  <Param name="charset" value="UTF8"/>
-</Dataset>

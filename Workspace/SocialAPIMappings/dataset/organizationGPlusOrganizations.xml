@@ -1,6 +1,0 @@
-<Dataset id="organizationGPlusOrganizations" type="json">
-  <Param name="file" value="organization_gplus.json"/>
-  <Param name="basePath" value="organizations"/>
-  <Param name="uriPattern" value=""/>
-  <Param name="charset" value="UTF8"/>
-</Dataset>

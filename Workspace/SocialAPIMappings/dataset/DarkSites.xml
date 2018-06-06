@@ -1,6 +1,0 @@
-<Dataset id="DarkSites" type="json">
-  <Param name="file" value="tor2web2.json"/>
-  <Param name="basePath" value="doc"/>
-  <Param name="uriPattern" value="http://vocab.cs.uni-bonn.de/fuhsen/search/entity/{@attributes/docId}"/>
-  <Param name="charset" value="UTF8"/>
-</Dataset>
