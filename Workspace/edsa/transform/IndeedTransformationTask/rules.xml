@@ -97,7 +97,7 @@
         <TransformInput id="constant1" function="constant">
           <Param name="value"><![CDATA[indeed]]></Param>
         </TransformInput>
-        <MappingTarget uri="http://vocab.lidakra.de/fuhsen#source" isBackwardProperty="false">
+        <MappingTarget uri="http://schema.org/source" isBackwardProperty="false">
           <ValueType nodeType="AutoDetectValueType"/>
         </MappingTarget>
       </TransformRule>
@@ -110,7 +110,7 @@
           <Input id="datePosted" path="/date"/>
           <Param name="format"><![CDATA[EEE', 'dd' 'MMM' 'yyyy' 'HH:mm:ss' 'Z]]></Param>
         </TransformInput>
-        <MappingTarget uri="http://vocab.lidakra.de/fuhsen#datePosted" isBackwardProperty="false">
+        <MappingTarget uri="http://schema.org/datePosted" isBackwardProperty="false">
           <ValueType nodeType="AutoDetectValueType"/>
         </MappingTarget>
       </TransformRule>
@@ -120,7 +120,7 @@
           <Description></Description>
         </MetaData>
         <Input id="jobLocation" path="/formattedLocation"/>
-        <MappingTarget uri="http://vocab.lidakra.de/fuhsen#jobLocation" isBackwardProperty="false">
+        <MappingTarget uri="http://schema.org/jobLocation" isBackwardProperty="false">
           <ValueType nodeType="AutoDetectValueType"/>
         </MappingTarget>
       </TransformRule>
@@ -130,7 +130,7 @@
           <Description></Description>
         </MetaData>
         <Input id="hiringOrganization" path="/company"/>
-        <MappingTarget uri="http://vocab.lidakra.de/fuhsen#hiringOrganization" isBackwardProperty="false">
+        <MappingTarget uri="http://schema.org/hiringOrganization" isBackwardProperty="false">
           <ValueType nodeType="AutoDetectValueType"/>
         </MappingTarget>
       </TransformRule>
