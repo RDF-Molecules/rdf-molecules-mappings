@@ -59,16 +59,6 @@
           <ValueType nodeType="AutoDetectValueType"/>
         </MappingTarget>
       </TransformRule>
-      <TransformRule name="url">
-        <MetaData>
-          <Label></Label>
-          <Description></Description>
-        </MetaData>
-        <Input id="url" path="/url"/>
-        <MappingTarget uri="http://vocab.lidakra.de/fuhsen#url" isBackwardProperty="false">
-          <ValueType nodeType="AutoDetectValueType"/>
-        </MappingTarget>
-      </TransformRule>
       <TransformRule name="description">
         <MetaData>
           <Label></Label>

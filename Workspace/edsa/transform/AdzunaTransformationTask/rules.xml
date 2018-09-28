@@ -75,7 +75,7 @@
           <Description></Description>
         </MetaData>
         <Input id="url" path="/redirect_url"/>
-        <MappingTarget uri="http://vocab.lidakra.de/fuhsen#url" isBackwardProperty="false">
+        <MappingTarget uri="http://schema.org/url" isBackwardProperty="false">
           <ValueType nodeType="AutoDetectValueType"/>
         </MappingTarget>
       </TransformRule>

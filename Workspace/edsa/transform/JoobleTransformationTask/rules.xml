@@ -74,7 +74,19 @@
           <Label></Label>
           <Description></Description>
         </MetaData>
-        <Input id="description" path="/snippet"/>
+        <TransformInput id="replace3" function="replace">
+          <TransformInput id="replace2" function="replace">
+            <TransformInput id="replace1" function="replace">
+              <Input id="description" path="/snippet"/>
+              <Param name="search"><![CDATA[<b>]]></Param>
+              <Param name="replace"><![CDATA[]]></Param>
+            </TransformInput>
+            <Param name="search"><![CDATA[</b>]]></Param>
+            <Param name="replace"><![CDATA[]]></Param>
+          </TransformInput>
+          <Param name="search"><![CDATA[&nbsp;]]></Param>
+          <Param name="replace"><![CDATA[]]></Param>
+        </TransformInput>
         <MappingTarget uri="http://schema.org/description" isBackwardProperty="false">
           <ValueType nodeType="AutoDetectValueType"/>
         </MappingTarget>
